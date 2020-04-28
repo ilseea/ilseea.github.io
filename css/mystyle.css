@@ -1,19 +1,19 @@
 body{
-    background-color:white;
+    background-color: white;
     max-width: 700px;
     margin: 0 auto;
 }
 
 header{
     max-width: 800px;
-    background-color:rgb(247, 111, 134);
+    background-color:rgb(5, 133, 43);
     border-radius: 10px;
     margin: 0 auto;
     font-family: Tahoma, sans-serif;
     font-size: 0.9rem;
     letter-spacing: 0.1em;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: palegoldenrod;
     padding: 0.5em ;
 }
 
@@ -27,15 +27,17 @@ header img {
 
 main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 h2{
-    color: rgb(149, 160, 0);
+    color: rgb(116, 124, 1);
     font-size: 1.2rem;
     padding: .5rem;
 }
 footer{
     text-align: center;
-    background-color: rgb(247, 111, 134);
+    background-color: rgb(5, 133, 43);
+    color: lightpink;
     padding: 0.08em;
     border-radius: 10px;
     line-height: 5px ;
