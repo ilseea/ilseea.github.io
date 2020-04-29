@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header{
+    max-width: 800px;
+    background-color:rgb(226, 76, 101);
+    border-radius: 10px;
+    margin: 0 auto;
+    font-family: Tahoma, sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: whitesmoke;
+    padding: 0.5em ;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    float: right;
+    border-radius: 8px;
+    padding: .5rem;
+}
+
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h2{
+    color: rgb(116, 124, 1);
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+footer{
+    text-align: center;
+    background-color: rgb(226, 76, 101);
+    color: white;
+    padding: 0.08em;
+    border-radius: 10px;
+    line-height: 5px ;
+}
+
+footer a{
+    color: white;
+}
+.last{
+    color: rgb(234, 248, 33);
+}
+
+ul{
+    margin: 0 auto;
+    max-width: 600px;
+}
