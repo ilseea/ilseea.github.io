@@ -36,14 +36,14 @@ h2{
 }
 footer{
     text-align: center;
-    background-color: rgb(238, 149, 164);
-    color: rgb(64, 71, 77);
+    background-color: rgb(226, 76, 101);
+    color: white;
     padding: 0.08em;
     border-radius: 10px;
     line-height: 5px ;
 }
 .last{
-    color: rgba(116, 124, 1);
+    color: rgb(234, 248, 33);
 }
 
 ul{
