@@ -42,6 +42,10 @@ footer{
     border-radius: 10px;
     line-height: 5px ;
 }
+
+footer a{
+    color: white;
+}
 .last{
     color: rgb(234, 248, 33);
 }
