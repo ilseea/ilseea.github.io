@@ -5,11 +5,11 @@ body{
 }
 
 header{
-    max-width: 800px;
+    
     background-color:rgb(226, 76, 101);
     border-radius: 10px;
     margin: 0 auto;
-    font-family: Tahoma, sans-serif;
+    font-family: 'Major Mono Display', Tahoma, sans-serif;
     font-size: 0.9rem;
     letter-spacing: 0.1em;
     text-align: center;
@@ -26,8 +26,11 @@ header img {
 }
 
 main{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, sans-serif;
+    max-width: width 700px;
+}
+h3{
+    font-family: 'Gochi Hand';
 }
 h2{
     color: rgb(116, 124, 1);
