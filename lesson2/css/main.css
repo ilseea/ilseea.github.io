@@ -9,7 +9,7 @@ header{
     background-color:rgb(226, 76, 101);
     border-radius: 10px;
     margin: 0 auto;
-    font-family: 'Major Mono Display', Tahoma, sans-serif;
+    font-family: 'Major Mono Display', sans-serif;
     font-size: 0.9rem;
     letter-spacing: 0.1em;
     text-align: center;
@@ -26,7 +26,7 @@ header img {
 }
 
 main{
-    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, sans-serif;
+    font-family: 'Vidaloka', 'Montserrat Alternates', sans-serif;
     max-width: width 700px;
 }
 h3{
