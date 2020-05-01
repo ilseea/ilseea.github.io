@@ -65,6 +65,9 @@ footer{
 footer a{
     color: white;
 }
+header a {
+    color: white;
+}
 .last{
     color: rgb(234, 248, 33);
 }
