@@ -1,15 +1,14 @@
 body{
     background-color: white;
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 header{
-    
     background-color:rgb(226, 76, 101);
     border-radius: 10px;
     margin: 0 auto;
-    font-family: 'Major Mono Display', sans-serif;
+    font-family: 'Major Mono Display', 'Major Mono Display', sans-serif;
     font-size: 0.9rem;
     letter-spacing: 0.1em;
     text-align: center;
@@ -17,26 +16,43 @@ header{
     padding: 0.5em ;
 }
 
-header img {
-    width: 120px;
-    height: auto;
-    float: right;
-    border-radius: 8px;
-    padding: .5rem;
+.container {
+    display: flex;
+    background-color:rgb(255, 217, 223);
+    padding: 10%;
+   
+    margin: 1em;
+}
+.container > div {
+    background-color: white;
+    padding: 20px;
+    margin: .5em;
+    width: auto;
+    text-align: center;
 }
 
-main{
-    font-family: 'Vidaloka', 'Montserrat Alternates', sans-serif;
-    max-width: width 700px;
+
+.container header {
+    margin: .5em;
+    background-color:rgb(73, 41, 47);
+    border-radius: 5px;
+
 }
-h3{
-    font-family: 'Gochi Hand';
+
+.container img {
+    width: 100%;
+    vertical-align: auto;
+    
 }
-h2{
-    color: rgb(116, 124, 1);
-    font-size: 1.2rem;
-    padding: .5rem;
+
+h3, h4, p, a{
+    font-family: 'Montserrat Alternates', sans-serif;
 }
+
+
+
+
+
 footer{
     text-align: center;
     background-color: rgb(226, 76, 101);
@@ -51,9 +67,4 @@ footer a{
 }
 .last{
     color: rgb(234, 248, 33);
-}
-
-ul{
-    margin: 0 auto;
-    max-width: 600px;
 }

@@ -1,0 +1,6 @@
+.container main {
+    position: relative;
+    display: flex;
+    width: auto;
+    text-align: center;
+}
