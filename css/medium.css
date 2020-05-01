@@ -1,6 +1,8 @@
 @media only screen and (min-width: 32.5em){
     img {
-        float: right;
+        width: 160px;
+        height: auto;
+        
     }
 }
 h1 {

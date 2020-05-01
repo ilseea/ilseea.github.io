@@ -5,24 +5,28 @@ body{
 }
 
 header{
-    max-width: 800px;
+    padding: 0.5em ;
+    line-height: 1.5;
     background-color:rgb(226, 76, 101);
     border-radius: 10px;
-    margin: 0 auto;
+    
+}
+
+header img {
+    width: 160px;
+    height: auto;
+    float: right;
+    border-radius: 20px;
+    padding: 1rem;
+}
+h1{
+    margin: 0.15rem;
     font-family: 'Major Mono Display', 'Major Mono Display', sans-serif;
-    font-size: 0.9rem;
+    font-size: 2.5em;
     letter-spacing: 0.1em;
     text-align: center;
     color: whitesmoke;
     padding: 0.5em ;
-}
-
-header img {
-    width: 120px;
-    height: auto;
-    float: right;
-    border-radius: 8px;
-    padding: .5rem;
 }
 
 main{
@@ -31,6 +35,8 @@ main{
 h2{
       color: rgb(116, 124, 1);
     font-size: 1.2rem;
+    border-bottom: 1px solid #999;
+    margin-bottom: 0.5rem;
     padding: .5rem;
 }
 footer{
