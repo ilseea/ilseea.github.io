@@ -1,40 +1,44 @@
+@charset "utf-8"
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: white;
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 2em auto;
 }
 
 header{
     padding: 0.5em ;
-    line-height: 1.5;
     background-color:rgb(226, 76, 101);
-    border-radius: 10px;
-    
+    border-radius: 10px; 
+    box-shadow: 3px 8px 15px rgb(39, 26, 2) ;
 }
 
 header img {
-    width: 160px;
-    height: auto;
-    float: right;
+    max-width: 350px;
     border-radius: 20px;
-    padding: 1rem;
+    padding-top: 1rem;
+    box-shadow: 3px 8px 15px rgb(39, 26, 2) ;
+
 }
 h1{
-    margin: 0.15rem;
+    margin-left: 30px;
     font-family: 'Major Mono Display', 'Major Mono Display', sans-serif;
-    font-size: 2.5em;
     letter-spacing: 0.1em;
-    text-align: center;
     color: whitesmoke;
     padding: 0.5em ;
 }
 
 main{
     font-family: 'Montserrat Alternates', sans-serif;
+    padding: 1rem;
 }
 h2{
       color: rgb(116, 124, 1);
-    font-size: 1.2rem;
+   
     border-bottom: 1px solid #999;
     margin-bottom: 0.5rem;
     padding: .5rem;
@@ -43,19 +47,21 @@ footer{
     text-align: center;
     background-color: rgb(226, 76, 101);
     color: white;
-    padding: 0.08em;
+    padding: 0.8rem;
     border-radius: 10px;
-    line-height: 5px ;
+    font-size: 1.2rem;
+    box-shadow: 3px 8px 15px rgb(39, 26, 2) ;
 }
 
 footer a{
     color: white;
-}
-.last{
-    color: rgb(234, 248, 33);
+    
 }
 
-ul{
-    margin: 0 auto;
-    max-width: 600px;
+li{
+    padding 2px;
+}
+
+.last{
+    color: rgb(234, 248, 33);
 }
