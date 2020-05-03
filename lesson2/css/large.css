@@ -1,18 +1,18 @@
-@media only screen and (min-width: 32em) {
+@media only screen and (min-width: 90em) {
 
     h1 {
-        font-size: 2.3rem;
-        color: whitesmoke;
+        font-size: 2.8rem;
+        color: rgb(246, 250, 0);
         font-weight: bold;
         text-align: center;
     
     }
     h3{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .container {
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 18px;
     }
 
     .container img {
@@ -22,7 +22,7 @@
     
     h4, p, a{
         font-family: 'Montserrat Alternates', sans-serif;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }`
 
     }
