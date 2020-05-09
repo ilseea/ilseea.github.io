@@ -1,18 +1,29 @@
 body{
-    background-color: white;
+    background-color: rgb(241, 250, 238);
     max-width: 1200px;
     margin: 2em auto;
 }
 
 header{
     padding: 0.5em ;
-    background-color:rgb(226, 76, 101);
+    background-color:rgb(29, 53, 87);
     border-radius: 10px; 
     box-shadow: 3px 6px 12px rgb(39, 26, 2) ;    
     margin: 0 auto;
     font-size: 0.9rem;
     letter-spacing: 0.1em;
     text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(69, 123, 157) ;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    display: flex;
 }
 
 h1{
@@ -34,11 +45,10 @@ h3{
    display: grid;
    grid-template-columns: 1fr;
    grid-gap: 2px;
-    background-color: white;
 }
 
 .container > div {
-    background-color:rgb(255, 217, 223);
+    background-color:rgb(168, 218, 220);
     box-shadow: 3px 8px 15px rgb(39, 26, 2) ;    
     padding: 20px;
     margin: 1.5em;
@@ -68,7 +78,7 @@ h4, p, a{
 
 footer{
     text-align: center;
-background-color: rgb(99, 16, 30);
+    background-color:rgb(29, 53, 87);
     color: white;
     padding: 0.08em;
     border-radius: 10px;
