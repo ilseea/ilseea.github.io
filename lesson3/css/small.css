@@ -19,13 +19,16 @@ h1{
     color: rgb(22, 8, 221);
     font-size: 1.5rem;
     margin-left: 0.3px;
-    font-family: 'Gloria Hallelujah', cursive;    letter-spacing: 0.1em;
+    font-family: 'Major Mono Display', 'Major Mono Display', sans-serif;
+    letter-spacing: 0.1em;
     padding: 0.5em ;
     text-align: center;
 }
 h3{
     color: whitesmoke;
-    font-family: 'Fredericka the Great', cursive;}
+    font-family: 'Major Mono Display', 'Major Mono Display', sans-serif;
+    font-size: .8rem;
+}
 
 .container {
    display: grid;
@@ -55,7 +58,8 @@ h3{
 }
 
 h4, p, a{
-    font-family: 'Gloria Hallelujah', cursive;    font-size: .7rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: .7rem;
 }
 
 
@@ -64,7 +68,6 @@ h4, p, a{
 
 footer{
     text-align: center;
-    font-family: 'Gloria Hallelujah', cursive;
 background-color: rgb(99, 16, 30);
     color: white;
     padding: 0.08em;
