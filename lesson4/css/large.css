@@ -22,8 +22,7 @@
     p {
         font-size: 2rem;
     }
-
-    nav ul {
+    nav ul{
         flex-direction: row;
 
     }

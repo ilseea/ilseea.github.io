@@ -6,7 +6,7 @@
     }
 
     h3 {
-        font-size: 2rem;
+      font-size: 2rem;
     }
 
     h2 {
@@ -18,7 +18,7 @@
         font-size: 1.8rem;
     }
 
-    nav ul {
+    nav ul{
         flex-direction: column;
 
     }
