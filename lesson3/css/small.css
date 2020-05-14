@@ -54,6 +54,7 @@ nav a:link {
 nav a:hover {
     background-color: rgb(230, 57, 70);
     color: rgb(241, 250, 238);
+    flex: 1;
 
 }
 
@@ -102,6 +103,8 @@ h3 {
     margin: 1.5em;
     text-align: center;
     vertical-align: middle;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1rem;
 }
 
 
@@ -114,6 +117,12 @@ h3 {
 
 .container img {
     max-width: 100%;
+}
+
+.container ul li {
+    list-style-type: none;
+    text-align: left;
+    padding: 5px 0px;
 }
 
 h4,
