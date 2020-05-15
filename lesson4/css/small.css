@@ -88,7 +88,7 @@ h1 {
 }
 
 h2 {
-    color: whitesmoke;
+    color: rgba(245, 245,245, 0.8);
     font-family: 'Berkshire Swash', cursive;
     font-size: 1rem;
 }
