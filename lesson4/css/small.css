@@ -19,7 +19,7 @@ body {
 
 header {
     padding: 0.5em;
-    background-color: rgb(69, 123, 157);
+    background-color: rgb(29, 53, 87);
     border-radius: 5px;
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
     margin: 0 auto;
@@ -43,7 +43,7 @@ nav button {
 }
 
 nav {
-    background-color: rgb(29, 53, 87);
+    background-color: rgb(69, 123, 157);
     font-family: 'Berkshire Swash', cursive;
 }
 
@@ -61,7 +61,7 @@ nav ul li a {
     display: block;
     padding: 1em 2%;
     text-decoration: none;
-    color: #fff;
+    color: rgba(255,255,255,0.8);
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -78,7 +78,7 @@ nav ul.hide {
 }
 
 h1 {
-    color: rgb(51, 221, 8);
+    color: rgb(51, 221, 8); /*color will be white, like large. Just for demo*/
     font-size: 1.5rem;
     margin-left: 0.3px;
     text-align: center;

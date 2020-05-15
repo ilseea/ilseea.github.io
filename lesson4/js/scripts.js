@@ -1,5 +1,5 @@
 function toggleMenu(){
-    console.log("it worked");
+    document.getElementById("primaryNav").classList.toggle("hide")
 }
 
 
@@ -8,5 +8,5 @@ function toggleMenu(){
 
 
 
-/*document.getElementById("primaryNav").classList
-    document.getElementById("navigation").classList.toggle("hide");*/
+/*    console.log(document.getElementById("primaryNav").classList);
+*/
