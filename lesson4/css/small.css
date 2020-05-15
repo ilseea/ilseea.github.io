@@ -79,7 +79,7 @@ nav ul.hide {
 
 h1 {
     color: rgb(51, 221, 8); /*color will be white, like large. Just for demo*/
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-left: 0.3px;
     text-align: center;
     font-family: 'Fredoka One', cursive;
@@ -88,10 +88,9 @@ h1 {
 }
 
 h2 {
-    font-size: 5rem;
     color: whitesmoke;
     font-family: 'Berkshire Swash', cursive;
-    font-size: .5rem;
+    font-size: 1rem;
 }
 
 h3 {
