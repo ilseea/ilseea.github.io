@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>Ilse Amezquita Talwar | WDD 230 Class | WeatherSite Index </title>
     <meta name="description" content="Weather Hearties | Ilse Amezquita | Spring 2020">
     <link rel="icon" href="images/favicon.ico">
@@ -17,6 +17,7 @@
 </head>
 
 <body>
+<!-- HEADER HERE -->
     <header>
         <h1> <img src="images/girlrt.png" alt="pirate girl">
             Weather Hearties </h1>
@@ -26,11 +27,12 @@
         <h2>...Argh Matey!
         </h2>
     </header>
-    <nav>
-        <ul class="navigation">
-            <li><a class="ham" href="#">&#9776; Menu</a></li>
+<!-- NAVIGATION HERE -->
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+        <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Preston</a></li>
+            <li class="active"><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
