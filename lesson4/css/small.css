@@ -58,13 +58,13 @@ nav ul li a {
     display: block;
     padding: 1em 2%;
     text-decoration: none;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 nav ul li a:hover {
     background-color: rgb(230, 57, 70);
-    
+
 }
 
 nav ul li.active a {
@@ -76,7 +76,8 @@ nav ul.hide {
 }
 
 h1 {
-    color: rgb(51, 221, 8); /*color will be white, like large. Just for demo*/
+    color: rgb(51, 221, 8);
+    /*color will be white, like large. Just for demo*/
     font-size: 2rem;
     margin-left: 0.3px;
     text-align: center;
@@ -86,7 +87,7 @@ h1 {
 }
 
 h2 {
-    color: rgba(245, 245,245, 0.8);
+    color: rgba(245, 245, 245, 0.8);
     font-family: 'Berkshire Swash', cursive;
     font-size: 1rem;
 }
@@ -101,7 +102,6 @@ h3 {
 
 p {
     font-family: 'Indie Flower', cursive;
-
 }
 
 
@@ -128,26 +128,6 @@ p {
     font-size: 1.4rem;
 }
 
-
-.container header {
-    margin: .5em;
-    background-color: rgb(73, 41, 47);
-    border-radius: 5px;
-
-}
-
-.container img {
-    max-width: 100%;
-}
-
-.container ul li {
-    list-style-type: none;
-    text-align: left;
-    padding: 5px 0px;
-}
-
-
-
 footer {
     text-align: center;
     background-color: rgb(29, 53, 87);
@@ -159,10 +139,6 @@ footer {
 }
 
 footer a {
-    color: white;
-}
-
-header a {
     color: white;
 }
 
