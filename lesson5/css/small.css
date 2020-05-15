@@ -1,0 +1,155 @@
+body {
+    background-color: rgb(241, 250, 238);
+    max-width: 1200px;
+    margin: 2em auto;
+}
+
+header {
+    padding: 0.5em;
+    background-color: rgb(29, 53, 87);
+    border-radius: 10px;
+    box-shadow: 3px 6px 12px rgb(39, 26, 2);
+    margin: 0 auto;
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+header img {
+    width: 10%;
+    height: auto;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(69, 123, 157);
+    font-size: 1.3em;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    color: rgb(241, 250, 238);
+    padding: .1rem;
+    margin-top: 1rem;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+nav ul li a {
+    display: flex;
+    padding: 1em;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Berkshire Swash', cursive;
+    justify-content: center;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(230, 57, 70);
+    color: rgb(241, 250, 238);
+    flex: 1;
+
+}
+
+h1 {
+    color: rgb(51, 221, 8);
+    font-size: 1.5rem;
+    margin-left: 0.3px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    -webkit-text-stroke-width: .009rem;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-size: 5rem;
+    color: whitesmoke;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: .5rem;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    font-family: 'Fredoka One', cursive;
+    -webkit-text-stroke-width: .0009rem;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+
+}
+
+
+
+.container {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.container>div {
+    background-color: rgb(168, 218, 220);
+    box-shadow: 3px 8px 15px rgb(39, 26, 2);
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+    margin: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4rem;
+}
+
+
+.container header {
+    margin: .5em;
+    background-color: rgb(73, 41, 47);
+    border-radius: 5px;
+
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.container ul li {
+    list-style-type: none;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: rgb(29, 53, 87);
+    color: white;
+    padding: 0.08em;
+    border-radius: 10px;
+    line-height: 5px;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: white;
+}
+
+header a {
+    color: white;
+}
+
+.last {
+    color: rgb(234, 248, 33);
+}
