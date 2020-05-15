@@ -45,16 +45,13 @@ nav button {
 nav {
     background-color: rgb(69, 123, 157);
     font-family: 'Berkshire Swash', cursive;
+    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    /*
-    justify-content: center;
-    justify-content: space-around;
-    flex-direction: column;*/
 }
 
 nav ul li a {
@@ -67,6 +64,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: rgb(230, 57, 70);
+    
 }
 
 nav ul li.active a {
