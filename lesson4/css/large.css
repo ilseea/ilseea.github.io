@@ -34,6 +34,11 @@
         justify-content: space-around;
     }
 
+    nav ul li a {
+        border-top: none;
+
+    }
+
     /* nav ul li {
         float: left;
     } */
