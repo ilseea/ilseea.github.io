@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <title>Ilse Amezquita Talwar | WDD 230 Class | WeatherSite Index </title>
+    <title>Preston </title>
     <meta name="description" content="Weather Hearties | Ilse Amezquita | Spring 2020">
     <link rel="icon" href="images/favicon.ico">
     <link
@@ -12,7 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
+    <!-- <link rel="stylesheet" href="css/medium.css"> -->
     <link rel="stylesheet" href="css/large.css">
 </head>
 
@@ -21,18 +21,24 @@
     <!-- HEADER HERE -->
 
     <header>
-        <h1> <img src="images/girlrt.png" alt="pirate girl">
-            Weather Hearties </h1>
-        <h2> A Heartie is a Pirate's friend!
-            To the weather we must tend.
-        </h2>
-        <h2>...Argh Matey!
-        </h2>
+        <picture>
+            <img src="images/girlrt.png" alt="pirate girl">
+        </picture>
+        <section class="headings">
+            <h1> Weather Hearties </h1>
+
+            <h2> A Heartie is a Pirate's friend.
+                To the weather we must tend...
+            </h2>
+            <div class="m">Argh Matey!!
+            </div>
+        </section>
     </header>
     <!-- NAVIGATION HERE -->
     <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
+        <!-- <ul class="navigation" class="hide"> -->
+        <ul class="navigation">
+            <li><a class="ham" href="#"> &#9776; Menu </a></li>
             <li><a href="#">Home</a></li>
             <li class="active"><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
