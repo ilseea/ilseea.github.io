@@ -17,11 +17,6 @@
         display: none;
     }
 
-    .navigation a:hover {
-        /* color: white; */
-        font-weight: none;
-    }
-
     h1 {
         font-size: 3.3rem;
     }
