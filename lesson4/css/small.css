@@ -35,8 +35,9 @@ header {
 }
 
 header img {
-    width: 80px;
+    width: 130px;
     height: auto;
+    margin: 5px 0 5px 0;
 }
 
 .headings {
@@ -47,15 +48,16 @@ header img {
 .headings h1 {
     color: rgb(228, 106, 116);
     font-family: 'Fredoka One', cursive;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 10px;
     -webkit-text-stroke-width: .009rem;
     -webkit-text-stroke-color: rgb(0, 0, 0);
+
 }
 
 .m {
-    font-style: italic;
+    /* font-style: italic; */
     color: rgb(245, 245, 245, 0.8);
-    margin-left: 400px;
+    margin-left: 5px;
     font-family: 'Berkshire Swash', cursive;
 
 }
@@ -63,6 +65,8 @@ header img {
 h2 {
     color: rgba(245, 245, 245);
     font-family: 'Berkshire Swash', cursive;
+    font-style: italic;
+    font-size: 1rem;
 }
 
 /*navigation css*/
@@ -116,12 +120,12 @@ nav {
 
 
 h3 {
-    color: rgb(0, 0, 0);
+    color: rgb(228, 106, 116);
     font-size: 1.4rem;
     margin: 1rem;
     font-family: 'Fredoka One', cursive;
     -webkit-text-stroke-width: .0009rem;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 p {
