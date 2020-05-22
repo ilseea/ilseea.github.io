@@ -203,22 +203,26 @@ p {
     height: auto;
     float: left;
     /* display: flex; */
-    margin: 0 0 1.3rem 2.3rem;
+    margin: 0 0 1.3rem 10.3rem;
+}
+
+.info {
+    margin-left: 3rem;
 }
 
 .info h5,
 .info p {
-    text-align: right;
-    margin-left: ;
+    text-align: left;
+    /* margin-left: auto; */
 
 }
 
 /* why is "page img" passing down formatting to "tiny"? ????????????*/
-#tiny img {
+#tiny {
     margin: 0;
-    width: 2rem;
+    width: 25px;
     height: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .stats {
@@ -232,6 +236,10 @@ p {
     box-shadow: 0 0 30px #111;
     opacity: .8;
     text-align: left;
+}
+
+.end {
+    display: flex;
 }
 
 .forecast {
