@@ -109,12 +109,13 @@ nav {
 
 .navigation a:hover {
     background-color: rgba(230, 57, 70, 0.4);
+    font-family: 'Indie Flower', cursive;
+    font-size: 17px;
+    font-weight: 800;
 }
 
 .active {
     background-color: rgb(230, 57, 70);
-    font-family: 'Indie Flower', cursive;
-    font-weight: 800;
 }
 
 .responsive li {
@@ -148,9 +149,9 @@ p {
 .container>div {
 
     flex: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     height: auto;
-    ???????? padding: 0 10px;
+    padding: 0 10px;
     margin: 1.5em;
     text-align: center;
     vertical-align: middle;
@@ -158,7 +159,9 @@ p {
     font-size: 1.4rem;
 }
 
-.container .page {
+.container .page,
+.forecast,
+.article {
     background-color: rgb(168, 218, 220);
     box-shadow: 3px 8px 15px rgb(39, 26, 2);
 }
@@ -168,8 +171,6 @@ p {
     height: auto;
 }
 
-.article {}
-
 .hero img {
     width: 100%;
     height: auto;
@@ -177,6 +178,29 @@ p {
 
 .hero {
     position: relative;
+}
+
+.page img {
+    width: 30%;
+    height: auto;
+    float: left;
+    /* display: flex; */
+    margin: 0 0 1.3rem 2.3rem;
+}
+
+.info h5,
+.info p {
+    text-align: right;
+    margin-left: ;
+
+}
+
+/* why is "page img" passing down formatting to "tiny"? ????????????*/
+#tiny img {
+    margin: 0;
+    width: 2rem;
+    height: auto;
+    text-align: center;
 }
 
 .stats {
@@ -190,6 +214,33 @@ p {
     box-shadow: 0 0 30px #111;
     opacity: .8;
     text-align: left;
+}
+
+.forecast {
+    display: none;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+
+}
+
+th {
+    background-color: lightseagreen;
+    padding: 5px;
+}
+
+td {
+    background-color: white;
+    padding: 10px;
 }
 
 footer {

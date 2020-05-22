@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.2em) {
+@media only screen and (min-width: 52.2em) {
     .navigation {
         display: flex;
     }
@@ -17,11 +17,27 @@
         display: none;
     }
 
+    .article img {
+        float: right;
+        margin-left: 1.3rem;
+        width: 40%;
+    }
+
+
     .stats {
         top: 25px;
         left: 50px;
         padding: 1.5rem;
 
+    }
+
+    .container .forecast {
+        display: block;
+    }
+
+
+    table {
+        width: 100%;
     }
 
     h1 {
