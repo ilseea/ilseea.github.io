@@ -26,12 +26,12 @@ body {
 
 #myDIV {
     width: 100%;
-    padding: 50px 0;
+    padding: 30px 0;
     text-align: center;
-    background-color: rgba(255, 107, 88, 0.8);
+    background-color: rgb(255, 107, 88);
     margin-top: 20px;
-    border: 20px solid rgb(255, 217, 0);
-    font-size: 34px;
+    border: 10px solid rgb(255, 230, 0);
+    font-size: 24px;
     border-style: dotted;
 
 }
@@ -39,7 +39,7 @@ body {
 #pancakes {
     font-style: italic;
     font-weight: 600;
-    font-size: 44px;
+    font-size: 34px;
 }
 
 header {
