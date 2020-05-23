@@ -212,7 +212,7 @@ p {
 
 .info h5,
 .info p {
-    text-align: left;
+    text-align: right;
     /* margin-left: auto; */
 
 }
@@ -222,7 +222,7 @@ p {
     margin: 0;
     width: 25px;
     height: auto;
-    /* text-align: center; */
+    /* text-align: right; */
 }
 
 .stats {
