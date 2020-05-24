@@ -10,7 +10,7 @@ let date = days[today.getDay()] + ', ' + today.getDate() + " " + months[today.ge
 document.getElementById("dailydate").innerHTML = date;
 
 
-//NAVIGATION HAM BUTTON
+//NAVIGATION HAM BUTTON not working now for some reason??? idk
 
 const hambutton = document.querySelector(".ham");
 hambutton.addEventListener("click", toggleMenu, false);
@@ -21,15 +21,11 @@ function toggleMenu() {
 
 //BANNER ON FRIDAYS
 
-
-function myFunction() {
-  let today = new Date();
-  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  let date = days[today.getDay()] + ", " + today.getDate();
-  let banner = document.getElementById("myDIV").innerHTML;
-  if (date === "Saturday") {
-    banner.style.display = "none";
-  } else {
-    banner.style.display = "none";
-  }
+let d = new Date();
+const banner =
+  document.getElementById('banner');
+if (d.getDay() == 5) {
+  document.getElementById('banner').style.display = 'block';
+} else {
+  document.getElementById('banner').style.display = 'none';
 }

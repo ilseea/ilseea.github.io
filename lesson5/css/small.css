@@ -24,7 +24,7 @@ body {
     margin: 2em auto;
 }
 
-#myDIV {
+#banner {
     width: 100%;
     padding: 30px 0;
     text-align: center;
@@ -136,9 +136,9 @@ nav {
     background-color: rgb(230, 57, 70);
 }
 
-.responsive li {
+/* .responsive li {
     display: block;
-}
+} */
 
 
 h3 {
@@ -154,7 +154,7 @@ p {
     font-family: 'Indie Flower', cursive;
 }
 
-
+/* CONTAINER= (HERO, FORECAST, ARTICLE, PAGE) */
 
 .container {
     display: flex;
@@ -184,11 +184,7 @@ p {
     box-shadow: 3px 8px 15px rgb(39, 26, 2);
 }
 
-.article img {
-    width: 55%;
-    height: auto;
-}
-
+/* HERO (subclasses/ids-STATS )*/
 .hero img {
     width: 100%;
     height: auto;
@@ -196,33 +192,6 @@ p {
 
 .hero {
     position: relative;
-}
-
-.page img {
-    width: 30%;
-    height: auto;
-    float: left;
-    /* display: flex; */
-    margin: 0 0 1.3rem 10.3rem;
-}
-
-.info {
-    margin-left: 3rem;
-}
-
-.info h5,
-.info p {
-    text-align: right;
-    /* margin-left: auto; */
-
-}
-
-/* why is "page img" passing down formatting to "tiny"? ????????????*/
-#tiny {
-    margin: 0;
-    width: 25px;
-    height: auto;
-    /* text-align: right; */
 }
 
 .stats {
@@ -238,9 +207,7 @@ p {
     text-align: left;
 }
 
-.end {
-    display: flex;
-}
+/* FORECAST */
 
 .forecast {
     display: none;
@@ -268,6 +235,52 @@ td {
     background-color: white;
     padding: 10px;
 }
+
+/* ARTICLE */
+
+.article img {
+    width: 55%;
+    height: auto;
+}
+
+/* PAGE (subclasses/ids-INFO, END, TINY) */
+
+.info img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    height: auto;
+    float: right;
+    /* display: block; */
+    margin: 0 0 1.3rem 5.3rem;
+}
+
+.info {
+    margin-left: 3rem;
+}
+
+.info h5,
+.info p {
+    text-align: left;
+    /* margin-left: auto; */
+
+}
+
+/* why is "page img" passing down formatting to "tiny"? ????????????*/
+#tiny {
+    margin: 0;
+    width: 25px;
+    height: auto;
+    /* text-align: right; */
+}
+
+
+
+/* #end {
+    display: flex;
+} */
+
+
 
 footer {
     text-align: center;
