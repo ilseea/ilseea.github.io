@@ -24,7 +24,7 @@ function toggleMenu() {
 let d = new Date();
 const banner =
   document.getElementById('banner');
-if (d.getDay() == 5) {
+if (d.getDay() == 0) {
   document.getElementById('banner').style.display = 'block';
 } else {
   document.getElementById('banner').style.display = 'none';
