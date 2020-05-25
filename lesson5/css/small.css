@@ -262,6 +262,7 @@ td {
 .info h5,
 .info p {
     text-align: left;
+    grid-row-start: 2;
 }
 
 footer {
