@@ -1,0 +1,55 @@
+@media only screen and (min-width: 32.5em) {
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: black;
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .article img {
+        float: right;
+        margin-left: 1.3rem;
+        width: 40%;
+    }
+
+
+    .stats {
+        top: 25px;
+        left: 50px;
+        padding: 1.5rem;
+
+    }
+
+    .container .forecast {
+        display: block;
+    }
+
+    table {
+        width: 60%;
+    }
+
+    h1 {
+        font-size: 2.7rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+}
