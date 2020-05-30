@@ -23,6 +23,11 @@
         width: 40%;
     }
 
+    .hero {
+        position: relative;
+        display: flex;
+        margin: 0 0 0 135px;
+    }
 
     .stats {
         top: 25px;

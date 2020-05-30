@@ -186,13 +186,19 @@ p {
 }
 
 /* HERO (subclasses/ids-STATS )*/
-.hero img {
-    width: 100%;
-    height: auto;
-}
+
 
 .hero {
     position: relative;
+    max-width: 1000px;
+}
+
+.hero img {
+    border: 18px solid rgb(168, 218, 220);
+    box-shadow: 3px 8px 15px rgb(39, 26, 2);
+    width: 100%;
+    height: auto;
+
 }
 
 .stats {
