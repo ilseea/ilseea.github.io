@@ -32,7 +32,7 @@
 
     }
 
-    .stats h4,
+    .stats h3,
     .stats p {
         font-size: 1.4rem;
     }
@@ -50,10 +50,10 @@
     }
 
     h2 {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 
-    h3 {
+    h4 {
         font-size: 2rem;
     }
 
