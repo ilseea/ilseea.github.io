@@ -27,8 +27,14 @@
     .stats {
         top: 25px;
         left: 50px;
-        padding: 1.5rem;
+        padding: 2.5rem;
 
+    }
+
+    .stats h4,
+    .stats p {
+        font-size: 1.8rem;
+        font-family: 'berkshire swash';
     }
 
     .container .forecast {

@@ -198,8 +198,8 @@ p {
 .stats {
     position: absolute;
     /*Maybe change this to the new flex position, so it can migrate better as it changes views*/
-    top: 2px;
-    left: 4px;
+    top: 10px;
+    left: 14px;
     background: radial-gradient(#eee, #E63946);
     border: 1px solid #000;
     padding: .5rem;
@@ -207,6 +207,13 @@ p {
     opacity: .8;
     text-align: left;
 }
+
+.stats h4,
+.stats p {
+    font-size: 1rem;
+    font-family: 'berkshire swash';
+}
+
 
 /* FORECAST */
 

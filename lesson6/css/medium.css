@@ -32,6 +32,11 @@
 
     }
 
+    .stats h4,
+    .stats p {
+        font-size: 1.4rem;
+    }
+
     .container .forecast {
         display: block;
     }
