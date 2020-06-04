@@ -5,4 +5,5 @@ article img[data-src] {
 article img {
     filter: blur(0em);
     transition: filter 1.5s;
+    margin-bottom: 70px;
 }
