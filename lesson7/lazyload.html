@@ -2,47 +2,39 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <title>Lazy Load Page | Weather Hearties</title>
-    <meta name="description" content="Lazy Load page">
-    <link rel="icon" href="images/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <title>Lazy Load Page | Weather Hearties</title>
+        <meta name="description" content="Lazy Load page">
+        <link rel="icon" href="images/favicon.ico">
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="print.css" media="print">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="print.css" media="print"> -->
 
 </head>
 
 
 <body>
-    <section>
-        <h1></h1>
-    </section>
+        <section>
+                <h1>Progressive Loading (Images)</h1>
+        </section>
 
 
-    <article> <img src='https://placebear.com/400/300' data-src='/lesson7/images/houtx.jpg'
-            alt='Houston, TX temple, after Hurricane Harvey.'> </article>
-    <article> <img src='https://placebear.com/400/300' data-src='/lesson7/images/slc.jpg'
-            alt='Salt Lake City, UT temple, after an earthquake 2020.'> </article>
-    <article> <img src='https://placebear.com/400/300' data-src='/lesson7/images/oak.jpg'
-            alt='Oakland, CA temple, in heavy fog.'> </article>
-    <article> <img src='https://placebear.com/400/300' data-src='/lesson7/images/atl.jpg'
-            alt='Atlanta, GA temple, in the sunset.'> </article>
-    <article> <img src='https://placebear.com/400/300' data-src='/lesson7/images/india.jpg'
-            alt='Bangalore, INDIA temple rendition.'> </article>
-    <article> <img src='https://placebear.com/400/300' data-src='/lesson7/images/mcatx.jpg'
-            alt='McAllen, TX temple, image of future-site map.'> </article>
+        <picture> <img src='https://placeimg.com/400/300.jpg' data-src='/lesson7/images/houtx.jpg'
+                        alt='Houston, TX temple, after Hurricane Harvey.'> </picture>
+        <picture> <img src='https://placeimg.com/400/300' data-src='/lesson7/images/slc.jpg'
+                        alt='Salt Lake City, UT temple, after an earthquake 2020.'> </picture>
+        <article> <img src='https://placeimg.com/400/300' data-src='/lesson7/images/oak.jpg'
+                        alt='Oakland, CA temple, in heavy fog.'> </article>
+        <article> <img src='https://placeimg.com/400/300' data-src='/lesson7/images/atl.jpg'
+                        alt='Atlanta, GA temple, in the sunset.'> </article>
+        <article> <img src='https://placeimg.com/400/300' data-src='/lesson7/images/india.jpg'
+                        alt='Bangalore, INDIA temple rendition.'> </article>
+        <article> <img src='https://placeimg.com/400/300' data-src='/lesson7/images/mcatx.jpg'
+                        alt='McAllen, TX temple, image of future-site map.'> </article>
 
 
-    <footer>
-        <p> &copy;
-            <!--<span id="currentYr"></span>--> Weather Hearties | Attributions
-            | <a href="https://ilseea.github.io/">Ilse Amezquita Talwar</a> </p>
-
-
-    </footer>
-
-    <script src="app.js" defer></script>
+        <script src="js/lazyload.js" defer></script>
 </body>
 
 </html>
