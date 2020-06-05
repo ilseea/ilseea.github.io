@@ -14,10 +14,16 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="css/banner.css">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 
@@ -54,72 +60,44 @@
     </nav>
 
 
-    <h2> Preston Idaho</h2>
+    <h2> Weather Gallery</h2>
 
-    <div class="hero">
-        <figure class="myphoto">
-            <img src="/lesson6/images/sunsmall.jpg" alt="sunny small image." sizes="50vw" srcset="/lesson6/images/sunsmall.jpg 250w,
-            /lesson6/images/sunmed.jpg 400w,
-            /lesson6/images/sunlargee.jpg 800w">
+    <div class="gallery">
+        <figure> <img class="norm" src='https://via.placeholder.com/400/300.png?text=Placeholder+Image'
+                data-src='/lesson7/images/houtx.jpg' alt='Houston, TX temple, after Hurricane Harvey.'>
+            <figcaption>Houston, TX temple, after Hurricane Harvey.</figcaption>
+        </figure>
+        <figure> <img class="norm" src='https://via.placeholder.com/400/300.png?text=Placeholder+Image'
+                data-src='/lesson7/images/slc.jpg' alt='Salt Lake City, UT temple, after an earthquake 2020.'>
+            <figcaption>Salt Lake City, UT temple, after an earthquake.</figcaption>
+        </figure>
+        <figure> <img class="norm" src='https://via.placeholder.com/400/300.png?text=Placeholder+Image'
+                data-src='/lesson7/images/oak.jpg' alt='Oakland, CA temple, in heavy fog.'>
+            <figcaption>Houston, TX temple, after Hurricane Harvey.</figcaption>
 
         </figure>
-        <section class="stats">
-            <h3>Weather Summary</h3>
-            <p>Currently: <span id="current">Sunny</span>
-                <br>High: <span id="alto">46</span> &#8457;
-                <br> <span id="chill"> </span>
-                <br> Humidity: <span id="soggy">69%</span>
-                <br>Wind Speed: <span id="speed">15</span> mph </p>
+        <figure> <img class="norm" src='https://via.placeholder.com/400/300.png?text=Placeholder+Image'
+                data-src='/lesson7/images/atl.jpg' alt='Atlanta, GA temple, in the sunset.'>
+            <figcaption>Houston, TX temple, after Hurricane Harvey.</figcaption>
 
-        </section>
+        </figure>
+        <figure> <img class="norm" src='https://via.placeholder.com/400/300.png?text=Placeholder+Image'
+                data-src='/lesson7/images/india.jpg' alt='Bangalore, INDIA temple rendition.'>
+            <figcaption>Houston, TX temple, after Hurricane Harvey.</figcaption>
+
+        </figure>
+        <figure> <img class="norm" src='https://via.placeholder.com/400/300.png?text=Placeholder+Image'
+                data-src='/lesson7/images/mcatx.jpg' alt='McAllen, TX temple, image of future-site map.'>
+            <figcaption>Houston, TX temple, after Hurricane Harvey.</figcaption>
+
+        </figure>
+
+
     </div>
+
+
+
     <div class="container">
-
-        <div class="forecast">
-            <h4> 5 Day Forecast</h4>
-
-            <table>
-                <tr>
-                    <!-- <th>Sun</th> -->
-                    <!-- <th>Mon</th> -->
-                    <th>Tues</th>
-                    <th>Weds</th>
-                    <th>Thurs</th>
-                    <th>Fri</th>
-                    <th>Sat</th>
-                </tr>
-                <tr>
-                    <!-- <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 78&#8457;</td> -->
-                    <!-- <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 83&#8457;</td> -->
-                    <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 87&#8457;</td>
-                    <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 91&#8457;</td>
-                    <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 92&#8457;</td>
-                    <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 88&#8457;</td>
-                    <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 83&#8457;</td>
-                </tr>
-            </table>
-
-
-        </div>
-        <div class="article">
-            <h4> Bubble-Wars at Porter Park! </h4>
-            <img src="/lesson6/images/bubbles.jpg" alt="Children playing with bubbles.">
-            <p>"You - yourself, not someone else - need to determine where you want to go
-                and what you want to do in your life.
-                And once you make that decision, you can begin mapping a plan to get there
-                and focusing on that objective every single day."
-                -Squire Rushnell</p>
-            <br>
-            <p>"Every day, think as you wake up, today I am fortunate to be alive,
-                I have a precious human life, I am not going to waste it.
-                I am going to use all my energies to develop myself, to expand my heart out to others;
-                to achieve enlightenment for the benefit of all beings.
-                I am going to have kind thoughts towards others,
-                I am not going to get angry or think badly about others.
-                I am going to benefit others as much as I can."
-                -Dalai Lama</p>
-        </div>
-
 
         <div class="page">
             <h4> Contact Information</h4>
@@ -152,7 +130,7 @@
         </div>
 
     </div>
-    <!-- </div> -->
+
     <footer>
         <p> &copy;
             <!--<span id="currentYr"></span>--> Weather Hearties | Attributions
@@ -161,9 +139,9 @@
 
     </footer>
 
+    <script src="js/lazyload.js" defer></script>
     <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/windchill.js"></script>
 </body>
 
 </html>
