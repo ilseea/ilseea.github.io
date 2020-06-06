@@ -141,7 +141,7 @@ p {
 /* GALLERY */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     width: 100%;
     margin: auto;
     grid-column-start: 10;
@@ -174,8 +174,7 @@ figure {
 
 figcaption {
     background-color: rgb(226, 226, 226);
-    box-shadow: 3px 8px 15px rgb(39, 26, 2);
-    margin: 10px;
+    /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
     width: 300px;
     padding: 5px;
     text-align: center;
