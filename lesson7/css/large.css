@@ -17,37 +17,10 @@
         display: none;
     }
 
-    .article img {
-        float: right;
-        margin-left: 1.3rem;
-        width: 40%;
-    }
-
-    .stats {
-        top: 25px;
-        left: 50px;
-        padding: 2.5rem;
-
-    }
-
-    .stats h3,
-    .stats p {
-        font-size: 1.8rem;
-        font-family: 'berkshire swash';
-    }
-
-    .container .forecast {
-        display: block;
-    }
-
-
-    table {
-        width: 100%;
-    }
-
+    /*     
     h1 {
         font-size: 3.3rem;
-    }
+    } */
 
     h2 {
         font-size: 5rem;
