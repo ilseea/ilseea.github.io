@@ -40,4 +40,14 @@
 
     }
 
+    .gallery img {
+        width: 300px;
+        /* margin: 0rem; */
+    }
+
+    figcaption {
+        /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
+        width: 300px;
+    }
+
 }
