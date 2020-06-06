@@ -1,5 +1,5 @@
 article img[data-src] {
-    filter: blur(0.1em);
+    filter: blur(1em);
 }
 
 article img {
