@@ -149,7 +149,7 @@ p {
 }
 
 .gallery img {
-    width: 400px;
+    width: 300px;
     height: auto;
     /* margin: 0rem; */
 }
@@ -176,7 +176,7 @@ figure {
 figcaption {
     background-color: rgb(226, 226, 226);
     /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
-    width: 400px;
+    width: 300px;
     padding: 5px;
     text-align: center;
 }
