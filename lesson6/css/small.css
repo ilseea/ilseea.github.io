@@ -20,7 +20,7 @@ html {
 
 body {
     background-color: rgb(241, 250, 238);
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 2em auto;
 }
 
@@ -94,7 +94,7 @@ h2 {
 nav {
     margin: 0 auto;
     /*prefer old*/
-    max-width: 1160px;
+    /* max-width: 1160px; */
     /*pointless?*/
     background-color: rgb(69, 123, 157);
     /*none of below in example*/
