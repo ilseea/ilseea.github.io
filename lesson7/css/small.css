@@ -21,7 +21,7 @@ html {
 body {
     /* background-color: rgb(241, 250, 238); */
     background: rgba(200, 200, 200, 0.3);
-    /* max-width: 1200px; */
+    max-width: 1400px;
     margin: 2em auto;
 }
 
