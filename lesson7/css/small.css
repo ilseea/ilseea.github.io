@@ -142,7 +142,7 @@ p {
 .gallery {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 100%;
+    width: 80%;
     /* margin: auto; */
     grid-column-start: 10;
 
@@ -174,7 +174,7 @@ figure {
 /* } */
 
 figcaption {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(253, 253, 253);
     /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
     width: 300px;
     padding: 5px;
