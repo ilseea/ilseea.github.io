@@ -1,9 +1,10 @@
+/************
+PRELIMINARY STYLES
+*************/
 * {
     margin: 0;
     padding: 0;
 }
-
-/* this ^ made my boxes skinny */
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {
@@ -18,6 +19,9 @@ html {
     box-sizing: border-box;
 }
 
+/************
+BASIC BODY
+*************/
 body {
     /* background-color: rgb(241, 250, 238); */
     background: rgba(200, 200, 200, 0.3);
@@ -25,6 +29,9 @@ body {
     margin: 2em auto;
 }
 
+/************
+HEADER
+*************/
 
 header {
     background-color: rgb(29, 53, 87);
@@ -63,17 +70,10 @@ header img {
 
 }
 
-h2 {
-    color: rgb(0, 0, 0);
-    font-size: 2rem;
-    margin: 3rem;
-    font-family: 'Fredoka One', cursive;
-    text-shadow: 3px 6px 10px rgb(39, 26, 2);
-    -webkit-text-stroke-width: .0009rem;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-}
 
-/*navigation css*/
+/************
+NAVIGATION
+*************/
 nav {
     margin: 0 auto;
     /*prefer old*/
@@ -124,6 +124,20 @@ nav {
     display: block;
 }
 
+/************
+TEXT STYLES
+*************/
+
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin: 3rem;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 3px 6px 10px rgb(39, 26, 2);
+    -webkit-text-stroke-width: .0009rem;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
 
 h4 {
     color: rgb(0, 0, 0);
@@ -138,12 +152,13 @@ p {
     font-family: 'Indie Flower', cursive;
 }
 
-/* GALLERY */
+/************
+GALLERY
+*************/
 .gallery {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 80%;
-    /* margin: auto; */
     grid-column-start: 10;
 
 }
@@ -151,7 +166,6 @@ p {
 .gallery img {
     width: 300px;
     height: auto;
-    /* margin: 0rem; */
 }
 
 .norm:hover {
@@ -159,9 +173,6 @@ p {
 }
 
 figure {
-    /* background-color: rgb(168, 218, 220); */
-    /* IF i WANT ENTIRE BOX AGAIN */
-    /* box-shadow: 3px 8px 15px rgb(39, 26, 2); IF i WANT ENTIRE BOX AGAIN */
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -169,17 +180,17 @@ figure {
     align-items: center;
 }
 
-/* figure:hover { IF i WANT ENTIRE BOX AGAIN */
-/* box-shadow: 0 0 50px #333; */
-/* } */
 
 figcaption {
     background-color: rgb(253, 253, 253);
-    /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
     width: 300px;
     padding: 5px;
     text-align: center;
 }
+
+/************
+FOOTER
+*************/
 
 footer {
     text-align: center;
