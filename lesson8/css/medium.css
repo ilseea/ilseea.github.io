@@ -1,0 +1,53 @@
+@media only screen and (min-width: 43.5em) {
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: black;
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    /* 
+    h1 {
+        font-size: 2.7rem;
+    } */
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: auto;
+        grid-column-start: 10;
+
+    }
+
+    .gallery img {
+        width: 320px;
+        /* margin: 0rem; */
+    }
+
+    figcaption {
+        /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
+        width: 320px;
+    }
+
+}
