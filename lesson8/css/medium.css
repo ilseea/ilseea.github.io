@@ -1,4 +1,4 @@
-@media only screen and (min-width: 43.5em) {
+@media only screen and (min-width: 500px) {
 
     .navigation {
         display: flex;
@@ -31,23 +31,20 @@
         font-size: 2rem;
     }
 
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        margin: auto;
-        grid-column-start: 10;
 
+    /************
+FORM
+*************/
+    .form-box {}
+
+    .form-box label {
+        display: block;
     }
 
-    .gallery img {
-        width: 320px;
-        /* margin: 0rem; */
-    }
+    .form-box input,
+    .form-box select,
+    .form-box textarea {}
 
-    figcaption {
-        /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
-        width: 320px;
-    }
+    .form-box button {}
 
 }

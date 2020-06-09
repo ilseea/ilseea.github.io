@@ -1,5 +1,5 @@
 /************
-PRELIMINARY STYLES
+DEFAULTS
 *************/
 * {
     margin: 0;
@@ -10,6 +10,8 @@ PRELIMINARY STYLES
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    box-sizing: border-box;
+
 }
 
 /*----------- apply a natural box layout model to all elements --------------*/
@@ -17,6 +19,18 @@ html {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+main {
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 1000px;
 }
 
 /************
@@ -153,40 +167,37 @@ p {
 }
 
 /************
-GALLERY
+FORM
 *************/
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 80%;
-    grid-column-start: 10;
+select,
+option,
+input,
+label,
+button {
+    padding: 0.2rem 1rem;
+    font-size: 1.8rem;
+    color: inherit;
+    font-family: 'Indie Flower', cursive;
 
 }
 
-.gallery img {
-    width: 300px;
-    height: auto;
-}
-
-.norm:hover {
-    box-shadow: 0 0 50px #333;
-}
-
-figure {
-    margin: 10px;
+.form-box {
+    padding: 0.5rem 0;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
 }
 
-
-figcaption {
-    background-color: rgb(253, 253, 253);
-    width: 300px;
-    padding: 5px;
-    text-align: center;
+.form-box label {
+    display: none;
 }
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+    flex-basis: 100%;
+}
+
+.form-box button {}
 
 /************
 FOOTER
