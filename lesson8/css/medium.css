@@ -36,6 +36,11 @@ FORM
         display: block;
     }
 
+    .form-rating {
+        padding: 0.5rem 0;
+        display: block;
+    }
+
     .form-box input,
     .form-box select,
     .form-box textarea {}
