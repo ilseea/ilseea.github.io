@@ -44,7 +44,7 @@ FORM
     .form-rating input,
     .form-rating select,
     .form-rating textarea {
-        flex-basis: 90%;
+        flex-basis: 50%;
         margin-left: 1rem;
     }
 
