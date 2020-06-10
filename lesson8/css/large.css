@@ -41,7 +41,7 @@ FORM
     }
 
     .form-box label {
-        flex-basis: 11rem;
+        flex-basis: 13rem;
         flex-grow: 0;
         flex-shrink: 0;
     }
@@ -54,13 +54,13 @@ FORM
         flex-shrink: 1;
     }
 
-    /* 
+
     .form-rating input,
     .form-rating select,
     .form-rating textarea {
-        flex-basis: 100%;
-        margin-left: 11rem;
-    } */
+        flex-basis: 90%;
+        margin-left: 4rem;
+    }
 
     .form-box button {
         margin-left: 11rem;
