@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
     .navigation {
         display: flex;
     }
@@ -17,10 +17,10 @@
         display: none;
     }
 
-    /*     
-    h1 {
-        font-size: 3.3rem;
-    } */
+
+    .headings h1 {
+        color: lawngreen;
+    }
 
     h2 {
         font-size: 5rem;

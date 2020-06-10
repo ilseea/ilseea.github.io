@@ -18,10 +18,9 @@
         display: none;
     }
 
-    /* 
-    h1 {
-        font-size: 2.7rem;
-    } */
+    .headings h1 {
+        color: rgb(6, 198, 247);
+    }
 
     h2 {
         font-size: 3rem;
