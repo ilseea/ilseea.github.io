@@ -162,7 +162,7 @@ input,
 label,
 button {
     padding: 0.2rem 1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: inherit;
     font-family: 'Indie Flower', cursive;
 
@@ -185,6 +185,11 @@ button {
 }
 
 .form-box button {}
+
+.flexly {
+    display: flex;
+    align-items: center;
+}
 
 /************
 FOOTER

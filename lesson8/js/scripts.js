@@ -29,3 +29,8 @@ if (d.getDay() == 5) {
 } else {
   document.getElementById('banner').style.display = 'none';
 }
+
+
+function adjustRating(severity) {
+  document.getElementById("ratingvalue").innerHTML = severity;
+}
