@@ -41,9 +41,12 @@ FORM
         display: block;
     }
 
-    .form-box input,
-    .form-box select,
-    .form-box textarea {}
+    .form-rating input,
+    .form-rating select,
+    .form-rating textarea {
+        flex-basis: 100%;
+        margin-left: 11rem;
+    }
 
     .form-box button {}
 

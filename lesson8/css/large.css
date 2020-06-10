@@ -54,6 +54,14 @@ FORM
         flex-shrink: 1;
     }
 
+    /* 
+    .form-rating input,
+    .form-rating select,
+    .form-rating textarea {
+        flex-basis: 100%;
+        margin-left: 11rem;
+    } */
+
     .form-box button {
         margin-left: 11rem;
     }
