@@ -66,8 +66,13 @@ FORM
         margin-left: 13rem;
     }
 
-    #life {
+    #bigthanks {
         margin-left: 20rem;
+        display: block;
+    }
+
+    #smallthanks {
+        display: none;
     }
 
 }

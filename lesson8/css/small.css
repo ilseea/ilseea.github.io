@@ -206,6 +206,15 @@ em {
     margin: auto;
 }
 
+#bigthanks {
+    display: none;
+}
+
+#smallthanks {
+    margin-left: 2rem;
+    display: block;
+}
+
 /************
 FOOTER
 *************/
