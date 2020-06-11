@@ -64,7 +64,10 @@ FORM
 
     #btnSend {
         margin-left: 13rem;
-        /* border: 0; */
+    }
+
+    #life {
+        margin-left: 20rem;
     }
 
 }
