@@ -197,6 +197,11 @@ button {
     align-items: center;
 }
 
+em {
+    font-size: small;
+    font-weight: 550;
+}
+
 /************
 FOOTER
 *************/
