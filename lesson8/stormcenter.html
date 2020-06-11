@@ -61,104 +61,107 @@
 
     <main>
         <h3> Report A Storm</h3>
-        <form name="my-form" action="#" method="get">
-            <div class="form-box">
-                <label for="name">Full Name</label>
-                <input type="text" id="fullname" name="fullname" placeholder="Privateer Johnny" required
-                    pattern="[A-Za-z ]+" required minlength="5">
-            </div>
+        <fieldset>
+            <form name="my-form" action="/lesson8/thanks.html" method="get">
+                <div class="form-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Privateer Johnny" required
+                        pattern="[A-Za-z ]+" required minlength="5">
+                </div>
 
-            <div class="form-box">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Heartie@plank.com">
-            </div>
+                <div class="form-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Heartie@plank.com">
+                </div>
 
-            <div class="form-box">
-                <label for="tel">Telephone</label>
-                <input type="tel" id="tel" name="tel" placeholder="(208)***-****" required>
-            </div>
+                <div class="form-box">
+                    <label for="tel">Telephone</label>
+                    <input type="tel" id="tel" name="tel" placeholder="(208)***-****" required>
+                </div>
 
-            <div class="form-box">
-                <label for="zipcode">Zipcode</label>
-                <input type="number" id="zipcode" name="zipcode" placeholder="83440" required pattern="\d{5}-?(\d{4})?">
-            </div>
+                <div class="form-box">
+                    <label for="zipcode">Zipcode</label>
+                    <input type="number" id="zipcode" name="zipcode" placeholder="83440" required
+                        pattern="\d{5}-?(\d{4})?">
+                </div>
 
-            <div class="form-box">
-                <label for="date">Storm Date</label>
-                <input type="date" id="date" name="date">
-            </div>
+                <div class="form-box">
+                    <label for="date">Storm Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
 
-            <div class="form-box">
-                <label for="domain">Storm Type</label>
-                <input list="storms" id="domain" placeholder="Storm" />
+                <div class="form-box">
+                    <label for="domain">Storm Type</label>
+                    <input list="storms" id="domain" placeholder="Storm" />
 
-                <datalist id="storms" name="domain">
-                    <option value="Flash Flood"></option>
-                    <option value="Hail"></option>
-                    <option value="Hurricane"></option>
-                    <option value="Thunderstorm"></option>
-                    <option value="Tornado"></option>
-                </datalist>
-            </div>
+                    <datalist id="storms" name="domain">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                </div>
 
-            <div class="form-rating">
-                <label class="flexer" for="severity">Storm Severity
-                    &nbsp;&nbsp;&nbsp;
-                    <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1"
-                        list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span>
-                </label>
+                <div class="form-rating">
+                    <label class="flexer" for="severity">Storm Severity
+                        &nbsp;&nbsp;&nbsp;
+                        <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1"
+                            list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                    </label>
 
-                <datalist id="tickmarks">
-                    <option value="0">
-                    <option value="1">
-                    <option value="2">
-                    <option value="3">
-                    <option value="4">
-                    <option value="5">
-                    <option value="6">
-                    <option value="7">
-                    <option value="8">
-                    <option value="9">
-                    <option value="10">
-                </datalist>
-            </div>
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist>
+                </div>
 
-            <div class="form-box">
-                <label for="region">Storm Region</label>
-                <select id="region" name="region">
-                    <option selected="true" disabled> Select Region...</option>
-                    <option value="Preston"> Preston</option>
-                    <option value="Soda Springs"> Soda Springs</option>
-                    <option value="Fish Haven"> Fish Haven</option>
+                <div class="form-box">
+                    <label for="region">Storm Region</label>
+                    <select id="region" name="region">
+                        <option selected="true" disabled> Select Region...</option>
+                        <option value="Preston"> Preston</option>
+                        <option value="Soda Springs"> Soda Springs</option>
+                        <option value="Fish Haven"> Fish Haven</option>
 
-                </select>
-            </div>
+                    </select>
+                </div>
 
-            <div class="form-box">
-                <label for="danger" id="radi">Danger Level &nbsp;<em>(CHOOSE ONE) =</em></label>
-                <form>
-                    <input type="radio" id="yesbutton" name="rate1" value="yesbutton" placeholder="yes">
-                    <label id="radi" for="yesbutton">Yes, I'm in Danger</label><br>
-                    <input type="radio" id="maybebutton" name="rate2" value="maybebutton" checked>
-                    <label id="radi" for="maybebutton">Maybe, not too sure</label><br>
+                <div class="form-box">
+                    <label for="danger" id="radi">Danger Level &nbsp;<em>(CHOOSE ONE) =</em></label>
+                    <form>
+                        <input type="radio" id="yesbutton" name="rate1" value="yesbutton" placeholder="yes">
+                        <label id="radi" for="yesbutton">Yes, I'm in Danger</label><br>
+                        <input type="radio" id="maybebutton" name="rate2" value="maybebutton" checked>
+                        <label id="radi" for="maybebutton">Maybe, not too sure</label><br>
 
-                    <input type="radio" id="nobutton" name="rate3" value="nobutton">
-                    <label id="radi" for="nobutton">No, I'm Safe</label>
-                </form>
-            </div>
+                        <input type="radio" id="nobutton" name="rate3" value="nobutton">
+                        <label id="radi" for="nobutton">No, I'm Safe</label>
+                    </form>
+                </div>
 
-            <div class="form-box">
-                <label for="comments">Comments</label>
-                <input type="textarea" id="comments" name="comments" placeholder="Share additional information here!">
-            </div>
+                <div class="form-box">
+                    <label for="comments">Comments</label>
+                    <input type="textarea" id="comments" name="comments"
+                        placeholder="Share additional information here!">
+                </div>
 
-            <form action="/lesson8/thanks.html">
+
                 <div class="form-box" id="radi">
                     <input type="submit" id="btnSend" name="btnSend">
                 </div>
             </form>
-
+        </fieldset>
     </main>
 
 
