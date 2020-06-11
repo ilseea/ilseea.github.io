@@ -125,7 +125,7 @@
 
             <div class="form-box">
                 <label for="region">Storm Region</label>
-                <select id="region" name="region" placeholder="Select Region...">
+                <select id="region" name="region">
                     <option selected="true" disabled> Select Region...</option>
                     <option value="Preston"> Preston</option>
                     <option value="Soda Springs"> Soda Springs</option>
@@ -133,36 +133,31 @@
 
                 </select>
             </div>
-            <!-- -->
+
             <div class="form-box">
-                <label for="danger">User In-Danger Level &nbsp;<em>(CHOOSE ONE)</em></label>
+                <label for="danger" id="radi">Danger Level &nbsp;<em>(CHOOSE ONE) =</em></label>
                 <form>
-                    <input type="radio" id="yesbutton" name="rate1" value="yesbutton">
-                    <label for="yesbutton">Yes</label><br>
+                    <input type="radio" id="yesbutton" name="rate1" value="yesbutton" placeholder="yes">
+                    <label id="radi" for="yesbutton">Yes, I'm in Danger</label><br>
                     <input type="radio" id="maybebutton" name="rate2" value="maybebutton" checked>
-                    <label for="maybebutton">Maybe</label><br>
+                    <label id="radi" for="maybebutton">Maybe, not too sure</label><br>
 
                     <input type="radio" id="nobutton" name="rate3" value="nobutton">
-                    <label for="nobutton">No</label>
+                    <label id="radi" for="nobutton">No, I'm Safe</label>
                 </form>
             </div>
 
-            <!--  -->
             <div class="form-box">
-                <label for="comments">Additional Information</label>
-                <input type="textarea" id="comments" name="comments">
+                <label for="comments">Comments</label>
+                <input type="textarea" id="comments" name="comments" placeholder="Share additional information here!">
             </div>
 
-
-            <!-- ------------------   
-------------------------------------------------- -->
-
-
-            <div class="form-box">
-                <button id="btnSend">
+            <form action="/lesson8/thanks.html">
+                <div class="form-box" id="radi">
                     <input type="submit" id="btnSend" name="btnSend"></button>
-            </div>
-        </form>
+                </div>
+            </form>
+
     </main>
 
 

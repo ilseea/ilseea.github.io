@@ -62,9 +62,9 @@ FORM
         margin-left: 4rem;
     }
 
-    .form-box button {
-        margin-left: 11rem;
+    #btnSend {
+        margin-left: 13rem;
+        /* border: 0; */
     }
-
 
 }

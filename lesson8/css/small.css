@@ -147,20 +147,19 @@ h2 {
     color: rgb(0, 0, 0);
     font-size: 2rem;
     margin: 3rem;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Indie Flower', cursive;
     text-shadow: 3px 6px 10px rgb(39, 26, 2);
-    -webkit-text-stroke-width: .0009rem;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+
 }
 
 /************
 FORM
 *************/
+
 select,
 option,
 input,
-label,
-button {
+label {
     padding: 0.2rem 1rem;
     font-size: 1.5rem;
     color: inherit;
@@ -190,7 +189,7 @@ button {
     flex-basis: 100%;
 }
 
-.form-box button {}
+.buttons {}
 
 .flexer {
     display: flex;
@@ -200,6 +199,10 @@ button {
 em {
     font-size: small;
     font-weight: 550;
+}
+
+#radi {
+    display: block;
 }
 
 /************
