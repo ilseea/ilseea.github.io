@@ -62,7 +62,7 @@
     <main>
         <h3> Report A Storm</h3>
         <fieldset>
-            <form name="my-form" action="/lesson8/thanks.html" method="get">
+            <form id="my-form" action="/lesson8/thanks.html" method="get">
                 <div class="form-box">
                     <label for="name">Full Name</label>
                     <input type="text" id="fullname" name="fullname" placeholder="Privateer Johnny" required
@@ -138,15 +138,15 @@
                 </div>
 
                 <div class="form-box">
-                    <label for="danger" id="radi">Danger Level &nbsp;<em>(CHOOSE ONE) =</em></label>
+                    <label for="danger" id="danger">Danger Level &nbsp;<em>(CHOOSE ONE) =</em></label>
                     <form>
                         <input type="radio" id="yesbutton" name="rate1" value="yesbutton" placeholder="yes">
-                        <label id="radi" for="yesbutton">Yes, I'm in Danger</label><br>
+                        <label id="radi" for="yesbutton">Yes</label><br>
                         <input type="radio" id="maybebutton" name="rate2" value="maybebutton" checked>
-                        <label id="radi" for="maybebutton">Maybe, not too sure</label><br>
+                        <label id="radi" for="maybebutton">Maybe</label><br>
 
                         <input type="radio" id="nobutton" name="rate3" value="nobutton">
-                        <label id="radi" for="nobutton">No, I'm Safe</label>
+                        <label id="radi" for="nobutton">No</label>
                     </form>
                 </div>
 
@@ -157,8 +157,10 @@
                 </div>
 
 
-                <div class="form-box" id="radi">
-                    <input type="submit" id="btnSend" name="btnSend">
+                <div class="form-box" id="submitform" form="my-form">
+                    <button>
+                        <input type="submit" name="btnSend" id="btnSend" form="my-form" value="Submit Storm Form">
+                    </button>
                 </div>
             </form>
         </fieldset>

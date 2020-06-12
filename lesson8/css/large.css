@@ -69,7 +69,11 @@ FORM
         margin-left: 4rem;
     }
 
-    #btnSend {
+    /* #btnSend {
+        margin-left: 0rem;
+    } */
+
+    #submitform {
         margin-left: 13rem;
     }
 

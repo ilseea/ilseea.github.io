@@ -210,6 +210,20 @@ em {
 
 #radi {
     display: block;
+    margin-right: 5rem;
+}
+
+#danger {
+    display: block;
+    /* margin-right: 5rem; */
+}
+
+/* #btnSend {
+    margin-left: 0rem;
+} */
+
+#submitform {
+    display: block;
     margin: auto;
 }
 
