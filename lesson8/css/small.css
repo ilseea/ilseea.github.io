@@ -200,7 +200,9 @@ em {
     font-weight: 500;
 }
 
-#radi {
+#yesbutton,
+#maybebutton,
+#nobutton {
     display: block;
     margin-right: 5rem;
 }
