@@ -150,6 +150,11 @@ h2 {
     font-family: 'Indie Flower', cursive;
 }
 
+h3 {
+    font-size: 1.6rem;
+    margin: 5rem 0 1rem 1rem;
+    text-align: center;
+}
 
 /************
 FORM
