@@ -1,0 +1,103 @@
+/************
+DEFAULTS
+*************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    box-sizing: border-box;
+
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/************
+BASIC BODY
+*************/
+body {
+    /* background-color: rgb(241, 250, 238); */
+    background: rgba(255, 255, 255, 0.3);
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+/************
+HEADER
+*************/
+table {
+    border-collapse: collapse;
+    width: 50%;
+    align-self: center;
+    margin: 0px auto;
+    margin-top: 13%;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+th,
+.last td {
+    background-color: #7fb9c2;
+    color: rgb(0, 0, 0);
+
+}
+
+thead {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+tfoot {
+    font-size: x-small;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+#standout {
+    background-color: #628ca6;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+
+tbody {
+    background-color: #e7ffed;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+td,
+th {
+    border: 2px solid rgb(194, 194, 194);
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
