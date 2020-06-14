@@ -6,27 +6,6 @@ DEFAULTS
     padding: 0;
 }
 
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    box-sizing: border-box;
-
-}
-
-/*----------- apply a natural box layout model to all elements --------------*/
-/* * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-} */
-
-/* main {
-    margin: 1rem auto;
-    width: 90%;
-    max-width: 1000px;
-} */
-
 /************
 BASIC BODY
 *************/
@@ -43,7 +22,6 @@ HEADER
 table {
     border-collapse: collapse;
     width: 50%;
-    /* align-self: center; */
     margin: 0px auto;
     margin-top: 13%;
     font-size: 20px;
@@ -93,11 +71,4 @@ tr:nth-child(even) {
 tfoot {
     font-size: medium;
     letter-spacing: -1px;
-}
-
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
 }
