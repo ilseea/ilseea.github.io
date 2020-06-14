@@ -15,17 +15,17 @@ html {
 }
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* {
+/* * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-}
+} */
 
-main {
+/* main {
     margin: 1rem auto;
     width: 90%;
     max-width: 1000px;
-}
+} */
 
 /************
 BASIC BODY
@@ -33,7 +33,7 @@ BASIC BODY
 body {
     /* background-color: rgb(241, 250, 238); */
     background: rgba(255, 255, 255, 0.3);
-    max-width: 800px;
+    max-width: 700px;
     margin: 2em auto;
 }
 
@@ -43,33 +43,18 @@ HEADER
 table {
     border-collapse: collapse;
     width: 50%;
-    align-self: center;
+    /* align-self: center; */
     margin: 0px auto;
     margin-top: 13%;
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
-}
-
-th,
-.last td {
-    background-color: #7fb9c2;
-    color: rgb(0, 0, 0);
-
+    box-shadow: 15px 15px 20px #628ca6;
 }
 
 thead {
     font-size: xx-large;
     font-weight: 900;
-}
-
-tfoot {
-    font-size: x-small;
-}
-
-th,
-td {
-    text-align: center;
-    padding: 8px;
+    letter-spacing: -1px;
 }
 
 #standout {
@@ -77,22 +62,37 @@ td {
     color: white;
 }
 
-tr:nth-child(even) {
-    background-color: #e7f0ed;
+th,
+tfoot {
+    background-color: #7fb9c2;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 11px;
 }
 
 tbody {
     background-color: #e7ffed;
-}
-
-table {
-    border-collapse: collapse;
+    font-size: 1em;
 }
 
 table,
 td,
 th {
     border: 2px solid rgb(194, 194, 194);
+}
+
+tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+
+tfoot {
+    font-size: small;
+    letter-spacing: 1px;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
