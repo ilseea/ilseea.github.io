@@ -4,6 +4,7 @@ fetch(requestURL)
     .then(function (response) {
         return response.json();
     })
+
     .then(function (jsonObject) {
         const prophets = jsonObject['prophets'];
         for (let i = 0; i < prophets.length; i++) {
@@ -11,13 +12,14 @@ fetch(requestURL)
             let h2 = document.createElement('h2');
             let db = document.createElement('p');
             let pb = document.createElement('p');
-            let image = document.createElement('pic');
+            let image = document.createElement('img');
 
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
             db.textContent = 'Date of Birth:' + prophets[i].birthdate;
             pb.textContent = 'Place of Birth:' + prophets[i].birthplace;
             image.setAttribute('src', prophets[i].imageurl);
             image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '- ' + prophets[i].order);
+            // image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order);
 
             card.appendChild(h2);
             card.appendChild(db);
@@ -27,7 +29,5 @@ fetch(requestURL)
 
         }
     });
-
-console.log('Hello World');
 
 console.log('Hello Ilse');
