@@ -1,5 +1,4 @@
 body {
-    /* background-color: rgb(241, 250, 238); */
     background: rgba(200, 200, 200, 0.3);
     max-width: 1100px;
     margin: auto;
@@ -9,16 +8,12 @@ div.cards {
     display: grid;
     grid-gap: 3px;
     grid-template-columns: 1fr;
-    /* background-color: lightcoral; */
     padding: 10px;
-    /* padding: 10px 0px 0px 0px; */
     margin-top: 10px;
     box-shadow: 0px 0px 15px 0px rgb(39, 26, 2);
 }
 
 section {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     padding: 10px;
     background-color: rgba(88, 101, 158, 0.3);
     border: 2px solid rgb(88, 101, 158);
@@ -35,7 +30,6 @@ h1 {
 h2 {
     color: rgb(54, 67, 136);
     font-family: 'Bree Serif', serif;
-    /* line-height: 20%; */
     font-size: 0.9rem;
     margin: 2px 0px 5px 0;
 }
@@ -52,18 +46,6 @@ img {
     box-shadow: 1px 2px 10px rgb(39, 26, 2);
 }
 
-/* figure { */
-/* background-color: rgb(168, 218, 220); */
-/* IF i WANT ENTIRE BOX AGAIN */
-/* box-shadow: 3px 8px 15px rgb(39, 26, 2); IF i WANT ENTIRE BOX AGAIN */
-/* margin: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-} */
-
-
 footer {
     text-align: center;
     background-color: rgb(29, 53, 87);
@@ -76,11 +58,7 @@ footer {
 @media only screen and (min-width: 37.5em) {
 
     div.cards {
-        /* grid-gap: 3px; */
         grid-template-columns: repeat(2, 1fr);
-        /* padding-top: 10px; */
-        /* margin-top: 10px; */
-        /* box-shadow: 0px 0px 15px 0px rgb(39, 26, 2); */
     }
 
     h1 {
@@ -92,16 +70,10 @@ footer {
 @media only screen and (min-width: 50.2em) {
 
     div.cards {
-        /* grid-gap: 3px; */
-
         grid-template-columns: repeat(4, 1fr);
-        /* padding-top: 10px; */
-        /* margin-top: 10px; */
-        /* box-shadow: 0px 0px 15px 0px rgb(39, 26, 2); */
     }
 
     h1 {
         color: rgb(105, 66, 59);
     }
-
 }
