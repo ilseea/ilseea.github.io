@@ -64,6 +64,15 @@ img {
 } */
 
 
+footer {
+    text-align: center;
+    background-color: rgb(29, 53, 87);
+    color: white;
+    padding: 1.4em;
+    font-size: 1.2rem;
+    margin: 0 0 15px 0;
+}
+
 @media only screen and (min-width: 37.5em) {
 
     div.cards {
