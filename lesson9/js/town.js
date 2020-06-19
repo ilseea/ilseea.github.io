@@ -10,6 +10,7 @@ fetch(requestURL)
         for (let i = 0; i < towns.length; i++) {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
+            // let h3 = document.createElement('h3');
             let db = document.createElement('p');
             let pb = document.createElement('p');
             let image = document.createElement('img');
