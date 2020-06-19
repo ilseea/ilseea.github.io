@@ -19,13 +19,12 @@ html {
 }
 
 body {
-    /* background-color: rgb(241, 250, 238); */
     background: rgba(200, 200, 200, 0.3);
     max-width: 1400px;
     margin: 2em auto;
 }
 
-
+/* ****HEADER**** */
 header {
     background-color: rgb(29, 53, 87);
     display: flex;
@@ -52,37 +51,19 @@ header img {
     margin: 0 0 0 10px;
     -webkit-text-stroke-width: .009rem;
     -webkit-text-stroke-color: rgb(0, 0, 0);
-
 }
 
 .m {
-    /* font-style: italic; */
     color: rgb(245, 245, 245, 0.8);
     margin-left: 5px;
     font-family: 'Berkshire Swash', cursive;
-
 }
 
-h2 {
-    color: rgb(0, 0, 0);
-    font-size: 2rem;
-    margin: 3rem;
-    font-family: 'Fredoka One', cursive;
-    text-shadow: 3px 6px 10px rgb(39, 26, 2);
-    -webkit-text-stroke-width: .0009rem;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-}
-
-/*navigation css*/
+/* ****NAVIGATION**** */
 nav {
     margin: 0 auto;
-    /*prefer old*/
-    /* max-width: 1160px; */
-    /*pointless?*/
     background-color: rgb(69, 123, 157);
-    /*none of below in example*/
     font-family: 'Berkshire Swash', cursive;
-
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
 }
 
@@ -124,6 +105,16 @@ nav {
     display: block;
 }
 
+/* ****WORDS**** */
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin: 3rem;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 3px 6px 10px rgb(39, 26, 2);
+    -webkit-text-stroke-width: .0009rem;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
 
 h4 {
     color: rgb(0, 0, 0);
@@ -138,48 +129,21 @@ p {
     font-family: 'Indie Flower', cursive;
 }
 
-/* GALLERY */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 80%;
-    /* margin: auto; */
-    grid-column-start: 10;
+/* ****JSON**** */
 
-}
 
-.gallery img {
-    width: 300px;
-    height: auto;
-    /* margin: 0rem; */
-}
 
-.norm:hover {
-    box-shadow: 0 0 50px #333;
-}
 
-figure {
-    /* background-color: rgb(168, 218, 220); */
-    /* IF i WANT ENTIRE BOX AGAIN */
-    /* box-shadow: 3px 8px 15px rgb(39, 26, 2); IF i WANT ENTIRE BOX AGAIN */
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
 
-/* figure:hover { IF i WANT ENTIRE BOX AGAIN */
-/* box-shadow: 0 0 50px #333; */
-/* } */
 
-figcaption {
-    background-color: rgb(253, 253, 253);
-    /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
-    width: 300px;
-    padding: 5px;
-    text-align: center;
-}
+
+
+
+
+
+
+
+/* ****FOOTER**** */
 
 footer {
     text-align: center;
