@@ -7,18 +7,22 @@ fetch(requestURL)
 
     .then(function (jsonObject) {
         const prophets = jsonObject['prophets'];
-        for (let i = 0; i < prophets.length; i++) {
+        // const utah = prophets.filter(prophet => (prophet.birthplace == "Utah"));
+        // then change "prophets" to "Utah" in following "forEach"
+        prophets.forEach(prophet => {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
             let db = document.createElement('p');
             let pb = document.createElement('p');
             let image = document.createElement('img');
 
-            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            db.textContent = 'Date of Birth:' + ' ' + prophets[i].birthdate;
-            pb.textContent = 'Place of Birth:' + ' ' + prophets[i].birthplace;
-            image.setAttribute('src', prophets[i].imageurl);
-            image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '- ' + prophets[i].order);
+            // h2.textContent = prophet.name + ' ' + prophet.lastname; (now can add words before `mark below)
+            // if I want to add <strong> use .innerHTML
+            h2.textContent = `${prophet.name} ${prophet.lastname}`;
+            db.textContent = `Date of Birth: ${prophet.birthdate}`;
+            pb.textContent = 'Place of Birth:' + ' ' + prophet.birthplace;
+            image.setAttribute('src', prophet.imageurl);
+            image.setAttribute('alt', prophet.name + ' ' + prophet.lastname + '- ' + prophet.order);
 
             card.appendChild(h2);
             card.appendChild(db);
@@ -26,5 +30,5 @@ fetch(requestURL)
             card.appendChild(image);
             document.querySelector('div.cards').appendChild(card);
 
-        }
+        });
     });
