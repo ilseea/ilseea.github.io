@@ -109,17 +109,18 @@ nav {
 h2 {
     color: rgb(0, 0, 0);
     font-size: 2rem;
-    margin: 3rem;
+    margin: 2px 0px 5px 0;
     font-family: 'Fredoka One', cursive;
     text-shadow: 3px 6px 10px rgb(39, 26, 2);
     -webkit-text-stroke-width: .0009rem;
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
-h4 {
+h3 {
     color: rgb(0, 0, 0);
     font-size: 1.4rem;
     margin: 1rem;
+    font-style: italic;
     font-family: 'Fredoka One', cursive;
     -webkit-text-stroke-width: .0009rem;
     -webkit-text-stroke-color: rgb(255, 255, 255);
@@ -131,9 +132,21 @@ p {
 
 /* ****JSON**** */
 
+div.cards {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 15px 0px rgb(39, 26, 2);
+}
 
-
-
+section {
+    padding: 10px;
+    background-color: rgba(88, 101, 158, 0.3);
+    border: 2px solid rgb(88, 101, 158);
+    text-align: center;
+}
 
 
 

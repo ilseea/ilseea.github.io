@@ -28,14 +28,18 @@ fetch(requestURL)
             let image = document.createElement('img');
 
             name.textContent = town.name;
-            slogan.textContent = town.motto;
-            year.textContent = 'Year Founded:' + ' ' + town.yearFounded;
-            population.textContent = 'Population:' + ' ' + town.currentPopulation;
-            rain.textContent = 'Annual Rain Fall:' + ' ' + town.averageRainfall + ' inches';
-
+            slogan.textContent = `"${town.motto}"`;
+            year.textContent = `Year Founded: ${town.yearFounded}`;
+            population.textContent = `Population: ${town.currentPopulation}`;
+            rain.textContent = `Annual Rain Fall: ${town.averageRainfall} inches`;
 
             image.setAttribute('src', town.photo);
             image.setAttribute('alt', town.name);
+
+
+
+            townpicture.appendChild(image);
+            towncard.appendChild(townpicture);
 
             towndetail.appendChild(name);
             towndetail.appendChild(slogan);
@@ -44,8 +48,8 @@ fetch(requestURL)
             towndetail.appendChild(rain);
             towncard.appendChild(towndetail);
 
-            townpicture.appendChild(image);
-            towncard.appendChild(townpicture);
+            // townpicture.appendChild(image);
+            // towncard.appendChild(townpicture);
 
 
             document.querySelector('div.cards').appendChild(towncard);
