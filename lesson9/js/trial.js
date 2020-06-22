@@ -11,7 +11,7 @@ fetch(requestURL)
             town.name == 'Fish Haven' || town.name == 'Preston' || town.name == 'Soda Springs'));
 
         result.forEach(town => {
-            let towncard = document.createElement('section');
+            let towncard = document.createElement('article');
             towncard.classList.add("towncard");
 
 
