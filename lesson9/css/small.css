@@ -207,12 +207,14 @@ footer a {
 
     article:nth-child(odd) img {
         grid-column: 2;
-        background-color: lawngreen;
+        /* background-color: lawngreen; */
     }
 
     article:nth-child(odd) .towndetail {
         grid-column: 1;
         grid-row: 1;
+        background-color: rgba(230, 57, 70, 0.5);
+
     }
 
 
@@ -224,7 +226,8 @@ footer a {
 
     .towndetail {
         padding: .75rem;
-        background-color: lightseagreen;
+        background-color: rgba(69, 123, 157, 0.8);
+
         margin: 1rem;
     }
 
