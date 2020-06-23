@@ -143,10 +143,12 @@ div.cards {
     text-align: center;
 }
 
+.towncard {
+    background-color: rgba(69, 123, 157, 0.8);
+}
+
 .towndetail {
     padding: .75rem;
-    background-color: rgba(69, 123, 157, 0.8);
-
     /* margin: 1rem; */
 }
 

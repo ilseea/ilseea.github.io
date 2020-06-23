@@ -39,13 +39,16 @@
     div.cards {
         max-width: 90%;
         grid-template-columns: repeat(3, 1fr);
+        margin: auto;
+        box-shadow: 0px 0px 0px 0px;
 
     }
 
     .towncard {
-        align-content: center;
+        /* align-content: center; */
         display: flex;
         flex-direction: column;
+
     }
 
     /* article:nth-child(odd) img {
@@ -53,19 +56,12 @@
     } */
 
     article:nth-child(odd) .towndetail {
-        background-color: rgba(230, 227, 57, 0.5);
+        background-color: transparent;
 
     }
 
     .towndetail {
         padding: 30px;
     }
-
-    /* .townpicture img {
-        width: 100%;
-        height: auto;
-        padding: 0;
-    } */
-
 
 }
