@@ -1,4 +1,5 @@
-@media only screen and (min-width: 43.5em) {
+@media only screen and (min-width: 600px) {
+
 
     .navigation {
         display: flex;
@@ -18,36 +19,60 @@
         display: none;
     }
 
-    /* 
-    h1 {
-        font-size: 2.7rem;
-    } */
+    /* STYLES HERE */
+
+    div.cards {
+        grid-template-columns: 1fr, 1fr;
+    }
 
     h2 {
-        font-size: 3rem;
-    }
-
-    h4 {
         font-size: 2rem;
+        width: 150px;
     }
 
-    .gallery {
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: larger;
+    }
+
+    section {
+        max-width: 500px;
+        margin: .5rem auto;
+    }
+
+    article {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
+    }
+
+    article:nth-child(odd) img {
+        grid-column: 2;
+    }
+
+    article:nth-child(odd) .towndetail {
+        grid-column: 1;
+        grid-row: 1;
+        background-color: rgba(230, 57, 70, 0.5);
+
+    }
+
+    article:nth-child(odd) .towndetail h2 {
+        width: 250px;
+    }
+
+
+    .townpicture img {
         width: 100%;
-        margin: auto;
-        grid-column-start: 10;
-
+        padding: 0;
     }
 
-    .gallery img {
-        width: 320px;
-        /* margin: 0rem; */
+    .towndetail {
+        padding: .75rem;
+        background-color: rgba(69, 123, 157, 0.8);
     }
 
-    figcaption {
-        /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
-        width: 320px;
-    }
 
 }
