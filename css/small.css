@@ -34,6 +34,7 @@ header img {
 main {
     font-family: 'Montserrat Alternates', sans-serif;
     padding: 1rem;
+
 }
 
 h2 {
@@ -61,6 +62,7 @@ footer a {
 
 ul {
     margin: 0 auto;
+    line-height: 2rem;
 }
 
 .last {
