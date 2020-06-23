@@ -59,4 +59,7 @@
         padding: 30px;
     }
 
+    .info img {
+        margin: 0 150px 10px 0px;
+    }
 }
