@@ -23,6 +23,7 @@
 
     div.cards {
         grid-template-columns: 1fr, 1fr;
+        /*this is from Brother Blazzards example */
     }
 
     h2 {
