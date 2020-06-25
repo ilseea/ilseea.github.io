@@ -1,73 +1,36 @@
-function BackgroundNode({
-    node,
-    loadedClassName
-}) {
-    let src = node.getAttribute('data-background-image-url');
-    let show = (onComplete) => {
-        requestAnimationFrame(() => {
-            node.style.backgroundImage = `url(${src})`
-            node.classList.add(loadedClassName);
-            onComplete();
-        })
-    }
+const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=1d982ee27d3310460b15a19c65fa132b';
+// 'api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=1d982ee27d3310460b15a19c65fa132b'
 
-    return {
-        node,
+fetch(apiURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+        console.log(jsObject);
+    });
 
-        // onComplete is called after the image is done loading.
-        load: (onComplete) => {
-            let img = new Image();
-            img.onload = show(onComplete);
-            img.src = src;
-        }
-    }
-}
+// .then(function (jsonObject) {
+//     const prophets = jsonObject['prophets'];
+//     // const utah = prophets.filter(prophet => (prophet.birthplace == "Utah"));
+//     // then change "prophets" to "Utah" in following "forEach"
+//     prophets.forEach(prophet => {
+//         let card = document.createElement('section');
+//         let h2 = document.createElement('h2');
+//         let db = document.createElement('p');
+//         let pb = document.createElement('p');
+//         let image = document.createElement('img');
 
-let defaultOptions = {
-    selector: '[data-background-image-url]',
-    loadedClassName: 'loaded'
-}
+//         // h2.textContent = prophet.name + ' ' + prophet.lastname; (now can add words before `mark below)
+//         // if I want to add <strong> use .innerHTML
+//         h2.textContent = `${prophet.name} ${prophet.lastname}`;
+//         db.textContent = `Date of Birth: ${prophet.birthdate}`;
+//         pb.textContent = 'Place of Birth:' + ' ' + prophet.birthplace;
+//         image.setAttribute('src', prophet.imageurl);
+//         image.setAttribute('alt', prophet.name + ' ' + prophet.lastname + '- ' + prophet.order);
 
-function BackgroundLazyLoader({
-    selector,
-    loadedClassName
-} = defaultOptions) {
-    let nodes = [].slice.apply(document.querySelectorAll(selector))
-        .map(node => new BackgroundNode({
-            node,
-            loadedClassName
-        }));
+//         card.appendChild(h2);
+//         card.appendChild(db);
+//         card.appendChild(pb);
+//         card.appendChild(image);
+//         document.querySelector('div.cards').appendChild(card);
 
-    let callback = (entries, observer) => {
-        entries.forEach(({
-            target,
-            isIntersecting
-        }) => {
-            if (!isIntersecting) {
-                return;
-            }
-
-            let obj = nodes.find(it => it.node.isSameNode(target));
-
-            if (obj) {
-                obj.load(() => {
-                    // Unobserve the node:
-                    observer.unobserve(target);
-                    // Remove this node from our list:
-                    nodes = nodes.filter(n => !n.node.isSameNode(target));
-
-                    // If there are no remaining unloaded nodes,
-                    // disconnect the observer since we don't need it anymore.
-                    if (!nodes.length) {
-                        observer.disconnect();
-                    }
-                });
-            }
-        })
-    };
-
-    let observer = new IntersectionObserver(callback);
-    nodes.forEach(node => observer.observe(node.node));
-};
-
-BackgroundLazyLoader();
+//     });
+// });
