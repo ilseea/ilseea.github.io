@@ -1,8 +1,8 @@
-let temp = document.getElementById('alto').textContent;
-let wind = document.getElementById('speed').textContent;
+let temp = document.getElementById('high-temp').textContent;
+let wind = document.getElementById('wind-speed').textContent;
 
-document.getElementById("chill").innerHTML =
-    "Windchill: " + frio() + "&#8457;";
+document.getElementById("windchill").innerHTML =
+    frio() + "&#8457;";
 
 function frio() {
     return (Math.round((35.74 + 0.6215 * temp) -
