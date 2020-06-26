@@ -7,8 +7,7 @@ fetch(apiURL)
         console.log(jsObject);
 
         document.getElementById('current-temp').textContent = jsObject.main.temp;
-        document.getElementById('high-temp').textContent = jsObject.main.temp;
-
+        document.getElementById('high-temp').textContent = jsObject.main.temp_max;
         // document.getElementById('windchill').textContent = jsObject.main
         document.getElementById('wind-speed').textContent = jsObject.wind.speed;
         document.getElementById('humidity').textContent = jsObject.main.humidity;
