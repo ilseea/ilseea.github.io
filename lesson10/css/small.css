@@ -245,7 +245,9 @@ p {
 /* FORECAST */
 
 .forecast {
-    display: none;
+    display: block;
+
+    /* display: none; */
 }
 
 table,
