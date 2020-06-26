@@ -122,12 +122,9 @@ nav {
 .container>div {
 
     flex: 100%;
-    /* max-width: 1000px; */
     height: auto;
     padding: 0 10px;
-    /* margin: 1.5em; */
     margin: auto;
-
     text-align: center;
     vertical-align: middle;
     font-family: 'Indie Flower', cursive;

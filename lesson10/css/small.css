@@ -19,11 +19,12 @@ html {
 }
 
 body {
-    background-color: rgb(241, 250, 238);
-    /* max-width: 1200px; */
+    background: rgba(200, 200, 200, 0.3);
+    max-width: 1100px;
     margin: 2em auto;
 }
 
+/* *****Banner/Pancakes***** */
 #banner {
     width: 100%;
     padding: 30px 0;
@@ -33,7 +34,6 @@ body {
     border: 10px solid rgb(255, 230, 0);
     font-size: 24px;
     border-style: dotted;
-
 }
 
 #pancakes {
@@ -42,11 +42,11 @@ body {
     font-size: 34px;
 }
 
+/* ****HEADER**** */
 header {
     background-color: rgb(29, 53, 87);
     display: flex;
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
-    /* margin: 0 auto; */
     letter-spacing: 0.1em;
     align-items: center;
     justify-content: center;
@@ -80,26 +80,13 @@ header img {
 
 }
 
-h2 {
-    color: rgb(0, 0, 0);
-    font-size: 2rem;
-    margin: 3rem;
-    font-family: 'Fredoka One', cursive;
-    text-shadow: 3px 6px 10px rgb(39, 26, 2);
-    -webkit-text-stroke-width: .0009rem;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-}
+
 
 /*navigation css*/
 nav {
     margin: 0 auto;
-    /*prefer old*/
-    /* max-width: 1160px; */
-    /*pointless?*/
     background-color: rgb(69, 123, 157);
-    /*none of below in example*/
     font-family: 'Berkshire Swash', cursive;
-
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
 }
 
@@ -141,20 +128,6 @@ nav {
     display: block;
 }
 
-
-h4 {
-    color: rgb(0, 0, 0);
-    font-size: 1.4rem;
-    margin: 1rem;
-    font-family: 'Fredoka One', cursive;
-    -webkit-text-stroke-width: .0009rem;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-}
-
-p {
-    font-family: 'Indie Flower', cursive;
-}
-
 /* CONTAINER= (HERO, FORECAST, ARTICLE, PAGE) */
 
 .container {
@@ -163,15 +136,18 @@ p {
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: center;
+    margin-top: 40px;
+    ~~~~~~~~~
 }
 
 .container>div {
 
     flex: 100%;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     height: auto;
     padding: 0 10px;
     margin: 1.5em;
+    /* auto in example?? */
     text-align: center;
     vertical-align: middle;
     font-family: 'Indie Flower', cursive;
@@ -182,7 +158,45 @@ p {
 .forecast,
 .article {
     background-color: rgb(168, 218, 220);
-    box-shadow: 3px 8px 15px rgb(39, 26, 2);
+}
+
+.article h2,
+.page h2 {
+    color: black;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    margin: 20px 0px 20px 0;
+}
+
+/* WORDS */
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    /* font-size: 2rem; */
+    margin: 2px 0px 5px 0;
+    /* margin: 3rem; */
+    font-family: 'Berkshire Swash', cursive;
+    /* font-family: 'Fredoka One', cursive; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px 50px 30px 5px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    margin: 1rem;
+    font-family: 'Fredoka One', cursive;
+    font-style: italic;
+
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
 }
 
 /* HERO (subclasses/ids-STATS )*/
@@ -190,12 +204,11 @@ p {
 
 .hero {
     position: relative;
-    /* max-width: 1000px; */
 }
 
 .hero img {
-    border: 18px solid rgb(168, 218, 220);
-    box-shadow: 3px 8px 15px rgb(39, 26, 2);
+    border: thick double rgb(168, 218, 220);
+    /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
     width: 100%;
     height: auto;
 
@@ -214,10 +227,18 @@ p {
     text-align: left;
 }
 
-.stats h3,
+.stats h3 {
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    margin: 1rem;
+    font-style: italic;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 3px;
+}
+
 .stats p {
     font-size: 1rem;
-    font-family: 'berkshire swash';
+    font-family: 'Indie Flower', cursive;
 }
 
 
@@ -252,49 +273,32 @@ td {
 
 /* ARTICLE */
 
-.article img {
+/* .article img {
     width: 55%;
     height: auto;
-}
+} */
 
-/* PAGE (subclasses/ids-INFO, END, TINY) */
+/* CONTACT INFO) */
 
 .info img {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* width: 50%; */
+    width: 30%;
     height: auto;
     float: right;
-    /* display: block; */
-    margin: 0 0 1.3rem 5.3rem;
+    margin: 0 20px 10px 0px;
 }
 
-.info {
+/* .info {
     margin-left: 3rem;
-}
+} */
 
-.info h5,
 .info p {
-    text-align: left;
     grid-row-start: 2;
 }
 
-footer {
-    text-align: center;
-    background-color: rgb(29, 53, 87);
-    color: white;
-    padding: 1.4em;
-    font-size: 1.2rem;
-}
 
-footer a {
-    color: white;
-}
-
-.last {
-    color: rgb(234, 248, 33);
-}
-
+/* SOCIAL MEDIA ICONS */
 .fa {
     /* padding: 20px; */
     /* font-size: 30px; */
@@ -310,30 +314,44 @@ footer a {
 
 .fa-facebook {
     /* background: #3B5998; */
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 20px;
     font-size: 30px;
 }
 
 .fa-linkedin {
     /* background: #007bb5; */
-    color: white;
+    color: black;
     padding: 20px;
     font-size: 30px;
 }
 
 .fa-youtube {
     /* background: #bb0000; */
-    color: white;
+    color: black;
     padding: 20px;
     font-size: 30px;
 }
 
 .fa-instagram {
     /* background: #125688; */
-    color: white;
+    color: black;
     padding: 20px;
     font-size: 30px;
+}
+
+/* ****FOOTER**** */
+footer {
+    text-align: center;
+    background-color: rgb(29, 53, 87);
+    color: white;
+    padding: 1.4em;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+footer a {
+    color: white;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

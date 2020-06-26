@@ -15,8 +15,8 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <!-- <link rel="stylesheet" href="css/medium.css"> -->
+    <!-- <link rel="stylesheet" href="css/large.css"> -->
 </head>
 
 
@@ -52,103 +52,112 @@
         </ul>
     </nav>
 
+    <main>
+        <div class="container">
+            <div class="article"></div>
+            <h2> Preston Idaho</h2>
+        </div>
+        </div>
 
-    <h2> Preston Idaho</h2>
-
-    <div class="hero">
-        <figure class="myphoto">
-            <img src="/lesson10/images/fields.jpg" alt="Sunshine in lazy fields." sizes="50vw" srcset="/lesson10/images/fieldsS.jpg 250w,
+        <div class="hero">
+            <figure class="myphoto">
+                <img src="/lesson10/images/fields.jpg" alt="Sunshine in lazy fields." sizes="50vw" srcset="/lesson10/images/fieldsS.jpg 250w,
             /lesson10/images/fieldsM.jpg 400w,
             /lesson10/fields.jpg 600w">
 
-        </figure>
-        <section class="stats">
-            <h3>Weather Summary</h3>
-            <p>Current: <span id="weather-desc"></span> </p>
-            <p>Temperature: <span id="current-temp"></span> &deg;F</p>
-            <p>Expected High: <span id="high-temp"></span> &deg;F</p>
-            <p>Humidity: <span id="humidity"></span> %</p>
-            <p>Wind Speed: <span id="wind-speed"></span> mph</p>
-            <p>Windchill: <span id="windchill"></span> &deg;F</p>
-            <!-- <p>High: <span id="alto">46</span> &#8457; -->
-            <!-- <br> <span id="chill"> </span>
+            </figure>
+            <section class="stats">
+                <h3>Weather Summary</h3>
+                <p>Current: <span id="weather-desc"></span> </p>
+                <p>Temperature: <span id="current-temp"></span> &deg;F</p>
+                <p>Expected High: <span id="high-temp"></span> &deg;F</p>
+                <p>Humidity: <span id="humidity"></span> %</p>
+                <p>Wind Speed: <span id="wind-speed"></span> mph</p>
+                <p>Windchill: <span id="windchill"></span> &deg;F</p>
+                <!-- <p>High: <span id="alto">46</span> &#8457; -->
+                <!-- <br> <span id="chill"> </span>
             <br> Humidity: <span id="soggy">69%</span>
             <br>Wind Speed: <span id="speed">15</span> mph </p> -->
 
-        </section>
-    </div>
-    <div class="container">
-
-        <div class="forecast">
-            <h4> 5 Day Forecast</h4>
-
-            <table>
-                <tr>
-                    <!-- <th>Sun</th> -->
-                    <!-- <th>Mon</th> -->
-                    <th>Tues</th>
-                    <th>Weds</th>
-                    <th>Thurs</th>
-                    <th>Fri</th>
-                    <th>Sat</th>
-                </tr>
-                <tr>
-                    <!-- <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 78&#8457;</td> -->
-                    <!-- <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 83&#8457;</td> -->
-                    <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 87&#8457;</td>
-                    <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 91&#8457;</td>
-                    <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 92&#8457;</td>
-                    <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 88&#8457;</td>
-                    <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 83&#8457;</td>
-                </tr>
-            </table>
-
-
+            </section>
         </div>
-        <div class="article">
-            <h4> Bubble-Wars at Porter Park! </h4>
-            <img src="/lesson6/images/bubbles.jpg" alt="Children playing with bubbles.">
-            <h3>“Not all treasure is silver and gold, mate.”
-                ― Captain Jack Sparrow</h3>
-            <br>
-            <p>“What we love determines what we seek. What we seek determines what we think and do. What we think
-                and do determines who we are — and who we will become.”
-                ― Dieter F. Uchtdorf</p>
-        </div>
+        <div class="container">
+            <div class="forecast">
+                <h2> 5 Day Forecast</h2>
+
+                <table>
+                    <tr>
+                        <!-- <th>Sun</th> -->
+                        <!-- <th>Mon</th> -->
+                        <th>Tues</th>
+                        <th>Weds</th>
+                        <th>Thurs</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                    <tr>
+                        <!-- <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 78&#8457;</td> -->
+                        <!-- <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 83&#8457;</td> -->
+                        <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 87&#8457;</td>
+                        <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 91&#8457;</td>
+                        <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 92&#8457;</td>
+                        <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 88&#8457;</td>
+                        <td> <img src="/lesson6/images/day.png" alt="sun"> <br> 83&#8457;</td>
+                    </tr>
+                </table>
 
 
-        <div class="page">
-            <h4> Contact Information</h4>
-
-            <div class="info">
-
-                <img src="/lesson6/images/map.PNG" alt="Preston map.">
-                <h5>Weather Hearties</h5>
-
-                <p> 2508 Bear Lake Rd.
-                    <br>Preston, ID</p>
-
-                <p>
-                    <i class="fa fa-phone"></i>
-                    208.964.4961
-                </p>
-
-                <p>
-                    <i class="fa fa-envelope"></i>
-                    weatherhearties.com
-                </p>
-                <div>
-                    <a href="https://www.facebook.com/" class="fa fa-facebook"> </a>
-                    <a href="https://www.linkedin.com/" class="fa fa-linkedin"> </a>
-                    <a href="https://www.youtube.com/watch?v=y0gcFwKlsf0&t=2s" class="fa fa-youtube"> </a>
-                    <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"> </a>
+            </div>
+            <div class="container">
+                <div class="article">
+                    <h2> It's Pirate Season Again! </h2>
+                    <img src="/lesson9/images/pretend.jpg" alt="Pirate Imagination.">
+                    <h3>“Not all treasure is silver and gold, mate.”
+                        ― Captain Jack Sparrow</h3>
+                    <br>
+                    <p>“What we love determines what we seek. What we seek determines what we think and do. What we
+                        think
+                        and do determines who we are — and who we will become.”
+                        ― Dieter F. Uchtdorf</p>
                 </div>
             </div>
 
-        </div>
 
-    </div>
-    <!-- </div> -->
+            <div class="container">
+
+                <div class="page">
+                    <h2> Contact Information</h2>
+
+                    <div class="info">
+
+                        <img src="/lesson9/images/area.jpg" alt="Pirate Imagination.">
+                        <h3>Weather Hearties</h3>
+
+                        <p> 2508 Bear Lake Rd.
+                            <br>Preston, ID</p>
+
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            208.964.4961
+                        </p>
+
+                        <p>
+                            <i class="fa fa-envelope"></i>
+                            weatherhearties.com
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" class="fa fa-facebook"> </a>
+                            <a href="https://www.linkedin.com/" class="fa fa-linkedin"> </a>
+                            <a href="https://www.youtube.com/watch?v=y0gcFwKlsf0&t=2s" class="fa fa-youtube"> </a>
+                            <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"> </a>
+                        </div>
+                        <a href="/lesson9/wireframes.html">Wireframes</a>
+                    </div>
+
+                </div>
+            </div>
+
+    </main>
     <footer>
         <p> &copy;
             Weather Hearties | Attributions
@@ -157,7 +166,7 @@
 
     </footer>
 
-    <script src="js/prestonapi.js"></script>
+    <!-- <script src="js/prestonapi.js"></script> -->
     <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/windchill.js"></script>
