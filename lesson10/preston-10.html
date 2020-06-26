@@ -64,11 +64,15 @@
         </figure>
         <section class="stats">
             <h3>Weather Summary</h3>
-            <p>Currently: <span id="current">Sunny</span>
-                <br>High: <span id="alto">46</span> &#8457;
-                <br> <span id="chill"> </span>
-                <br> Humidity: <span id="soggy">69%</span>
-                <br>Wind Speed: <span id="speed">15</span> mph </p>
+            <p>Current: <span id="current-temp"></span> &deg;F</p>
+            <p>Windchill: <span id="current-temp"></span> &deg;F</p>
+            <p>Humidity: <span id="humidity"></span> %</p>
+            <p>Wind Speed: <span id="wind-speed"></span> mph</p>
+
+            <!-- <p>High: <span id="alto">46</span> &#8457; -->
+            <!-- <br> <span id="chill"> </span>
+            <br> Humidity: <span id="soggy">69%</span>
+            <br>Wind Speed: <span id="speed">15</span> mph </p> -->
 
         </section>
     </div>
@@ -154,12 +158,13 @@
     <!-- </div> -->
     <footer>
         <p> &copy;
-            <!--<span id="currentYr"></span>--> Weather Hearties | Attributions
+            Weather Hearties | Attributions
             | <a href="https://ilseea.github.io/">Ilse Amezquita Talwar</a> </p>
         <span id="dailydate"></span>
 
     </footer>
 
+    <script src="js/weatherapi.js"></script>
     <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/windchill.js"></script>
