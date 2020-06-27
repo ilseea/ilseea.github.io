@@ -3,7 +3,7 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPI
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        // console.log(jsObject);
 
         const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
 
@@ -23,7 +23,6 @@ fetch(apiURL)
 
             day++;
         });
-        // can use ARRAY
 
     });
 

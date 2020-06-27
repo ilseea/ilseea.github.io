@@ -12,16 +12,6 @@ fetch(weatherURL)
 
         document.getElementById('wind-speed').textContent = jsObject.wind.speed;
         document.getElementById('humidity').textContent = jsObject.main.humidity;
-
-        // const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-        // const desc = jsObject.weather[0].description; // note reference of weather array
-        // document.getElementById('imagesrc').textContent = imagesrc; // informational spec only
-        // document.getElementById('icon').setAttribute('src', imagesrc); // focus on the setAttribute() method
-        // document.getElementById('icon').setAttribute('alt', desc);
-
-        // icon.setAttribute('src', imagesrc);
-        // icon.setAttribute('alt', desc);
-
     });
 
 const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=1d982ee27d3310460b15a19c65fa132b&units=imperial';
@@ -29,7 +19,7 @@ const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473
 fetch(forecastURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        // console.log(jsObject);
 
         const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
 
@@ -44,12 +34,13 @@ fetch(forecastURL)
             document.getElementById(`forecast${day+1}`).textContent = forecast.main.temp;
             // document.getElementById(`forecast${day+1}`).textContent = forecast.weather.icon;
             document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
+            document.getElementById(`icon${day+1}`).src = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
+            document.getElementById(`icon${day+1}`).alt = 'A picture of ' + forecast.weather[0].main;
+
             day++;
         });
-        // can use ARRAY
 
     });
-
 // THIS IS FROM THE LAB VIDEO WK10
 // const currentTemp = document.querySelector('#current-temp');
 // const icon = document.querySelector('img');
