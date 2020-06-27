@@ -150,28 +150,32 @@ nav {
     /* auto in example?? */
     text-align: center;
     vertical-align: middle;
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.4rem;
 }
 
-.container .page,
-/* .forecast, */
-.article {
+.page {
     background-color: rgb(168, 218, 220);
 }
 
-.article h2,
-.page h2 {
+/* */
+h2 {
     color: black;
-    width: 100%;
-    padding: 20px;
-    height: auto;
-    margin: 20px 0px 20px 0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    /* width: 100%; */
+    padding: 70px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 90%;
+    background: rgb(168, 218, 220);
+    border-radius: 80%;
+    margin: 30px;
+    margin-top: -30px;
 }
 
 /* WORDS */
 
-h2 {
+h3 {
     color: rgb(0, 0, 0);
     font-size: xx-large;
     /* font-size: 2rem; */
@@ -186,7 +190,8 @@ h2 {
     height: auto;
 }
 
-h3 {
+
+h4 {
     color: rgb(0, 0, 0);
     font-size: 1.4rem;
     margin: 1rem;
@@ -197,6 +202,7 @@ h3 {
 
 p {
     font-family: 'Indie Flower', cursive;
+    font-size: 1.4rem;
 }
 
 /* HERO (subclasses/ids-STATS )*/
@@ -225,9 +231,10 @@ p {
     box-shadow: 0 0 30px #111;
     opacity: .8;
     text-align: left;
+    border-radius: 15px 50px 30px 5px;
 }
 
-.stats h3 {
+.stats h4 {
     color: rgb(0, 0, 0);
     font-size: 1.4rem;
     margin: 1rem;
@@ -245,6 +252,7 @@ p {
 /* FORECAST */
 .forecast {
     display: block;
+    /* display: none; */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -252,11 +260,9 @@ p {
     width: 700px;
 }
 
-.forecast h2 {
+.forecast h3 {
     background-color: transparent;
     font-family: 'Indie Flower', cursive;
-
-    /* box-shadow: 0 0 10px #111; */
 }
 
 table {

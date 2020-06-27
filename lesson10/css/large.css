@@ -36,15 +36,6 @@
         font-family: 'berkshire swash';
     }
 
-    .container .forecast {
-        display: block;
-    }
-
-
-    table {
-        width: 100%;
-    }
-
     h1 {
         font-size: 3.3rem;
     }
