@@ -66,7 +66,6 @@ header img {
 
 .headings h1 {
     color: rgb(0, 0, 0);
-    /* font-family: 'Fredoka One', cursive; */
     font-size: 2.7rem;
     margin: 0 0 10px 10px;
     font-family: 'Berkshire Swash', cursive;
@@ -80,7 +79,6 @@ header img {
     display: block;
     font-style: italic;
     color: rgb(245, 245, 245, 0.8);
-    /* margin-left: -5px; */
     font-family: 'Fredoka One', cursive;
     font-size: small;
     text-align: center;
@@ -115,8 +113,6 @@ nav {
 }
 
 .navigation a:hover {
-    background-color: rgba(230, 57, 70, 0.4);
-    /* font-family: 'Indie Flower', cursive; */
     font-size: 17px;
     font-weight: 800;
     color: black;
@@ -142,7 +138,7 @@ nav {
     display: block;
 }
 
-/* CONTAINER= (HERO, FORECAST, ARTICLE, PAGE) */
+/* CONTAINER= (HERO, FORECAST PAGE) */
 
 .container {
     display: flex;
@@ -154,13 +150,10 @@ nav {
 }
 
 .container>div {
-
     flex: 100%;
-    /* max-width: 1000px; */
     height: auto;
     padding: 0 10px;
     margin: 1.5em;
-    /* auto in example?? */
     text-align: center;
     vertical-align: middle;
 }
@@ -175,7 +168,7 @@ nav {
     margin: 0 20px 10px 0px;
 }
 
-/* */
+/* FONTS*/
 h2 {
     color: black;
     font-family: 'Fredoka One', cursive;
@@ -186,8 +179,7 @@ h2 {
     height: 90%;
     background-color: rgb(69, 123, 157);
     border-radius: 80%;
-    margin: 30px;
-    margin-top: -30px;
+    margin: -30px 0 30px 0;
 }
 
 /* WORDS */
@@ -195,11 +187,8 @@ h2 {
 h3 {
     color: rgb(0, 0, 0);
     font-size: xx-large;
-    /* font-size: 2rem; */
     margin: 2px 0px 5px 0;
-    /* margin: 3rem; */
     font-family: 'Berkshire Swash', cursive;
-    /* font-family: 'Fredoka One', cursive; */
     background-color: rgb(255, 255, 255);
     border-radius: 15px 50px 30px 5px;
     padding: 20px;
@@ -253,7 +242,6 @@ p {
     margin: 1rem;
     font-style: italic;
     font-family: 'Fredoka One', cursive;
-
     letter-spacing: 2px;
 }
 
@@ -270,20 +258,17 @@ p {
 #wind-speed,
 #windchill {
     font-family: 'Fredoka One', cursive;
-    /* font-style: italic; */
     color: white;
 }
 
 
 /* FORECAST */
 .forecast {
-    /* display: block; */
     display: none;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     background-color: transparent;
-    width: 700px;
 }
 
 .forecast h3 {
@@ -297,7 +282,6 @@ table {
 }
 
 table th {
-    /* background-color: rgba(168, 218, 220, 0.411); */
     background-color: rgb(228, 106, 116);
     color: black;
     font-family: 'Berkshire Swash', cursive;
@@ -325,55 +309,41 @@ table td {
 
 }
 
-/* .info {
-    margin-left: 3rem;
-} */
-
 .info p {
     grid-row-start: 2;
+}
+
+.page p {
+    line-height: 80%;
+}
+
+.contact {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: 30px;
 }
 
 
 /* SOCIAL MEDIA ICONS */
 .fa {
-    /* padding: 20px; */
-    /* font-size: 30px; */
     width: 30px;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
-    /* border-radius: 50%; */
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.3;
 }
 
-.fa-facebook {
-    /* background: #3B5998; */
+.fa-facebook,
+.fa-linkedin,
+.fa-youtube,
+.fa-instagram {
     color: rgb(0, 0, 0);
     padding: 20px;
     font-size: 30px;
-}
-
-.fa-linkedin {
-    /* background: #007bb5; */
-    color: black;
-    padding: 20px;
-    font-size: 30px;
-}
-
-.fa-youtube {
-    /* background: #bb0000; */
-    color: black;
-    padding: 20px;
-    font-size: 30px;
-}
-
-.fa-instagram {
-    /* background: #125688; */
-    color: black;
-    padding: 20px;
-    font-size: 30px;
+    margin-top: 40px;
 }
 
 /* ****FOOTER**** */
