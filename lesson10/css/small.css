@@ -44,18 +44,19 @@ body {
 
 /* ****HEADER**** */
 header {
-    background-color: rgb(29, 53, 87);
+    background-color: rgba(29, 53, 87, 0.925);
     display: flex;
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
     letter-spacing: 0.1em;
     align-items: center;
     justify-content: center;
+    padding: 30px;
 }
 
 header img {
-    width: 130px;
+    width: 150px;
     height: auto;
-    margin: 5px 0 5px 0;
+    margin: 3px -25px 0 -25px;
 }
 
 .headings {
@@ -64,29 +65,33 @@ header img {
 }
 
 .headings h1 {
-    color: rgb(228, 106, 116);
-    font-family: 'Fredoka One', cursive;
-    margin: 0 0 0 10px;
-    -webkit-text-stroke-width: .009rem;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-
+    color: rgb(0, 0, 0);
+    /* font-family: 'Fredoka One', cursive; */
+    font-size: 2.7rem;
+    margin: 0 0 10px 10px;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .m {
-    /* font-style: italic; */
-    color: rgb(245, 245, 245, 0.8);
-    margin-left: 5px;
-    font-family: 'Berkshire Swash', cursive;
-
+    display: none;
 }
 
-
+.s {
+    display: block;
+    font-style: italic;
+    color: rgb(245, 245, 245, 0.8);
+    /* margin-left: -5px; */
+    font-family: 'Fredoka One', cursive;
+    font-size: small;
+    text-align: center;
+    text-transform: capitalize;
+}
 
 /*navigation css*/
 nav {
     margin: 0 auto;
     background-color: rgb(69, 123, 157);
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Fredoka One', cursive;
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
 }
 
@@ -95,9 +100,6 @@ nav {
     padding: 0;
 }
 
-.navigation li:first-child {
-    display: block;
-}
 
 .navigation li {
     display: none;
@@ -114,10 +116,22 @@ nav {
 
 .navigation a:hover {
     background-color: rgba(230, 57, 70, 0.4);
-    font-family: 'Indie Flower', cursive;
+    /* font-family: 'Indie Flower', cursive; */
     font-size: 17px;
     font-weight: 800;
     color: black;
+    text-transform: uppercase;
+}
+
+.navigation li:first-child {
+    display: block;
+    background-color: rgb(228, 106, 116);
+    text-transform: lowercase;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.navigation li:first-child a:hover {
+    text-transform: lowercase;
 }
 
 .active {
@@ -137,7 +151,6 @@ nav {
     align-content: stretch;
     justify-content: center;
     margin-top: 40px;
-    ~~~~~~~~~
 }
 
 .container>div {
@@ -156,18 +169,22 @@ nav {
     background-color: rgb(168, 218, 220);
 }
 
+.news img {
+    width: 100%;
+    height: auto;
+    margin: 0 20px 10px 0px;
+}
+
 /* */
 h2 {
     color: black;
     font-family: 'Fredoka One', cursive;
-    font-size: 3rem;
-    /* width: 100%; */
+    font-size: 2rem;
     padding: 70px;
-    text-align: center;
+    text-align: left;
     background-color: rgb(255, 255, 255);
-    width: 60%;
     height: 90%;
-    background: rgb(168, 218, 220);
+    background-color: rgb(69, 123, 157);
     border-radius: 80%;
     margin: 30px;
     margin-top: -30px;
@@ -213,8 +230,6 @@ p {
 }
 
 .hero img {
-    border: thick double rgb(168, 218, 220);
-    /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
     width: 100%;
     height: auto;
 
@@ -222,37 +237,48 @@ p {
 
 .stats {
     position: absolute;
-    /*Maybe change this to the new flex position, so it can migrate better as it changes views*/
     top: 10px;
     left: 14px;
-    background: radial-gradient(#eee, #E63946);
-    border: 1px solid #000;
-    padding: .5rem;
-    box-shadow: 0 0 30px #111;
-    opacity: .8;
-    text-align: left;
-    border-radius: 15px 50px 30px 5px;
+    background-color: rgb(228, 106, 116);
+    padding: .9rem;
+    box-shadow: 0 0 10px rgb(249, 255, 170);
+    opacity: .9;
+    text-align: center;
+    border-radius: 80%;
 }
 
 .stats h4 {
     color: rgb(0, 0, 0);
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin: 1rem;
     font-style: italic;
     font-family: 'Fredoka One', cursive;
-    letter-spacing: 3px;
+
+    letter-spacing: 2px;
 }
 
 .stats p {
     font-size: 1rem;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(43, 43, 43);
+}
+
+#weather-desc,
+#current-temp,
+#high-temp,
+#humidity,
+#wind-speed,
+#windchill {
+    font-family: 'Fredoka One', cursive;
+    /* font-style: italic; */
+    color: white;
 }
 
 
 /* FORECAST */
 .forecast {
-    display: block;
-    /* display: none; */
+    /* display: block; */
+    display: none;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -286,36 +312,6 @@ table td {
     width: 100%;
 }
 
-/* table,
-td,
-th {
-    border: 1px solid #ddd;
-    text-align: center;
-} */
-
-/* table {
-    border-collapse: collapse;
-    width: 40%;
-
-} */
-
-/* th {
-    background-color: rgb(49, 178, 32);
-    padding: 5px;
-} */
-
-/* td {
-    background-color: white;
-    padding: 10px;
-} */
-
-/* ARTICLE */
-
-/* .article img {
-    width: 55%;
-    height: auto;
-} */
-
 /* CONTACT INFO) */
 
 .info img {
@@ -325,6 +321,8 @@ th {
     height: auto;
     float: right;
     margin: 0 20px 10px 0px;
+    box-shadow: 0 0 10px rgb(249, 255, 170);
+
 }
 
 /* .info {

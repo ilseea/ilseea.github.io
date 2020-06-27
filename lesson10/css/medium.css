@@ -18,43 +18,42 @@
         display: none;
     }
 
-    .article img {
+    /* .article img {
         float: right;
         margin-left: 1.3rem;
         width: 40%;
-    }
+    } */
 
 
-    .stats {
+    /* .stats {
         top: 25px;
         left: 50px;
         padding: 1.5rem;
+    } */
 
-    }
-
-    .stats h3,
+    /* .stats h3,
     .stats p {
         font-size: 1.4rem;
-    }
+    } */
 
-    .forecast {
+    /* .forecast {
         display: block;
-    }
+    } */
 
-    table {
+    /* table {
         width: 60%;
-    }
+    } */
 
-    h1 {
+    /* h1 {
         font-size: 2.7rem;
-    }
+    } */
 
-    h2 {
+    /* h2 {
         font-size: 3rem;
-    }
+    } */
 
-    h4 {
+    /* h4 {
         font-size: 2rem;
-    }
+    } */
 
 }
