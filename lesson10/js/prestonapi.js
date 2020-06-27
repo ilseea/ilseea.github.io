@@ -25,7 +25,7 @@ fetch(forecastURL)
 
         console.log(fivedayforecast);
 
-        const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        const weekdays = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 
         let day = 0;
 

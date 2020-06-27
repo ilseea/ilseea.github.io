@@ -155,7 +155,7 @@ nav {
 }
 
 .container .page,
-.forecast,
+/* .forecast, */
 .article {
     background-color: rgb(168, 218, 220);
 }
@@ -243,35 +243,65 @@ p {
 
 
 /* FORECAST */
-
 .forecast {
     display: block;
-
-    /* display: none; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: transparent;
+    width: 700px;
 }
 
-table,
+.forecast h2 {
+    background-color: transparent;
+    font-family: 'Indie Flower', cursive;
+
+    /* box-shadow: 0 0 10px #111; */
+}
+
+table {
+    box-shadow: 0 0 10px #111;
+    font-size: large;
+}
+
+table th {
+    /* background-color: rgba(168, 218, 220, 0.411); */
+    background-color: rgb(228, 106, 116);
+    color: black;
+    font-family: 'Berkshire Swash', cursive;
+    padding: 0.3rem;
+}
+
+table td {
+    font-family: 'Fredoka One', cursive;
+    margin: 1em;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 2.1em;
+    width: 100%;
+}
+
+/* table,
 td,
 th {
     border: 1px solid #ddd;
     text-align: center;
-}
+} */
 
-table {
+/* table {
     border-collapse: collapse;
     width: 40%;
 
-}
+} */
 
-th {
-    background-color: lightseagreen;
+/* th {
+    background-color: rgb(49, 178, 32);
     padding: 5px;
-}
+} */
 
-td {
+/* td {
     background-color: white;
     padding: 10px;
-}
+} */
 
 /* ARTICLE */
 
