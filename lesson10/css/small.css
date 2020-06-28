@@ -44,7 +44,7 @@ body {
 
 /* ****HEADER**** */
 header {
-    background-color: rgb(29, 53, 87);
+    background-color: rgba(29, 53, 87, 0.918);
     display: flex;
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
     letter-spacing: 0.1em;
