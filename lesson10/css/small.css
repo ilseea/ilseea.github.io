@@ -69,7 +69,6 @@ header img {
     font-size: 2.7rem;
     margin: 0 0 10px 10px;
     font-family: 'Berkshire Swash', cursive;
-    text-shadow: 0 0 100px #ffffff;
 }
 
 .m {
@@ -237,12 +236,14 @@ p {
     border-radius: 80%;
 }
 
-.stats h4 {
+.stats h3 {
     color: rgb(0, 0, 0);
-    font-size: 1rem;
-    margin: 1rem;
-    font-style: italic;
+    font-size: medium;
+    margin: .5rem .5rem 0 .5rem;
+    text-align: left;
+    /* text-transform: uppercase; */
     font-family: 'Fredoka One', cursive;
+    background-color: transparent;
     letter-spacing: 2px;
 }
 
