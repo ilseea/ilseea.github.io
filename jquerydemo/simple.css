@@ -5,7 +5,8 @@ body {
     line-height: 1.5em;
 }
 
-header {
+header,
+footer {
     background: #333;
     color: #fff;
     padding: 20px;
@@ -31,4 +32,8 @@ h2 {
 
 #event {
     color: magenta;
+}
+
+footer a {
+    color: rgb(255, 128, 255);
 }
