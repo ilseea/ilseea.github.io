@@ -1,61 +1,17 @@
 // EVENTS
 // button event ********************
-// $('#btn1').click(function () {
-//     alert('Button Clicked!');
-// });
+$(document).ready(function () {
+    // $('p.para1').css('color', 'red');
+    $('p.para1').css({
+        color: 'red',
+        background: '#ccc'
+    });
 
+    // $('p.para2').addClass('myClass');
+    // $('p.para2').removeClass('myClass');
+    $('#btn1').click(function () {
+        $('p.para2').toggleClass('myClass');
 
+    })
 
-// input field name turns pink********************
-// $('input').focus(function () {
-//     $('input#name').css('background', 'pink');
-// });
-
-// input field selected turns pink with THIS keyword********************
-// $('input').focus(function () {
-//     // alert(focus)
-//     $(this).css('background', 'pink');
-// });
-
-// input fields blur after unselected********************
-// $('input').blur(function () {
-//     // alert(focus)
-//     $(this).css('background', 'white');
-// });
-
-// input fields********************
-// $('input').keyup(function () {
-//     console.log('keyup');
-// });
-
-// get actual data fields********************
-// $('input').keyup(function (e) {
-//     console.log(e.target.value);
-// });
-
-// input fields********************
-// $('select#gender').change(function () {
-//     alert('changed');
-// });
-
-// alert from button********************
-// $('select#gender').change(function (e) {
-//     alert(e.target.value);
-// });
-
-// input fields********************
-// $('#form').submit(function () {
-//     console.log('Submitted');
-// });
-
-// $('#form').submit(function (e) {
-//     e.preventDefault();
-//     console.log('Submitted');
-// });
-
-
-// $('#form').submit(function (e) {
-//     e.preventDefault();
-//     var name = $('input#name').val();
-//     console.log(name);
-// });
+});

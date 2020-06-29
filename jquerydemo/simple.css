@@ -21,6 +21,10 @@ footer {
     padding: 10px;
 }
 
+.myClass {
+    color: blue;
+    background: mediumaquamarine;
+}
 
 /* additional styling */
 h2 {
@@ -33,6 +37,10 @@ h2 {
 
 #formevent {
     color: rgb(238, 255, 0);
+}
+
+#dommanipulate {
+    color: rgb(0, 212, 0);
 }
 
 footer a {
