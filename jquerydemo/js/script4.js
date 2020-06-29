@@ -12,6 +12,6 @@ $(document).ready(function () {
     $('#btn1').click(function () {
         $('p.para2').toggleClass('myClass');
 
-    })
+    });
 
 });
