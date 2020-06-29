@@ -14,12 +14,21 @@ header {
     margin-bottom: 10px;
 }
 
-h2 {
-    color: aqua;
-}
-
 #container {
     width: 90%;
     margin: auto;
     padding: 10px;
+}
+
+
+
+
+
+/* additional styling */
+h2 {
+    color: aqua;
+}
+
+#event {
+    color: magenta;
 }
