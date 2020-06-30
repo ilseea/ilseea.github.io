@@ -17,8 +17,8 @@ fetch(requestURL)
 
             let towndetail = document.createElement('div');
             towndetail.classList.add("towndetail")
-            let name = document.createElement('h2');
-            let slogan = document.createElement('h3');
+            let name = document.createElement('h3');
+            let slogan = document.createElement('h4');
             let year = document.createElement('p');
             let population = document.createElement('p');
             let rain = document.createElement('p');
