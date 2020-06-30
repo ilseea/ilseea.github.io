@@ -11,12 +11,12 @@
 // $('.heading2').hide();
 
 // change color, take out 'p' to see all span ********************
-// $('p span').css('color', 'red');
+// $('span').css('color', 'red');
 
 
 // select first or last items ********************
-// $('ul#list li:first').css('color', 'blue');
-// $('ul#list li:last').css('color', 'green');
+$('ul#list li:first').css('color', 'blue');
+$('ul#list li:last').css('color', 'green');
 
 // select even or odd items ********************
 // $('ul#list li:even').css('background-color', 'yellow');

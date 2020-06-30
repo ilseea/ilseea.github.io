@@ -61,13 +61,13 @@
 // });
 
 // hide and show ********************
-$('#btn1').click(function (e) {
-    // console.log(e);
-    // alert(e.currentTarget.id);
-    // alert(e.currentTarget.innerHTML);
-    // alert(e.currentTarget.outerHTML);
-    // alert(e.currentTarget.className);
-});
+// $('#btn1').click(function (e) {
+//     console.log(e);
+// alert(e.currentTarget.id);
+// alert(e.currentTarget.innerHTML);
+// alert(e.currentTarget.outerHTML);
+// alert(e.currentTarget.className);
+// });
 
 // mousemove********************
 // $('#btn1').on('mousemove', function (e) {
