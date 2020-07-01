@@ -1,0 +1,102 @@
+body {
+    max-width: 1200px;
+}
+
+/* GALLERY */
+
+div.gallery {
+    margin: auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+    grid-column-start: 10;
+
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    /* margin: 0rem; */
+}
+
+.norm:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+figure {
+    /* background-color: rgb(168, 218, 220); */
+    /* IF i WANT ENTIRE BOX AGAIN */
+    /* box-shadow: 3px 8px 15px rgb(39, 26, 2); IF i WANT ENTIRE BOX AGAIN */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* figure:hover { IF i WANT ENTIRE BOX AGAIN */
+/* box-shadow: 0 0 50px #333; */
+/* } */
+
+figcaption {
+    background-color: rgb(253, 253, 253);
+    /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (min-width: 43.5em) {
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: auto;
+        grid-column-start: 10;
+
+    }
+
+    .gallery img {
+        width: 320px;
+        /* margin: 0rem; */
+    }
+
+    figcaption {
+        /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
+        width: 320px;
+    }
+
+}
+
+@media only screen and (min-width: 69.2em) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* width: 100%; */
+        /* margin: auto; */
+        /* grid-column-start: 10; */
+    }
+
+    .gallery img {
+        /* background-color: rgb(168, 218, 220); IF i WANT ENTIRE BOX AGAIN */
+        box-shadow: 3px 8px 15px rgb(39, 26, 2);
+        /* IF i WANT ENTIRE BOX AGAIN */
+        width: 355px;
+
+    }
+
+    figcaption {
+        box-shadow: 3px 8px 15px rgb(39, 26, 2);
+        margin: 10px;
+        width: 355px;
+    }
+
+
+}
