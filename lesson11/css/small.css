@@ -301,22 +301,16 @@ table td {
 /* CONTACT INFO) */
 
 .info img {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     width: 30%;
     height: auto;
-    float: right;
     margin: 0 20px 10px 0px;
-    box-shadow: 0 0 10px rgb(249, 255, 170);
 
 }
 
-.info p {
-    grid-row-start: 2;
-}
+.info {
+    text-align: left;
+    line-height: 250%;
 
-.page p {
-    line-height: 80%;
 }
 
 .contact {
@@ -326,26 +320,25 @@ table td {
     margin-left: 30px;
 }
 
-
-/* SOCIAL MEDIA ICONS */
-.fa {
-    width: 30px;
-    text-align: right;
-    text-decoration: none;
+.map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    float: right;
+    box-shadow: 0 0 10px rgb(249, 255, 170);
 }
 
-.fa:hover {
+/* SOCIAL MEDIA ICONS */
+.social:hover {
     opacity: 0.3;
 }
 
-.fa-facebook,
-.fa-linkedin,
-.fa-youtube,
-.fa-instagram {
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    font-size: 30px;
+.social {
+    max-width: 40px;
+    /* float: left; */
+    /* align-items: center; */
     margin-top: 40px;
+    vertical-align: middle;
+
 }
 
 /* ****FOOTER**** */

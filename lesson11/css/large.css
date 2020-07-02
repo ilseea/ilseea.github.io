@@ -40,4 +40,18 @@
     .page p {
         margin-top: 20px;
     }
+
+    .info {
+        text-align: center;
+    }
+
+    .contact {
+        text-align: center;
+        margin: 0 -20px 0 10px;
+    }
+
+    .social>img {
+        margin: 0 0 0 100px;
+    }
+
 }
