@@ -50,8 +50,8 @@
         margin: 0 -20px 0 10px;
     }
 
-    .social>img {
-        margin: 0 0 0 100px;
+    .social {
+        max-width: 50px;
     }
 
 }
