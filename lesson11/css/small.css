@@ -82,7 +82,7 @@ header img {
 .s {
     display: block;
     font-style: italic;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Fredoka One', cursive;
     font-size: small;
     text-transform: lowercase;
