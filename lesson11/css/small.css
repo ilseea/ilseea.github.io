@@ -37,8 +37,6 @@ body {
 }
 
 #pancakes {
-    font-style: italic;
-    font-weight: 600;
     font-size: 34px;
 }
 
@@ -120,7 +118,6 @@ nav {
 
 .navigation a:hover {
     font-size: 17px;
-    font-weight: 800;
     color: black;
     text-transform: uppercase;
 }
