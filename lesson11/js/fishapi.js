@@ -1,3 +1,4 @@
+// FORECAST, STATS
 const weatherURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&APPID=1d982ee27d3310460b15a19c65fa132b&units=imperial';
 
 fetch(weatherURL)
@@ -34,10 +35,10 @@ fetch(forecastURL)
         });
 
     });
-
+// EVENTS
 
 const eventURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-fetch(hi)
+fetch(eventURL)
     .then(function (response) {
         return response.json();
     })
@@ -48,7 +49,9 @@ fetch(hi)
 
         townEvents.forEach(event => {
             let list = document.createElement('li');
+
             list.innerHTML = event;
+
             document.getElementById('events').appendChild(list);
         });
     });

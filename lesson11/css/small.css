@@ -21,7 +21,7 @@ html {
 body {
     background: rgba(200, 200, 200, 0.3);
     max-width: 1100px;
-    margin: 2em auto;
+    margin: auto;
 }
 
 /* *****Banner/Pancakes***** */
@@ -31,7 +31,7 @@ body {
     text-align: center;
     background-color: rgb(255, 255, 255);
     margin-top: 20px;
-    border: 7px solid rgb(255, 230, 0);
+    border: 7px solid rgb(230, 57, 70);
     font-size: 24px;
     border-style: dotted;
 }
@@ -44,7 +44,7 @@ body {
 
 /* ****HEADER**** */
 header {
-    background-color: rgba(29, 53, 87, 0.918);
+    background-color: rgba(29, 53, 87, 0.801);
     display: flex;
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
     letter-spacing: 0.1em;
@@ -106,7 +106,7 @@ nav {
 .navigation a {
     display: block;
     color: rgba(255, 255, 255, 0.8);
-    padding: 0.75rem;
+    padding: 0.45rem;
     text-decoration: none;
     text-align: left;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
@@ -146,7 +146,7 @@ nav {
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .container>div {
@@ -173,13 +173,12 @@ h2 {
     color: black;
     font-family: 'Fredoka One', cursive;
     font-size: 2rem;
-    padding: 50px;
+    padding: 30px;
     text-align: left;
-    height: 90%;
-    background-color: rgb(69, 123, 157);
-    border-radius: 80%;
-    margin: -10px 0 30px 0;
-    /* box-shadow: 0 25px 2px -2px rgb(69, 123, 157); */
+    /* height: 90%; */
+    /* background-color: rgb(69, 123, 157); */
+    /* border-radius: 80%; */
+    margin: -5px 0 30px 0;
 }
 
 /* WORDS */
@@ -191,7 +190,7 @@ h3 {
     font-family: 'Berkshire Swash', cursive;
     background-color: rgb(255, 255, 255);
     border-radius: 15px 50px 30px 5px;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     height: auto;
 }
@@ -266,15 +265,16 @@ p {
 /* EVENTS SECTION */
 
 #events {
-    /* position: absolute; */
-    /* top: 10px; */
+    position: absolute;
+    /* bottom: 1px; */
+    /* right: 14px; */
     list-style-type: none;
     background-color: rgb(228, 106, 116);
     padding: .9rem;
     box-shadow: 0 0 10px rgb(249, 255, 170);
     opacity: .9;
     text-align: center;
-    border-radius: 80%;
+    /* border-radius: 80%; */
 }
 
 /* FORECAST */
