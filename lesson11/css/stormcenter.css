@@ -35,6 +35,8 @@ legend {
 .form-rating {
     padding: 0.5rem 0;
     display: flex;
+    /* flex-direction: row; */
+    /* flex: 1fr 1fr 1fr; */
 }
 
 .form-box label {
