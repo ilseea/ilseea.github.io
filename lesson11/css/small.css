@@ -158,7 +158,7 @@ nav {
 .container>div {
     flex: 100%;
     height: auto;
-    padding: 15px;
+    padding: 25px;
     margin: 1.5em;
     vertical-align: middle;
 }
@@ -222,9 +222,17 @@ h5 {
     padding: 5px;
 }
 
-p {
+h6 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding-right: -10px;
+}
+
+.news p {
     font-family: 'Indie Flower', cursive;
     font-size: 1.4rem;
+    padding-left: 10px;
 }
 
 #welcome {
@@ -373,8 +381,10 @@ table td {
 }
 
 #credit {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+    text-align: right;
 }
 
 /* SOCIAL MEDIA ICONS */
@@ -396,6 +406,8 @@ footer {
     padding: 1.4em;
     font-size: 1.2rem;
     margin-top: 10px;
+    box-shadow: 3px 6px 12px rgb(39, 26, 2);
+
 }
 
 footer a {
