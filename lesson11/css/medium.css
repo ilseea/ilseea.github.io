@@ -89,4 +89,10 @@
     .social {
         max-width: 50px;
     }
+
+    #events {
+        font-size: medium;
+        line-height: 1.6;
+        text-align: right;
+    }
 }

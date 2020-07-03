@@ -205,14 +205,21 @@ h4 {
 
 }
 
+h5 {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    margin: 10px 0px 10px 0;
+    font-family: 'Berkshire Swash', cursive;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
 p {
     font-family: 'Indie Flower', cursive;
     font-size: 1.4rem;
 }
 
 /* HERO (subclasses/ids-STATS )*/
-
-
 .hero {
     position: relative;
 }
@@ -263,18 +270,25 @@ p {
 }
 
 /* EVENTS SECTION */
-
 #events {
-    position: absolute;
-    /* bottom: 1px; */
-    /* right: 14px; */
+    width: 90%;
     list-style-type: none;
+    background-color: rgba(29, 53, 87, 0.801);
+    box-shadow: 3px 6px 12px rgb(39, 26, 2);
+    font-size: smaller;
+    line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+#events li {
     background-color: rgb(228, 106, 116);
-    padding: .9rem;
-    box-shadow: 0 0 10px rgb(249, 255, 170);
-    opacity: .9;
-    text-align: center;
-    /* border-radius: 80%; */
+    color: rgb(0, 0, 0);
+    font-family: 'Fredoka One', cursive;
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
 }
 
 /* FORECAST */
