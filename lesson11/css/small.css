@@ -44,7 +44,8 @@ body {
 
 /* ****HEADER**** */
 header {
-    background-color: rgba(29, 53, 87, 0.801);
+    /* background-color: rgba(29, 53, 87, 0.801); */
+    background-color: rgb(29, 53, 87);
     display: flex;
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
     letter-spacing: 0.1em;
@@ -371,7 +372,7 @@ table td {
 /* ****FOOTER**** */
 footer {
     text-align: center;
-    background-color: rgb(29, 53, 87);
+    background-color: rgba(29, 53, 87, 0.801);
     color: white;
     padding: 1.4em;
     font-size: 1.2rem;
