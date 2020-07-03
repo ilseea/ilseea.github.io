@@ -85,6 +85,11 @@
     }
 
 
+    .boy {
+        display: block;
+        /* margin: 3px -90px -50px 10px; */
+    }
+
     .info p {
         font-size: 1.4rem;
     }
