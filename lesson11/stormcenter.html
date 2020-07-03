@@ -18,9 +18,6 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 
-
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
-
 </head>
 
 
@@ -109,8 +106,9 @@
                     &nbsp;&nbsp;&nbsp;
                     <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1"
                         list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span>
+                    <span id="ratingvalue">3</span>
                 </label>
+
 
                 <datalist id="tickmarks">
                     <option value="0">
@@ -139,14 +137,18 @@
             </div>
 
             <div class="form-box">
-                <label for="danger" id="danger">Personal In-Danger Level &nbsp;<em>(CHOOSE ONE) =</em></label>
-                <input type="radio" name="rate1" value="yesbutton">
-                <label id="yesbutton" for="yesbutton">Yes</label><br>
-                <input type="radio" name="rate2" value="maybebutton" checked>
-                <label id="maybebutton" for="maybebutton">Maybe</label><br>
+                <legend>Dangerous? <em>(Choose one)</em></legend>
+                <div class="selection">
+                    <label for="time1"><input type="radio" id="time1" name="time" value="yes" checked> Yes</label>
+                </div>
 
-                <input type="radio" name="rate3" value="nobutton">
-                <label id="nobutton" for="nobutton">No</label>
+                <div class="selection">
+                    <label for="time2"><input type="radio" id="time2" name="time" value="no"> No</label>
+                </div>
+                <div class="selection">
+                    <label for="time3"><input type="radio" id="time3" name="time" value="unsure"> Unsure</label>
+                </div>
+
             </div>
 
             <div class="form-box">
