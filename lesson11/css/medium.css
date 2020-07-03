@@ -76,4 +76,13 @@
     .contact {
         text-align: left;
     }
+
+
+    .info p {
+        font-size: 1.4rem;
+    }
+
+    .social {
+        max-width: 50px;
+    }
 }

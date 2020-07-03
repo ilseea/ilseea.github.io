@@ -36,8 +36,8 @@ fetch(forecastURL)
     });
 
 
-const eventAPI = 'https://byui-cit230.github.io/weather/data/towndata.json';
-fetch(eventAPI)
+const eventURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(hi)
     .then(function (response) {
         return response.json();
     })

@@ -34,14 +34,7 @@ fetch(forecastURL)
         });
 
     });
-// THIS IS FROM THE LAB VIDEO WK10
-// const currentTemp = document.querySelector('#current-temp');
-// const icon = document.querySelector('img');
 
-// currentTemp.textContent = jsObject.main.temp;
-
-// const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`
-// const desc = jsObject.weather[0].description;
 
 
 const eventAPI = 'https://byui-cit230.github.io/weather/data/towndata.json';
