@@ -54,11 +54,14 @@
     .m {
         display: block;
         font-style: italic;
-        color: rgb(245, 245, 245, 0.8);
+        color: rgb(0, 0, 0);
+        padding-bottom: 8px;
         font-family: 'Fredoka One', cursive;
-        font-size: small;
+        font-size: medium;
+        text-transform: lowercase;
+        /* background-color: rgb(54, 52, 47); */
+        border-radius: 60%;
         text-align: center;
-        text-transform: capitalize;
     }
 
     .s {

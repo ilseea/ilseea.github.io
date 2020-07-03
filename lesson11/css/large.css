@@ -14,12 +14,8 @@
     }
 
     .headings h1 {
-        font-size: 3.8rem;
-    }
-
-    .m {
-        display: block;
-        font-size: medium;
+        font-size: 3.5rem;
+        text-transform: lowercase;
     }
 
     h2 {
