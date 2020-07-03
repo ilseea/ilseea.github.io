@@ -58,6 +58,9 @@ header img {
     width: 100px;
     height: auto;
     margin: 3px -25px 0 -25px;
+    box-shadow: 30px 10px 30px 10px rgba(255, 255, 255, 0.137);
+    background-color: rgba(238, 238, 238, 0.137);
+    border-radius: 50%;
 }
 
 .headings {
