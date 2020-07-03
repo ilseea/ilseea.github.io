@@ -160,7 +160,7 @@ nav {
     height: auto;
     padding: 0 10px;
     margin: 1.5em;
-    text-align: center;
+    /* text-align: center; */
     vertical-align: middle;
 }
 
@@ -174,7 +174,15 @@ nav {
     margin: 0 20px 10px 0px;
 }
 
-/* FONTS*/
+.boy {
+    display: none;
+    width: 60px;
+    height: auto;
+    box-shadow: 0 0 10px rgb(249, 255, 170);
+    border-radius: 50%;
+}
+
+/* WORDS */
 h2 {
     color: black;
     font-family: 'Fredoka One', cursive;
@@ -186,8 +194,6 @@ h2 {
     /* border-radius: 80%; */
     margin: -5px 0 30px 0;
 }
-
-/* WORDS */
 
 h3 {
     color: rgb(0, 0, 0);
@@ -230,13 +236,7 @@ p {
     text-align: left;
 }
 
-.boy {
-    display: none;
-    width: 60px;
-    height: auto;
-    box-shadow: 0 0 10px rgb(249, 255, 170);
-    border-radius: 50%;
-}
+
 
 /* HERO (subclasses/ids-STATS )*/
 .hero {
@@ -374,6 +374,12 @@ table td {
     grid-template-columns: 1fr 1fr;
     float: right;
     box-shadow: 0 0 10px rgb(249, 255, 170);
+}
+
+#credit {
+    color: rgb(255, 0, 0);
+    text-align: right;
+    font-family: 'Fredoka One', cursive;
 }
 
 /* SOCIAL MEDIA ICONS */
