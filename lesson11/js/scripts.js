@@ -34,3 +34,7 @@ if (d.getDay() == 5) {
 function adjustRating(rating) {
   document.getElementById("ratingvalue").innerHTML = rating;
 }
+
+let year = new Date();
+let copyright = year.getFullYear();
+document.getElementById('currentYr').innerHTML = copyright;
