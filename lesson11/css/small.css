@@ -42,14 +42,12 @@ body {
 
 /* ****HEADER**** */
 header {
-    /* background-color: rgba(29, 53, 87, 0.801); */
     background-color: rgb(100, 100, 100);
     display: flex;
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
     letter-spacing: 0.1em;
     align-items: center;
     justify-content: center;
-    /* padding: 30px; */
 }
 
 header img {
@@ -84,12 +82,11 @@ header img {
     font-family: 'Fredoka One', cursive;
     font-size: small;
     text-transform: lowercase;
-    /* background-color: rgb(245, 245, 245); */
     border-radius: 60%;
     text-align: center;
 }
 
-/*navigation css*/
+/*NAVIGATION*/
 nav {
     margin: 0 auto;
     background-color: rgb(69, 123, 157);
@@ -229,7 +226,6 @@ h6 {
 .news p {
     font-family: 'Indie Flower', cursive;
     font-size: 1.4rem;
-    padding-left: 10px;
 }
 
 #welcome {
@@ -267,7 +263,6 @@ h6 {
     font-size: medium;
     margin: .5rem .5rem 0 .5rem;
     text-align: left;
-    /* text-transform: uppercase; */
     font-family: 'Fredoka One', cursive;
     background-color: transparent;
     letter-spacing: 2px;
