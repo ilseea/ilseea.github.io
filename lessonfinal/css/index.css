@@ -1,0 +1,124 @@
+.article {
+    background-color: rgb(168, 218, 220);
+    /* box-shadow: 3px 8px 15px rgb(39, 26, 2); */
+}
+
+.article h2 {
+    color: black;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    margin: 20px 0px 20px 0;
+}
+
+/* ****JSON**** */
+
+div.cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+    margin: auto;
+    margin-top: 20px;
+
+    text-align: center;
+
+}
+
+.towncard {
+    background-color: rgba(69, 123, 157, 0.8);
+    box-shadow: 0px 0px 15px 0px rgb(39, 26, 2);
+
+}
+
+.towndetail {
+    padding: .75rem;
+    /* margin: 1rem; */
+}
+
+.townpicture img {
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 2px 10px rgb(39, 26, 2);
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+    /* STYLES HERE */
+
+    div.cards {
+        grid-template-columns: 1fr, 1fr;
+    }
+
+    section {
+        max-width: 500px;
+        margin: .5rem auto;
+    }
+
+    article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    article:nth-child(odd) img {
+        grid-column: 2;
+    }
+
+    article:nth-child(odd) .towndetail {
+        grid-column: 1;
+        grid-row: 1;
+        background-color: rgba(230, 57, 70, 0.7);
+    }
+
+    article:nth-child(odd) .towndetail h2 {
+        width: 250px;
+    }
+
+
+    .townpicture img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .towndetail {
+        padding: .75rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:890px) {
+
+    /* NEW STYLING */
+
+    div.cards {
+        max-width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+        margin: auto;
+        margin-top: 20px;
+
+        box-shadow: 0px 0px 0px 0px;
+    }
+
+    .towncard {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article:nth-child(odd) .towndetail {
+        background-color: transparent;
+
+    }
+
+    .towndetail {
+        padding: 30px;
+    }
+}

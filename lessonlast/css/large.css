@@ -1,0 +1,59 @@
+@media only screen and (min-width: 52.2em) {
+
+    .forecast {
+        display: block;
+        width: 700px;
+    }
+
+    table {
+        font-size: large;
+    }
+
+    table td {
+        padding: 2.1em;
+    }
+
+    .headings h1 {
+        font-size: 3.5rem;
+        text-transform: lowercase;
+    }
+
+    h2 {
+        font-size: 3rem;
+        margin: -5px 0 30px 0;
+    }
+
+    .news img {
+        float: right;
+        margin-left: 1.3rem;
+        width: 40%;
+    }
+
+    h4 {
+        line-height: 200%;
+    }
+
+    .page p {
+        margin-top: 20px;
+    }
+
+
+    .info {
+        padding-left: 5rem;
+        padding-right: 5rem;
+
+    }
+
+    .contact {
+        margin: 0 -20px 0 10px;
+    }
+
+    .social {
+        max-width: 50px;
+    }
+
+    #events {
+        font-size: large;
+        text-align: center;
+    }
+}

@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+main {
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+
+/************
+FORM
+*************/
+
+select,
+option,
+input,
+label,
+legend {
+    padding: 0.2rem 1rem;
+    font-size: 1.5rem;
+    color: inherit;
+    font-family: 'Indie Flower', cursive;
+}
+
+.form-box {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-rating {
+    padding: 0.5rem 0;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex: 1fr 1fr 1fr; */
+}
+
+.form-box label {
+    display: none;
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+    flex-basis: 100%;
+}
+
+.flexer {
+    display: flex;
+    align-items: center;
+}
+
+em {
+    font-size: small;
+    font-weight: 500;
+}
+
+#yesbutton,
+#maybebutton,
+#nobutton {
+    display: block;
+    margin-right: 5rem;
+}
+
+#danger {
+    display: block;
+    /* margin-right: 5rem; */
+}
+
+/* #btnSend {
+    margin-left: 0rem;
+} */
+
+#submitform {
+    display: block;
+    margin: auto;
+}
+
+#bigthanks {
+    display: none;
+}
+
+#smallthanks {
+    margin-left: 7rem;
+    display: block;
+}
+
+
+
+@media only screen and (min-width: 500px) {
+
+    /************
+FORM
+*************/
+    .form-box {}
+
+    .form-box label {
+        display: block;
+    }
+
+    .form-rating {
+        padding: 0.5rem 0;
+        display: block;
+    }
+
+    .form-rating input,
+    .form-rating select,
+    .form-rating textarea {
+        flex-basis: 50%;
+        margin-left: 1rem;
+    }
+
+    .form-box button {}
+
+}
+
+
+@media only screen and (min-width: 52.2em) {
+
+    table {
+        font-size: large;
+    }
+
+    table td {
+        padding: 2.1em;
+    }

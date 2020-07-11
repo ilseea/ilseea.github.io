@@ -1,0 +1,106 @@
+@media only screen and (min-width: 32.5em) {
+
+    nav {
+        background-color: rgba(228, 106, 116);
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: black;
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation a:hover {
+        color: white;
+
+    }
+
+    .active {
+        background-color: rgba(230, 57, 70);
+        text-transform: initial;
+    }
+
+    .forecast {
+        display: block;
+        width: 500px;
+    }
+
+    table {
+        font-size: medium;
+    }
+
+    table td {
+        padding: 1.35em;
+        width: 100%;
+    }
+
+    .headings h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .m {
+        display: block;
+        font-style: italic;
+        color: rgb(255, 255, 255);
+        padding-bottom: 8px;
+        font-family: 'Fredoka One', cursive;
+        font-size: medium;
+        text-transform: lowercase;
+        /* background-color: rgb(54, 52, 47); */
+        border-radius: 60%;
+        text-align: center;
+    }
+
+    .s {
+        display: none;
+    }
+
+    h2 {
+        margin: 1px 0 30px 0;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .page p {
+        line-height: 150%;
+    }
+
+    .contact {
+        text-align: left;
+    }
+
+
+    .boy {
+        display: block;
+        /* margin: 3px -90px -50px 10px; */
+    }
+
+    .info p {
+        font-size: 1.4rem;
+    }
+
+    .social {
+        max-width: 50px;
+    }
+
+    #events {
+        font-size: medium;
+        line-height: 1.6;
+        text-align: right;
+    }
+}
