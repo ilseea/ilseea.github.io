@@ -1,5 +1,5 @@
 // FORECAST, STATS
-const weatherURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=1d982ee27d3310460b15a19c65fa132b&units=imperial';
+const weatherURL = 'https://api.openweathermap.org/data/2.5/weather?id=3530103&APPID=1d982ee27d3310460b15a19c65fa132b&units=imperial';
 
 fetch(weatherURL)
     .then((response) => response.json())
@@ -7,13 +7,10 @@ fetch(weatherURL)
 
         document.getElementById('weather-desc').textContent = jsObject.weather[0].description;
         document.getElementById('current-temp').textContent = jsObject.main.temp;
-        document.getElementById('high-temp').textContent = jsObject.main.temp_max;
-
-        document.getElementById('wind-speed').textContent = jsObject.wind.speed;
         document.getElementById('humidity').textContent = jsObject.main.humidity;
     });
 
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=1d982ee27d3310460b15a19c65fa132b&units=imperial';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=3530103&APPID=1d982ee27d3310460b15a19c65fa132b&units=imperial';
 fetch(forecastURL)
     .then((response) => response.json())
     .then((jsObject) => {

@@ -10,7 +10,7 @@
 
     <link rel="icon" href="images/faviscoot.png">
     <link
-        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Libre+Baskerville:wght@400;700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/normalize.css">
@@ -27,24 +27,8 @@
     <header>
         <a href="#"><img src="images/logoblack.png" alt="bird logo"></a>
         <section class="headings">
-            <!-- <h1> H1 erased </h1> -->
-            <!-- <div class="m"> Scoots... viva la aventura!
-                Live the adventure!
-            </div>
 
-            <div class="s">A aventurar!
-            </div> -->
-            <section class="clima">
-                <!-- <h1>Clima de Hoy</h1> -->
-                <!-- </section>
-            <section class="clima"> -->
-                <p>Current: <span id="weather-desc"></span> </p>
-                <p>Temperature: <span id="current-temp"></span> &deg;F</p>
-                <p>Expected High: <span id="high-temp"></span> &deg;F</p>
-                <p>Humidity: <span id="humidity"></span> %</p>
-                <p>Wind Speed: <span id="wind-speed"></span> mph</p>
-            </section>
-        </section>
+
     </header>
     <!-- NAVIGATION HERE -->
     <nav class="clearfix">
@@ -61,25 +45,35 @@
     </nav>
 
     <main>
-        <div class="container">
+        <!-- <div class="container">
             <h1>...vive la Aventura!</h1>
-            <h3> Live the Adventure!</h3>
-        </div>
+            <h3 class="m"> Live the Adventure!</h3>
+        </div> -->
 
         <div class="hero">
+            <h1 class="signature">...vive la Aventura!</h1>
             <figure class="myphoto">
-                <img src="/lessonfinal/images/scooters.jpg" alt="Sunshine in lazy fields." sizes="50vw" srcset="/lesson11/images/grasS.jpg 250w,
-            /lesson11/images/grassM.jpg 400w,
-            /lessonfinal/images/scooters.jpg 600w">
+                <!-- <img src="/lessonfinal/images/scooters.jpg" alt="Sunshine in lazy fields."> -->
+
+                <img src="/lessonfinal/images/scooter.jpg" alt="Scooters on the beach." sizes="50vw" srcset="/lessonfinal/images/scooterS.jpg 350w,
+            /lessonfinal/images/scooterM.jpg 400w,
+            /lessonfinal/scooter.jpg 600w">
             </figure>
             <section class="stats">
-                <h3>call 2 Action</h3>
-                <p>Current: <span id="weather-desc"></span> </p>
-                <p>Temperature: <span id="current-temp"></span> &deg;F</p>
+                <a href="/lessonfinal/index.html"> Select <br> Your Ride</a>
 
             </section>
-
         </div>
+        <!-- WHAT ABOUT SMALLER HERO IMG SIZES -->
+
+
+        <section class="clima">
+            <p>Current: <span id="weather-desc"></span> </p>
+            <p>Temperature: <span id="current-temp"></span> &deg;F</p>
+            <p>Humidity: <span id="humidity"></span> %</p>
+
+
+        </section>
 
         <div class="forecast">
             <h3> Five-Day Forecast</h3>
@@ -104,16 +98,66 @@
 
 
         <div class="container">
+            <h3>CHOOSE YOUR RIDE</h3>
             <div class="page">
-                <h3> We Make Our Own Destiny </h3>
+                <h3>Scooters</h3>
                 <div class="news">
                     <img src="/lesson11/images/vote.jpg" alt="Voting stickers and slogan.">
                     <h4>“I am a man of fortune and must seek my fortune.”
                         <br> ―Captain Henry Avery</h4>
                     <br>
-                    <p>We found a way to make us look official, with Pedro leading Preston at the polls, we decided this
-                        wasn't just luck. It was hard work. We can make our own destiny Preston! So we can have a free
-                        country and do whatever we want. Vote Pedro for President! I'm dead serious, right now. I paid
+                    <p> right now. I paid
+                        like 75 bucks to get this printed.
+                    </p>
+                </div>
+                <em id=credit>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(July 4, 1982) Article by: Uncle Rico</em>
+            </div>
+
+
+
+
+            <div class="page">
+                <h3>ATVs</h3>
+                <div class="news">
+                    <img src="/lesson11/images/vote.jpg" alt="Voting stickers and slogan.">
+                    <h4>“I am a man of fortune and must seek my fortune.”
+                        <br> ―Captain Henry Avery</h4>
+                    <br>
+                    <p> right now. I paid
+                        like 75 bucks to get this printed.
+                    </p>
+                </div>
+                <em id=credit>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(July 4, 1982) Article by: Uncle Rico</em>
+            </div>
+
+
+
+
+            <div class="page">
+                <h3>Jeeps</h3>
+                <div class="news">
+                    <img src="/lesson11/images/vote.jpg" alt="Voting stickers and slogan.">
+                    <h4>“I am a man of fortune and must seek my fortune.”
+                        <br> ―Captain Henry Avery</h4>
+                    <br>
+                    <p> right now. I paid
+                        like 75 bucks to get this printed.
+                    </p>
+                </div>
+                <em id=credit>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(July 4, 1982) Article by: Uncle Rico</em>
+            </div>
+
+
+
+
+            <div class="page">
+                <h3>Tours</h3>
+                <div class="news">
+                    <img src="/lesson11/images/vote.jpg" alt="Voting stickers and slogan.">
+                    <h4>“I am a man of fortune and must seek my fortune.”
+                        <br> ―Captain Henry Avery</h4>
+                    <br>
+                    <p> right now. I paid
                         like 75 bucks to get this printed.
                     </p>
                 </div>
@@ -121,10 +165,6 @@
             </div>
         </div>
 
-
-        <ul id="events">
-            <h5>Events Coming To You!</h5>
-        </ul>
 
         <div class="container">
 
@@ -170,7 +210,6 @@
     <script src="js/prestonapi.js"></script>
     <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <!-- <script src="js/windchill.js"></script> -->
 </body>
 
 </html>

@@ -46,12 +46,12 @@
         width: 100%;
     }
 
-    .headings h1 {
+    /* .headings h1 {
         font-size: 3rem;
         text-align: center;
-    }
+    } */
 
-    .m {
+    /* .m {
         display: block;
         font-style: italic;
         color: rgb(255, 255, 255);
@@ -59,10 +59,9 @@
         font-family: 'Fredoka One', cursive;
         font-size: medium;
         text-transform: lowercase;
-        /* background-color: rgb(54, 52, 47); */
         border-radius: 60%;
         text-align: center;
-    }
+    } */
 
     .s {
         display: none;

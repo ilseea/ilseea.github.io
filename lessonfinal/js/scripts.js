@@ -21,14 +21,14 @@ function toggleMenu() {
 
 //BANNER ON FRIDAYS
 
-let d = new Date();
-const banner =
-  document.getElementById('banner');
-if (d.getDay() == 5) {
-  document.getElementById('banner').style.display = 'block';
-} else {
-  document.getElementById('banner').style.display = 'none';
-}
+// let d = new Date();
+// const banner =
+//   document.getElementById('banner');
+// if (d.getDay() == 5) {
+//   document.getElementById('banner').style.display = 'block';
+// } else {
+//   document.getElementById('banner').style.display = 'none';
+// }
 
 
 function adjustRating(rating) {
