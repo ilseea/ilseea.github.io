@@ -46,23 +46,6 @@
         width: 100%;
     }
 
-    /* .headings h1 {
-        font-size: 3rem;
-        text-align: center;
-    } */
-
-    /* .m {
-        display: block;
-        font-style: italic;
-        color: rgb(255, 255, 255);
-        padding-bottom: 8px;
-        font-family: 'Fredoka One', cursive;
-        font-size: medium;
-        text-transform: lowercase;
-        border-radius: 60%;
-        text-align: center;
-    } */
-
     .s {
         display: none;
     }
@@ -86,7 +69,6 @@
 
     .boy {
         display: block;
-        /* margin: 3px -90px -50px 10px; */
     }
 
     .info p {
@@ -97,9 +79,48 @@
         max-width: 50px;
     }
 
-    #events {
+    /* new styles SCOOTS */
+    .signature {
+        position: absolute;
+        font-family: 'Pacifico', cursive;
+        bottom: 15px;
+        right: 5px;
+        color: white;
+        letter-spacing: 1px;
         font-size: medium;
-        line-height: 1.6;
-        text-align: right;
+        background-color: #f7B733;
+        padding: 1rem;
+        opacity: 2;
+        text-align: center;
+        border-radius: 10%;
+        cursor: pointer;
     }
+
+    .signature1 {
+        display: none;
+    }
+
+    .signature2 {
+        display: block;
+        position: absolute;
+        font-family: 'Pacifico', cursive;
+        bottom: 15px;
+        left: 205px;
+        color: white;
+        letter-spacing: 1px;
+        font-size: medium;
+        /* transform: rotate(-35deg); */
+        background-color: #f7b63370;
+        padding: .9rem;
+        /* box-shadow: 10px 10px 30px rgb(255, 255, 255); */
+        opacity: .9;
+        text-align: center;
+        border-radius: 80%;
+        cursor: pointer;
+    }
+
+    .signature3 {
+        display: none;
+    }
+
 }

@@ -252,13 +252,53 @@ h6 {
 }
 
 .signature {
+    display: none;
+}
+
+.signature1 {
     position: absolute;
-    font-family: 'Pacifico', cursive;
-    top: .1px;
-    left: 15px;
+    font-family: 'Roboto', sans-serif;
+    bottom: 15px;
+    right: 5px;
     color: white;
     letter-spacing: 1px;
-    font-size: larger;
+    font-size: small;
+    background-color: #f7B733;
+    padding: 1rem;
+    box-shadow: 10px 10px 30px rgb(255, 255, 255);
+    opacity: 2;
+    text-align: center;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.signature br {
+    display: none;
+}
+
+.signature p {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.signature2 {
+    display: none;
+}
+
+.signature3 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    bottom: 15px;
+    left: 5px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: small;
+    background-color: #f7b63370;
+    padding: .9rem;
+    opacity: .9;
+    text-align: center;
+    border-radius: 10%;
+    cursor: pointer;
 }
 
 .hero1 {
@@ -266,62 +306,13 @@ h6 {
     display: none;
 }
 
-.hero img {
+.hero img,
+.hero1 img {
     width: 100%;
     height: auto;
 
 }
 
-.stats {
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
-    background-color: #f7B733;
-    padding: .9rem;
-    box-shadow: 10px 10px 30px rgb(255, 255, 255);
-    opacity: .9;
-    text-align: center;
-    border-radius: 80%;
-}
-
-.stats h3 {
-    color: rgb(0, 0, 0);
-    font-size: medium;
-    margin: .5rem .5rem 0 .5rem;
-    text-align: left;
-    font-family: 'Fredoka One', cursive;
-    background-color: transparent;
-    letter-spacing: 2px;
-}
-
-.stats p {
-    /* font-size: 1rem; */
-    font-family: 'Fredoka One', cursive;
-    color: rgb(43, 43, 43);
-}
-
-
-/* EVENTS SECTION */
-#events {
-    width: 90%;
-    list-style-type: none;
-    background-color: rgb(100, 100, 100);
-    box-shadow: 3px 6px 12px rgb(39, 26, 2);
-    font-size: smaller;
-    line-height: 1.6;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: right;
-}
-
-#events li {
-    background-color: rgb(228, 106, 116);
-    color: rgb(0, 0, 0);
-    font-family: 'Fredoka One', cursive;
-    padding: 5px;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-}
 
 /* FORECAST */
 

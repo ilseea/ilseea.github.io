@@ -7,12 +7,24 @@
 
 
 // hide and show ********************
-$('#btn1').on('click', function () {
+$('.signature').on('click', function () {
     $('.hero').hide();
     $('.hero1').show();
 });
 
-$('#btn2').on('click', function () {
+$('.signature1').on('click', function () {
+    $('.hero').hide();
+    $('.hero1').show();
+});
+
+
+
+$('.signature2').on('click', function () {
+    $('.hero').show();
+    $('.hero1').hide();
+});
+
+$('.signature3').on('click', function () {
     $('.hero').show();
     $('.hero1').hide();
 });
@@ -52,12 +64,36 @@ $('#btn2').on('click', function () {
 // });
 
 // hover= shorthand for mouseenter/leave********************
-// $('#btn1').on('mouseenter', function () {
-//     $('.para1').toggle();
-// });
-// $('#btn1').on('mouseleave', function () {
-//     $('.para1').toggle();
-// });
+$('.signature').on('mouseenter', function () {
+    $(this).css('background', 'pink');
+});
+$('.signature').on('mouseleave', function () {
+    $(this).css('background', '#f7B733');
+});
+
+// sig1
+$('.signature1').on('mouseenter', function () {
+    $(this).css('background', 'pink');
+});
+$('.signature1').on('mouseleave', function () {
+    $(this).css('background', '#f7B733');
+});
+
+// sig2
+$('.signature2').on('mouseenter', function () {
+    $(this).css('box-shadow', '10px 10px 30px', 'pink');
+});
+$('.signature2').on('mouseleave', function () {
+    $(this).css('box-shadow', 'none');
+});
+
+// sig3
+$('.signature3').on('mouseenter', function () {
+    $(this).css('box-shadow', '10px 10px 30px', 'pink');
+});
+$('.signature3').on('mouseleave', function () {
+    $(this).css('box-shadow', 'none');
+});
 
 // mousemove********************
 // $('#btn1').on('mousemove', function () {
