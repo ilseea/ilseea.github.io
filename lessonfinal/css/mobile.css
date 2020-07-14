@@ -261,6 +261,17 @@ h6 {
     font-size: larger;
 }
 
+.hero1 {
+    position: relative;
+    display: none;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+
+}
+
 .stats {
     position: absolute;
     bottom: 10px;

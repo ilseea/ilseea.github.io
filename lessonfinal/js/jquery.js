@@ -7,19 +7,32 @@
 
 
 // hide and show ********************
-// $('#btn1').on('click', function () {
-//     $('.para1').hide();
-// });
+$('#btn1').on('click', function () {
+    $('.hero').hide();
+    $('.hero1').show();
+});
 
-// $('#btn2').on('click', function () {
-//     $('.para1').show();
-// });
+$('#btn2').on('click', function () {
+    $('.hero').show();
+    $('.hero1').hide();
+});
 
 
+// TRY THIS IMAGE SWAP
+// $(function(){
+//     $(".img-swap").live('click', function() {
+//       if ($(this).attr("class") == "img-swap") {
+//         this.src = this.src.replace("_off","_on");
+//       } else {
+//         this.src = this.src.replace("_on","_off");
+//       }
+//       $(this).toggleClass("on");
+//     });
+//   });
 
 // toggle on and off event********************
 // $('#btn1').on('click', function () {
-//     $('.para1').toggle();
+//     $('.hero').toggle();
 // });
 
 
@@ -61,13 +74,13 @@
 // });
 
 // hide and show ********************
-$('#btn1').click(function (e) {
-    console.log(e);
-    alert(e.currentTarget.id);
-    alert(e.currentTarget.innerHTML);
-    alert(e.currentTarget.outerHTML);
-    alert(e.currentTarget.className);
-});
+// $('#btn1').click(function (e) {
+//     console.log(e);
+//     alert(e.currentTarget.id);
+//     alert(e.currentTarget.innerHTML);
+//     alert(e.currentTarget.outerHTML);
+//     alert(e.currentTarget.className);
+// });
 
 // mousemove********************
 // $('#btn1').on('mousemove', function (e) {
@@ -84,6 +97,6 @@ $('#btn1').click(function (e) {
 //     $('#coords').append('Coords: Y: ' + e.clientY + " X: " + e.clientX);
 // });
 
-$(document).on('mousemove', function (e) {
-    $('#coords').html('Coords: Y: ' + e.clientY + " X: " + e.clientX);
-});
+// $(document).on('mousemove', function (e) {
+//     $('#coords').html('Coords: Y: ' + e.clientY + " X: " + e.clientX);
+// });

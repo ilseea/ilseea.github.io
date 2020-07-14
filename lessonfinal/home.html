@@ -9,6 +9,9 @@
         content="Scoots rentals. The only scooter, atv, and jeep rentals in Cozumel ...that can take you on a paradise drive beyond your sunniest dreams. Somos el unico lugar en donde rentar ciclomotores, vehiculos de todo terreno, o jeeps en todo Cozumel ...que en realidad te llevaran al paraiso de tus suenos.">
 
     <link rel="icon" href="images/faviscoot.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
     <link
         href="https://fonts.googleapis.com/css2?family=Pacifico&family=Libre+Baskerville:wght@400;700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
@@ -52,15 +55,31 @@
 
         <div class="hero">
             <h1 class="signature">...vive la Aventura!</h1>
-            <figure class="myphoto">
+            <figure>
 
                 <img src="/lessonfinal/images/burro.jpg" alt="scooters on the beach." sizes="50vw" srcset="/lessonfinal/images/burritos.jpg 250w,
                 /lessonfinal/images/burro.jpg 400w,
-                /lessonfinal/images/burro.jpg 800w">
+                /lessonfinal/images/burro.jpg 800w" class="img-swap" />
 
             </figure>
-            <section class=" stats">
-                <a href="/lessonfinal/index.html"> scoots to <br>see it all!</a>
+            <section class="stats">
+                <button id="btn1"> Live the Adventure!</button>
+                <!-- <a href="/lessonfinal/index.html"> scoots to <br>see it all!</a> -->
+
+            </section>
+        </div>
+
+
+        <div class="hero1">
+            <h1 class="signature">...vive la Aventura!</h1>
+            <figure>
+
+                <img src="/lessonfinal/images/mural.jpg" />
+
+            </figure>
+            <section class="stats">
+                <button id="btn2">Button 2</button>
+                <!-- <a href="/lessonfinal/index.html"> scoots to <br>see it all!</a> -->
 
             </section>
         </div>
@@ -206,6 +225,7 @@
         <span id="dailydate"></span>
 
     </footer>
+    <script src="/lessonfinal/js/jquery.js"></script>
 
     <script src="js/prestonapi.js"></script>
     <script src="js/scripts.js"></script>
