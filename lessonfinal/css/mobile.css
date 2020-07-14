@@ -181,7 +181,7 @@ nav {
 }
 
 /* WORDS */
-h2 {
+h3 {
     color: black;
     font-family: 'Fredoka One', cursive;
     font-size: 2rem;
@@ -190,9 +190,9 @@ h2 {
     margin: -5px 0 30px 0;
 }
 
-h3 {
+h2 {
     color: rgb(0, 0, 0);
-    font-size: xx-large;
+    font-size: medium;
     margin: 10px 0px 5px 0;
     font-family: 'Berkshire Swash', cursive;
     background-color: rgb(255, 255, 255);
@@ -266,6 +266,7 @@ h6 {
     background-color: #f7B733;
     padding: 1rem;
     box-shadow: 10px 10px 30px rgb(255, 255, 255);
+
     opacity: 2;
     text-align: center;
     border-radius: 10%;

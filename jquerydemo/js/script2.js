@@ -47,9 +47,9 @@
 // });
 
 // mousemove********************
-// $('#btn1').on('mousemove', function () {
-//     $('.para1').toggle();
-// });
+$('#btn1').on('mousemove', function () {
+    $('.para1').toggle();
+});
 
 // mousedown/up********************
 // $('#btn1').on('mousedown', function () {
@@ -61,13 +61,13 @@
 // });
 
 // hide and show ********************
-$('#btn1').click(function (e) {
-    console.log(e);
-    alert(e.currentTarget.id);
-    alert(e.currentTarget.innerHTML);
-    alert(e.currentTarget.outerHTML);
-    alert(e.currentTarget.className);
-});
+// $('#btn1').click(function (e) {
+//     console.log(e);
+// alert(e.currentTarget.id);
+// alert(e.currentTarget.innerHTML);
+// alert(e.currentTarget.outerHTML);
+// alert(e.currentTarget.className);
+// });
 
 // mousemove********************
 // $('#btn1').on('mousemove', function (e) {
@@ -84,6 +84,6 @@ $('#btn1').click(function (e) {
 //     $('#coords').append('Coords: Y: ' + e.clientY + " X: " + e.clientX);
 // });
 
-$(document).on('mousemove', function (e) {
-    $('#coords').html('Coords: Y: ' + e.clientY + " X: " + e.clientX);
-});
+// $(document).on('mousemove', function (e) {
+//     $('#coords').html('Coords: Y: ' + e.clientY + " X: " + e.clientX);
+// });
