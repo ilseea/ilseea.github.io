@@ -27,17 +27,15 @@ body {
 
 /* ****HEADER**** */
 header {
-    /* background-color: #f7b733; */
     background-color: #b6a999;
     display: flex;
     /* box-shadow: 3px 6px 12px rgb(39, 26, 2); */
     letter-spacing: 0.1em;
     align-items: center;
-    /* justify-content: center; */
 }
 
 header img {
-    width: 200px;
+    width: 190px;
     height: auto;
     margin: 3px 25px 0 25px;
     /* box-shadow: 30px 10px 30px 10px rgba(255, 255, 255, 0.137); */
@@ -140,13 +138,8 @@ nav {
 h2 {
     color: rgb(0, 0, 0);
     font-size: medium;
-    margin: 10px 0px 5px 0;
-    /* font-family: 'Libre Baskerville', serif; */
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px 50px 30px 5px;
-    padding: 10px;
-    width: 100%;
-    height: auto;
+    margin: 10px 0px 15px 0;
+    font-family: 'Pacifico', cursive;
 }
 
 h3 {
@@ -194,15 +187,14 @@ h6 {
     font-family: 'Libre Baskerville', serif;
     /* font-size: 1.2rem; */
     text-transform: uppercase;
-    padding-right: -10px;
+    /* padding-right: -10px; */
 }
 
 #credit {
-    color: rgb(255, 68, 68);
+    color: rgb(228, 106, 116);
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     text-align: right;
-    background-color: ;
 }
 
 /* CONTAINER= (HERO, FORECAST PAGE) */
@@ -228,6 +220,12 @@ h6 {
     width: 100%;
     height: auto;
     margin: 0 20px 10px 0px;
+    /* box-shadow: 0 0 10px rgb(249, 255, 170); */
+}
+
+.news img:hover {
+    box-shadow: 0 0 10px rgb(249, 255, 170);
+    cursor: pointer;
 }
 
 /* UNSURE */
@@ -235,12 +233,6 @@ h6 {
     font-family: 'Libre Baskerville', serif;
     font-size: 1.4rem;
 }
-
-/* 
-#welcome {
-    margin: 0;
-    text-align: left;
-} */
 
 /* HERO (subclasses/ids-STATS )*/
 .hero {
@@ -262,17 +254,12 @@ h6 {
     font-family: 'Roboto', sans-serif;
     bottom: 15px;
     right: 5px;
-    color: white;
+    color: black;
     letter-spacing: 1px;
     font-size: small;
     background-color: #f7B733;
     padding: 1rem;
     box-shadow: 10px 10px 30px rgb(255, 255, 255);
-
-    opacity: 2;
-    text-align: center;
-    border-radius: 10%;
-    cursor: pointer;
 }
 
 .signature br {
@@ -282,6 +269,8 @@ h6 {
 .signature p {
     font-family: 'Roboto', sans-serif;
     font-size: small;
+    color: rgb(0, 0, 0);
+
 }
 
 .signature2 {
@@ -313,12 +302,10 @@ h6 {
 .hero1 img {
     width: 100%;
     height: auto;
-
 }
 
 
 /* FORECAST */
-
 
 .forecast {
     display: none;
@@ -330,26 +317,25 @@ h6 {
 
 .forecast h3 {
     background-color: transparent;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 table {
     box-shadow: 0 0 10px #111;
-    font-size: large;
 }
 
 table th {
-    background-color: rgb(228, 106, 116);
+    background-color: #b6a999;
     color: black;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Libre Baskerville', serif;
     padding: 0.3rem;
 }
 
 table td {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto', sans-serif;
     margin: 1em;
     background: rgba(255, 255, 255, 0.3);
-    padding: 2.1em;
+    /* padding: 2.1em; */
     width: 100%;
 }
 
@@ -359,7 +345,6 @@ table td {
     width: 30%;
     height: auto;
     margin: 0 20px 10px 0px;
-
 }
 
 .info {
@@ -372,7 +357,7 @@ table td {
 }
 
 .contact {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Libre Baskerville', serif;
     font-size: 1.4rem;
     text-align: left;
     margin-left: 30px;
@@ -402,16 +387,15 @@ table td {
 footer {
     text-align: center;
     background-color: #b6a999;
-    color: white;
+    color: black;
     padding: 1.4em;
     font-size: 1.2rem;
     margin-top: 10px;
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
-
 }
 
 footer a {
-    color: white;
+    color: yellow;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

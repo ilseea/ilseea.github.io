@@ -1,9 +1,5 @@
 @media only screen and (min-width: 32.5em) {
 
-    nav {
-        background-color: rgba(228, 106, 116);
-    }
-
     .navigation {
         display: flex;
     }
@@ -14,7 +10,6 @@
     }
 
     .navigation li a {
-        color: black;
         text-align: center;
     }
 
@@ -22,14 +17,13 @@
         display: none;
     }
 
-    .navigation a:hover {
-        color: white;
-
+    .active {
+        font-family: 'Pacifico', cursive;
     }
 
-    .active {
-        background-color: rgba(230, 57, 70);
-        text-transform: initial;
+    /* WORDS */
+    h2 {
+        font-size: x-large;
     }
 
     .forecast {
@@ -43,20 +37,8 @@
 
     table td {
         padding: 1.35em;
-        width: 100%;
     }
 
-    .s {
-        display: none;
-    }
-
-    h2 {
-        margin: 1px 0 30px 0;
-    }
-
-    .container {
-        margin-top: 20px;
-    }
 
     .page p {
         line-height: 150%;
@@ -66,13 +48,8 @@
         text-align: left;
     }
 
-
-    .boy {
-        display: block;
-    }
-
     .info p {
-        font-size: 1.4rem;
+        font-size: large;
     }
 
     .social {
@@ -80,47 +57,19 @@
     }
 
     /* new styles SCOOTS */
+
     .signature {
-        position: absolute;
-        font-family: 'Pacifico', cursive;
-        bottom: 15px;
-        right: 5px;
-        color: white;
-        letter-spacing: 1px;
-        font-size: medium;
-        background-color: #f7B733;
-        padding: 1rem;
-        opacity: 2;
-        text-align: center;
-        border-radius: 10%;
-        cursor: pointer;
+        display: none;
     }
 
     .signature1 {
-        display: none;
-    }
-
-    .signature2 {
-        display: block;
-        position: absolute;
         font-family: 'Pacifico', cursive;
-        bottom: 15px;
-        left: 205px;
-        color: white;
-        letter-spacing: 1px;
+        bottom: 95px;
+        right: 50px;
+        letter-spacing: 2px;
         font-size: medium;
-        /* transform: rotate(-35deg); */
-        background-color: #f7b63370;
-        padding: .9rem;
-        /* box-shadow: 10px 10px 30px rgb(255, 255, 255); */
-        opacity: .9;
-        text-align: center;
-        border-radius: 80%;
-        cursor: pointer;
-    }
-
-    .signature3 {
-        display: none;
+        border-radius: 50%;
+        padding: 2rem;
     }
 
 }

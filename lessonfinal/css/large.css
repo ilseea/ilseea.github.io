@@ -1,7 +1,6 @@
 @media only screen and (min-width: 52.2em) {
 
     .forecast {
-        display: block;
         width: 700px;
     }
 
@@ -13,15 +12,13 @@
         padding: 2.1em;
     }
 
-    /* 
-    .headings h1 {
-        font-size: 3.5rem;
-        text-transform: lowercase;
-    } */
-
     h2 {
-        font-size: 3rem;
-        margin: -5px 0 30px 0;
+        font-size: xx-large;
+        margin: 5px 0 30px 0;
+    }
+
+    h3 {
+        font-size: xx-large;
     }
 
     .news img {
@@ -39,6 +36,15 @@
     }
 
 
+    .page li {
+        margin-top: 20px;
+        background-color: transparent;
+        color: white;
+        letter-spacing: 1px;
+        font-family: 'Libre Baskerville', serif;
+        font-size: large;
+    }
+
     .info {
         padding-left: 5rem;
         padding-right: 5rem;
@@ -55,7 +61,9 @@
 
     /* new styles for SCOOTS */
 
-
+    #credit {
+        text-align: center;
+    }
 
     .signature {
         top: 150px;
@@ -104,7 +112,7 @@
         font-family: 'Pacifico', cursive;
         bottom: 15px;
         left: 205px;
-        color: white;
+        color: black;
         letter-spacing: 1px;
         font-size: medium;
         /* transform: rotate(-35deg); */
