@@ -1,4 +1,4 @@
-const requestURL = '/data/rent.json';
+const requestURL = 'https://ilseea.github.io/lessonfinal/data/rent.json';
 
 fetch(requestURL)
     .then(function (response) {
