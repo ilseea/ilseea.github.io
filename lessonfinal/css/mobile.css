@@ -71,7 +71,7 @@ nav {
 
 .navigation a {
     display: block;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     padding: 0.45rem;
     text-decoration: none;
     text-align: left;
@@ -181,7 +181,7 @@ h5 {
     padding: 5px;
 }
 
-li {
+.page li {
     background-color: white;
     font-family: 'Pacifico', cursive;
     list-style-type: none;
