@@ -50,49 +50,13 @@ header img {
     flex-direction: column;
 }
 
-/* WEATHER HEADER */
-
-
-.clima {
-    /* position: relative; */
-    /* top: 2px; */
-    /* right: 2px; */
-    /* background-color: #f7B733; */
-    background-color: #00A891;
-
-    padding: .5rem;
-    /* box-shadow: 0 0 10px rgb(249, 255, 170); */
-    opacity: .9;
-    text-align: left;
-    /* border-radius: 80%; */
-}
-
-.clima p {
-    font-size: xx-small;
-    font-family: 'Libre Baskerville', serif;
-    /* font-family: 'Roboto', sans-serif; */
-    color: rgb(0, 0, 0);
-    font-weight: 700;
-
-}
-
-#weather-desc,
-#current-temp,
-#high-temp,
-#humidity,
-#wind-speed,
-#windchill {
-    font-family: 'Libre Baskerville', serif;
-    color: white;
-    font-weight: 700;
-}
-
 /*NAVIGATION*/
 nav {
     margin: 0 auto;
     background-color: #00e2c7;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Libre Baskerville', serif;
     box-shadow: 3px 6px 12px rgb(39, 26, 2);
+    font-weight: 700;
 }
 
 .navigation {
@@ -124,7 +88,7 @@ nav {
     display: block;
     background-color: #00e2c7;
     text-transform: lowercase;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .navigation li:first-child a:hover {
@@ -137,6 +101,108 @@ nav {
 
 .responsive li {
     display: block;
+}
+
+/* WEATHER HEADER */
+.clima {
+    /* position: relative; */
+    /* top: 2px; */
+    /* right: 2px; */
+    background-color: #00A891;
+    padding: .5rem;
+    /* box-shadow: 0 0 10px rgb(249, 255, 170); */
+    opacity: .9;
+    text-align: left;
+}
+
+.clima p {
+    font-size: small;
+    text-transform: uppercase;
+    text-align: center;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+#weather-desc,
+#current-temp,
+#high-temp,
+#humidity,
+#wind-speed,
+#windchill {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-weight: 700;
+}
+
+/* WORDS */
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    margin: 10px 0px 5px 0;
+    /* font-family: 'Libre Baskerville', serif; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px 50px 30px 5px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: x-large;
+    padding: 30px;
+    text-align: right;
+    margin: -5px 0 30px 0;
+}
+
+.page {
+    background-color: #4f4537;
+}
+
+h4 {
+    color: black;
+    background-color: #00e2c7;
+    font-size: xx-large;
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Pacifico', cursive;
+    padding: 15px;
+}
+
+h5 {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    margin: 10px 0px 10px 0;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+li {
+    background-color: white;
+    font-family: 'Pacifico', cursive;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+}
+
+h6 {
+    font-family: 'Libre Baskerville', serif;
+    /* font-size: 1.2rem; */
+    text-transform: uppercase;
+    padding-right: -10px;
+}
+
+#credit {
+    color: rgb(255, 68, 68);
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    text-align: right;
+    background-color: ;
 }
 
 /* CONTAINER= (HERO, FORECAST PAGE) */
@@ -158,87 +224,23 @@ nav {
     vertical-align: middle;
 }
 
-.page {
-    background-color: #4f4537;
-}
-
 .news img {
     width: 100%;
     height: auto;
     margin: 0 20px 10px 0px;
 }
 
-.boy {
-    display: none;
-    width: 60px;
-    height: auto;
-    box-shadow: 0 0 10px rgb(249, 255, 170);
-    border-radius: 50%;
-}
-
-.m {
-    display: none;
-}
-
-/* WORDS */
-h3 {
-    color: black;
-    font-family: 'Fredoka One', cursive;
-    font-size: 2rem;
-    padding: 30px;
-    text-align: left;
-    margin: -5px 0 30px 0;
-}
-
-h2 {
-    color: rgb(0, 0, 0);
-    font-size: medium;
-    margin: 10px 0px 5px 0;
-    font-family: 'Berkshire Swash', cursive;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px 50px 30px 5px;
-    padding: 10px;
-    width: 100%;
-    height: auto;
-}
-
-
-h4 {
-    color: rgb(0, 0, 0);
-    font-size: 1.4rem;
-    margin: 1rem;
-    font-family: 'Fredoka One', cursive;
-    font-style: italic;
-
-}
-
-h5 {
-    color: rgb(0, 0, 0);
-    font-size: xx-large;
-    margin: 10px 0px 10px 0;
-    font-family: 'Berkshire Swash', cursive;
-    background-color: rgb(255, 255, 255);
-    padding: 5px;
-}
-
-h6 {
-    font-family: 'Fredoka One', cursive;
-    /* font-size: 1.2rem; */
-    text-transform: uppercase;
-    padding-right: -10px;
-}
-
+/* UNSURE */
 .news p {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Libre Baskerville', serif;
     font-size: 1.4rem;
 }
 
+/* 
 #welcome {
     margin: 0;
     text-align: left;
-}
-
-
+} */
 
 /* HERO (subclasses/ids-STATS )*/
 .hero {
@@ -383,12 +385,7 @@ table td {
     box-shadow: 0 0 10px rgb(249, 255, 170);
 }
 
-#credit {
-    color: rgb(0, 0, 0);
-    font-family: 'Fredoka One', cursive;
-    text-transform: uppercase;
-    text-align: right;
-}
+
 
 /* SOCIAL MEDIA ICONS */
 .social:hover {
