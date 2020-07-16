@@ -28,15 +28,24 @@
 
     .forecast {
         display: block;
-        width: 500px;
+        /* width: 500px; */
     }
 
     table {
         font-size: medium;
     }
 
+    table th {
+        font-size: medium;
+    }
+
     table td {
         padding: 1.35em;
+        font-size: medium;
+    }
+
+    table td:first-child {
+        font-size: medium;
     }
 
 

@@ -1,8 +1,8 @@
 @media only screen and (min-width: 52.2em) {
 
-    .forecast {
+    /* .forecast {
         width: 700px;
-    }
+    } */
 
     table {
         font-size: large;
@@ -10,6 +10,15 @@
 
     table td {
         padding: 2.1em;
+        font-size: large;
+    }
+
+    table th {
+        font-size: large;
+    }
+
+    table td:first-child {
+        font-size: large;
     }
 
     h2 {

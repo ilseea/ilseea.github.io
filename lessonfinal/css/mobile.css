@@ -308,16 +308,11 @@ h6 {
 /* FORECAST */
 
 .forecast {
-    display: none;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     background-color: transparent;
-}
-
-.forecast h3 {
-    background-color: transparent;
-    font-family: 'Roboto', sans-serif;
 }
 
 table {
@@ -325,18 +320,30 @@ table {
 }
 
 table th {
-    background-color: #b6a999;
+    /* background-color: #00e2c7; */
+    background-color: #f7b733;
     color: black;
     font-family: 'Libre Baskerville', serif;
     padding: 0.3rem;
+    font-size: x-small;
 }
 
 table td {
     font-family: 'Roboto', sans-serif;
+    font-size: x-small;
     margin: 1em;
-    background: rgba(255, 255, 255, 0.3);
+    background: #b6a99918;
     /* padding: 2.1em; */
     width: 100%;
+}
+
+table td:first-child {
+    /* font-weight: bold; */
+    font-size: x-small;
+}
+
+table td:nth-child(odd) {
+    background: #b6a9992d;
 }
 
 /* CONTACT INFO) */

@@ -14,7 +14,7 @@ fetch(requestURL)
         vehicles.forEach(drive => {
             let card = document.createElement('tr');
             let name = document.createElement('td');
-            let head = document.createElement('th');
+            // let head = document.createElement('th');
             let max = document.createElement('td');
             let tres = document.createElement('td');
             let day = document.createElement('td');
@@ -28,19 +28,19 @@ fetch(requestURL)
             // if I want to add <strong> use .innerHTML
 
             name.textContent = `${drive.rentaltype}`;
-            head.textContent = 'Seats' + ' ' + 'Reserve';
-            max.textContent = `Seats: ${drive.capacity}`;
-            tres.textContent = 'Reserve: ' + '$' + drive.reservation.tres;
-            day.textContent = 'Full-Day Rental: ' + '$' + drive.reservation.day;
-            half.textContent = '3-Hour Rental: ' + '$' + drive.walkin.half;
-            full.textContent = 'Full-Day Rental: ' + '$' + drive.walkin.full;
+            // head.textContent = 'Seats' + ' ' + 'Reserve';
+            max.textContent = `${drive.capacity}`;
+            tres.textContent = '$' + drive.reservation.tres;
+            day.textContent = '$' + drive.reservation.day;
+            half.textContent = '$' + drive.walkin.half;
+            full.textContent = '$' + drive.walkin.full;
             // dia.textContent = 'Day Rental: ' + ' ' + drive.day;
 
             // image.setAttribute('src', drive.imageurl);
             // image.setAttribute('alt', drive.rentaltype + ' ' + drive.lastrentaltype + '- ' + drive.order);
 
             card.appendChild(name);
-            card.appendChild(head);
+            // card.appendChild(head);
 
             card.appendChild(max);
             card.appendChild(tres);
@@ -50,7 +50,7 @@ fetch(requestURL)
             // card.appendChild(dia);
 
             // card.appendChild(image);
-            document.querySelector('table.cards').appendChild(card);
+            document.querySelector('.cards').appendChild(card);
 
         });
     });

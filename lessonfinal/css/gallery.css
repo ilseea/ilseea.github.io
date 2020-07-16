@@ -13,11 +13,10 @@ div.gallery {
     grid-template-columns: repeat(1, 1fr);
     width: 80%;
     grid-column-start: 10;
-
 }
 
 .gallery img {
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
@@ -26,7 +25,6 @@ div.gallery {
 }
 
 figure {
-    margin: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -42,8 +40,6 @@ figcaption {
 }
 
 
-
-
 @media only screen and (min-width: 43.5em) {
 
     .gallery {
@@ -52,11 +48,15 @@ figcaption {
         width: 100%;
         margin: auto;
         grid-column-start: 10;
-
     }
 
     .gallery img {
         width: 320px;
+    }
+
+    figure {
+        margin: 10px;
+        align-items: center;
     }
 
     figcaption {
@@ -72,16 +72,12 @@ figcaption {
     }
 
     .gallery img {
-        box-shadow: 3px 8px 15px rgb(39, 26, 2);
         width: 355px;
-
     }
 
     figcaption {
-        box-shadow: 3px 8px 15px rgb(39, 26, 2);
         margin: 10px;
         width: 355px;
     }
-
 
 }
