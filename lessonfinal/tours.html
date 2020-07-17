@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <title>Home | Scoots</title>
+    <title>Tours | Scoots</title>
     <meta name="description"
         content="Scoots rentals. The only scooter, atv, and jeep rentals in Cozumel ...that can take you on a paradise drive beyond your sunniest dreams. Somos el unico lugar en donde rentar ciclomotores, vehiculos de todo terreno, o jeeps en todo Cozumel ...que en realidad te llevaran al paraiso de tus suenos.">
 
@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/slideshow.css">
 
 </head>
 
@@ -38,26 +39,26 @@
 
         <ul class="navigation">
             <li><a class="ham" href="#"> &#9776; Menu </a></li>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Rentals</a></li>
+            <li><a href="/lessonfinal/home.html">Home</a></li>
+            <li><a href="/lessonfinal/rentals.html">Rentals</a></li>
             <li><a href="#">Reservations</a></li>
-            <li><a href="#">Tours</a></li>
+            <li class="active"><a href="#">Tours</a></li>
             <li><a href="#">Contact</a></li>
             <!-- <li><a href="#">Gallery</a></li> -->
         </ul>
     </nav>
 
     <main>
-        <div class="hero">
+        <!-- <div class="hero">
             <h1 class="signature">...vive <br>la Aventura! <p>byebye burros... show me the SCOOTS!</p>
             </h1>
             <h1 class="signature1"> Show me <br> the SCOOTS! </h1>
 
             <figure>
 
-                <img src="/lessonfinal/images/burro.jpg" alt="scooters on the beach." sizes="50vw" srcset="/lessonfinal/images/burritos.jpg 250w,
-                /lessonfinal/images/burro.jpg 400w,
-                /lessonfinal/images/burro.jpg 800w" />
+                <img src="/lessonfinal/images/flores.jpg" alt="scooters on the beach." sizes="50vw" srcset="/lessonfinal/images/burritos.jpg 250w,
+                /lessonfinal/images/flores.jpg 400w,
+                /lessonfinal/images/flores.jpg 800w" />
 
             </figure>
 
@@ -76,30 +77,60 @@
                 /lessonfinal/images/mural.jpg 800w" />
 
                 </figure>
+        </div> -->
+        <!-- PHOTO SLIDESHOW -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="/lessonfinal/images/calle.jpg" style="width:100%">
+                <div class="text">Puerta Maya | Shopping on Lively Historic Streets</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/lessonfinal/images/explore.jpg" style="width:100%">
+                <div class="text">Ix Kool | Authentic Mexican Cuisine</div>
+            </div>
+
+            <div class="mySlides fade">
+
+                <img src="/lessonfinal/images/flores.jpg" style="width:100%">
+                <div class="text">Miguel de Calle Seis | Meet Local Artisans</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
         </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
         <!-- WHAT ABOUT SMALLER HERO IMG SIZES -->
 
 
         <section class="clima">
-            <h2>Did we mention the weather is perfect for a drive?</h2>
-            <p>Current: <span id="weather-desc"></span>
-                Temperature: <span id="current-temp"></span> &deg;F
-                Humidity: <span id="humidity"></span> %</p>
+            <h2>Did we mention 'Scoots Pick-Up' is in the heart of Cozumel?</h2>
+            <p>shopping | entertainment | ancient ruins | parasailing | water sports | sight-seeing | ...and too much
+                amazing food</p>
         </section>
 
-        <!-- MAIN -->
+        <!-- MAIN MAIN-->
         <div class="container">
-            <h3>Ready to explore the beauty of Cozumel, Mexico?</h3>
+            <h3>Ready to fall in love with Cozumel, Mexico?</h3>
             <div class="page">
-                <h4>Scooters</h4>
+                <h4>Unforgettable Experiences.</h4>
                 <div class="news">
-                    <img src="/lessonfinal/images/scooterpic.jpg" alt="Scooter overlooking sea.">
-                    <h5>Going solo? Or need a spot for your BFF? </h5>
+                    <img src="/lessonfinal/images/dance.jpg" alt="People dancing salsa.">
+                    <h5>Vacation has never been this <em>caliente & refrescante</em> all at once.</h5>
                     <ul>
-                        <li>Cruise effortlessly.</li>
-                        <li>Low-footprint friendly!</li>
-                        <li>Save $$$ for sight-seeing.</li>
-                        <li>Choose from 1 or 2 seaters.</li>
+                        <li>Isla Beach Club | Salsa & Bachata Dancing</li>
+                        <li>Fly High Adventures | Zip Line Park </li>
+                        <li>Ha Haak Water Adventures | Windsurfing & Kitesurfing </li>
+                        <li>CozuDive | Diving & Snorkeling </li>
                     </ul>
                     <br>
                 </div>
@@ -110,14 +141,14 @@
 
 
             <div class="page">
-                <h4>ATVs</h4>
+                <h4>Exquisite Cuisine.</h4>
                 <div class="news">
-                    <img src="/lessonfinal/images/atvpicture.jpg" alt="ATV on dunes.">
-                    <h5>We understand. Puppers needs wind blowing through his hair.</h5>
+                    <img src="/lessonfinal/images/sign.jpg" alt="Sign outside Mexican Restaurant.">
+                    <h5>We get it. La comida auténtica is why we're here too.</h5>
                     <ul>
-                        <li>Terrain crusher.</li>
-                        <li>Adventure-vacation.</li>
-                        <li>These bad boys seat 4!</li>
+                        <li>Ix Kool | Salsa Specialists </li>
+                        <li>Mi Mexico Lindo | Quench & Learn Tour </li>
+                        <li>Jean Laffite | Pirate Dinner Cruise </li>
                     </ul>
                     <br>
                 </div>
@@ -128,14 +159,14 @@
 
 
             <div class="page">
-                <h4>Jeeps</h4>
+                <h4>Remarkable History.</h4>
                 <div class="news">
-                    <img src="/lessonfinal/images/jeeppicture.jpg" alt="Jeep with surfers.">
-                    <h5>Need space for all your extra surfboards, and cousins?</h5>
+                    <img src="/lessonfinal/images/mayan.jpg" alt="People climbing steps of mayan ruins.">
+                    <h5>Want more? Real Stories. Real Ingenuity. Real Cultura.</h5>
                     <ul>
-                        <li>Rugged... but pretty.</li>
-                        <li>5 seater. (Okay, party animal.)</li>
-                        <li>We get it, A/C is life.</li>
+                        <li>Iglesia de San Miguel | Colonial Cathedral </li>
+                        <li>Rancho Universo | Historical Horse Sanctuary</li>
+                        <li>Mayan Ruins | Home of the Yucatan Brujos </li>
                     </ul>
                     <br>
                 </div>
@@ -144,7 +175,7 @@
 
 
 
-
+            <!-- 
             <div class="page">
                 <h4>Tours</h4>
                 <div class="news">
@@ -153,61 +184,41 @@
                 </div>
                 <em id=credit>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Scoots" on over to these hot destinations!</em>
             </div>
-        </div>
-
-        <div class="forecast">
-            <h2> Check out the rest of the week!</h2>
-            <table>
-                <tr>
-                    <th><span id="dayofweek1"></span></th>
-                    <th><span id="dayofweek2"></span></th>
-                    <th><span id="dayofweek3"></span></th>
-                    <th><span id="dayofweek4"></span></th>
-                    <th><span id="dayofweek5"></span></th>
-                </tr>
-                <tr>
-
-                    <td><img src="" alt="" id="icon1"> <br> <span id="forecast1"></span>&deg;F </td>
-                    <td><img src="" alt="" id="icon2"> <br><span id="forecast2"></span>&deg;F </td>
-                    <td><img src="" alt="" id="icon3"> <br><span id="forecast3"></span>&deg;F</td>
-                    <td><img src="" alt="" id="icon4"><br><span id="forecast4"></span>&deg;F</td>
-                    <td><img src="" alt="" id="icon5"><br><span id="forecast5"></span>&deg;F</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="container">
-
-            <div class="page">
-                <h4> Contact Information</h4>
-
-                <div class="info">
-
-                    <img src="/lesson11/images/area.jpg" alt="X marks the city Preston." class="map">
+        </div> -->
 
 
-                    <div class="contact">
-                        <h6>Avenida 85 entre calle 7 e Hidalgo 11 </h6>
-                        <h6>Cozumel, QR 77667</h6>
-                        <h6>011.52.55.8060.7590&#9742;</h6>
-                        <h6>scootsysol.com&#9993;</h6>
+            <div class="container">
+
+                <div class="page">
+                    <h4> Contact Information</h4>
+
+                    <div class="info">
+
+                        <img src="/lesson11/images/area.jpg" alt="X marks the city Preston." class="map">
+
+
+                        <div class="contact">
+                            <h6>Avenida 85 entre calle 7 e Hidalgo 11 </h6>
+                            <h6>Cozumel, QR 77667</h6>
+                            <h6>011.52.55.8060.7590&#9742;</h6>
+                            <h6>scootsysol.com&#9993;</h6>
+                        </div>
+                        <div>
+
+                            <a
+                                href="https://www.facebook.com/photo.php?fbid=606318696956728&set=gm.221184088921686&type=3&theater">
+                                <img src="/lesson11/images/facebook.png" alt="facebook icon" class="social"></a>
+                            <a href="https://www.linkedin.com/in/ilse-amezquita-talwar/">
+                                <img src="/lesson11/images/linkedin.png" alt="linkedin icon" class="social"></a>
+                            <a href="https://www.youtube.com/watch?v=y0gcFwKlsf0&t=2s">
+                                <img src="/lesson11/images/youtube.png" alt="youtube icon" class="social"></a>
+                            <a href="https://www.instagram.com/ilse.elo/?hl=en">
+                                <img src="/lesson11/images/insta.png" alt="instagram icon" class="social"></a>
+                        </div>
+
                     </div>
-                    <div>
-
-                        <a
-                            href="https://www.facebook.com/photo.php?fbid=606318696956728&set=gm.221184088921686&type=3&theater">
-                            <img src="/lesson11/images/facebook.png" alt="facebook icon" class="social"></a>
-                        <a href="https://www.linkedin.com/in/ilse-amezquita-talwar/">
-                            <img src="/lesson11/images/linkedin.png" alt="linkedin icon" class="social"></a>
-                        <a href="https://www.youtube.com/watch?v=y0gcFwKlsf0&t=2s">
-                            <img src="/lesson11/images/youtube.png" alt="youtube icon" class="social"></a>
-                        <a href="https://www.instagram.com/ilse.elo/?hl=en">
-                            <img src="/lesson11/images/insta.png" alt="instagram icon" class="social"></a>
-                    </div>
-
                 </div>
             </div>
-        </div>
     </main>
     <footer>
         <p> &copy;
@@ -217,7 +228,7 @@
 
     </footer>
     <script src="/lessonfinal/js/jquery.js"></script>
-
+    <script src="js/slideshow.js"></script>
     <script src="js/prestonapi.js"></script>
     <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
