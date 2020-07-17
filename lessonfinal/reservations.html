@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Reservations | Scoots</title>
+    <meta name="description"
+        content="Scoots rentals. The only scooter, atv, and jeep rentals in Cozumel ...that can take you on a paradise drive beyond your sunniest dreams. Somos el unico lugar en donde rentar ciclomotores, vehiculos de todo terreno, o jeeps en todo Cozumel ...que en realidad te llevaran al paraiso de tus suenos.">
+
+    <link rel="icon" href="images/faviscoot.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Libre+Baskerville:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <a href="#"><img src="images/logoblack.png" alt="bird logo"></a>
+        <section class="headings">
+
+
+    </header>
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+
+        <ul class="navigation">
+            <li><a class="ham" href="#"> &#9776; Menu </a></li>
+            <li><a href="/lessonfinal/home.html">Home</a></li>
+            <li><a href="/lessonfinal/rentals.html">Rentals</a></li>
+            <li class="active"><a href="#">Reservations</a></li>
+            <li><a href="/lessonfinal/tours.html">Tours</a></li>
+            <li><a href="#">Contact</a></li>
+            <!-- <li><a href="#">Gallery</a></li> -->
+        </ul>
+    </nav>
+    <!-- FIX WIDTH of PAGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 -->
+    <main>
+        <div class="hero">
+            <h1 class="signature">...vive <br>la Aventura! <p>byebye burros... show me the SCOOTS!</p>
+            </h1>
+            <h1 class="signature1"> Show me <br> the SCOOTS! </h1>
+
+            <figure>
+
+                <img src="/lessonfinal/images/red.jpg" alt="scooters on the beach." sizes="50vw" srcset="/lessonfinal/images/burritos.jpg 250w,
+                /lessonfinal/images/red.jpg 400w,
+                /lessonfinal/images/red.jpg 800w" />
+
+            </figure>
+
+        </div>
+
+        <section class="clima">
+            <h2>Did we mention the view from your Scoots is incredible?</h2>
+            <p>beaches | jungles | ancient ruins | old-town | luxurious resorts | dunes</p>
+        </section>
+
+        <div class="container">
+            <h3> Ready to drive through Cozumel, Mexico?</h3>
+        </div>
+        <form id="my-form" action="/lesson11/thanks.html" method="get">
+            <h4>Personal Information</h4>
+            <div class="form-box">
+                <label for="name">Full Name</label>
+                <input type="text" id="text" name="text" placeholder="Nombre Completo" required pattern="[A-Za-z ]+"
+                    minlength="5">
+            </div>
+            <h4>Rental Information</h4>
+            <div class="form-box">
+                <label for="date">Rental Date</label>
+                <input type="date" id="date" name="date">
+            </div>
+
+            <div class="form-box">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Heartie@plank.com">
+            </div>
+
+            <div class="form-box">
+                <label for="tel">Telephone</label>
+                <input type="tel" id="tel" name="tel" placeholder="(208)***-****" required>
+            </div>
+
+            <div class="form-box">
+                <label for="zipcode">Zipcode</label>
+                <input type="number" id="zipcode" name="zipcode" placeholder="83440" required>
+            </div>
+            <h4>Storm Information</h4>
+
+
+            <div class="form-box">
+                <label for="domain">Storm Type</label>
+                <input list="storms" id="domain" name="domain" placeholder="Storm" />
+
+                <datalist id="storms">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+            </div>
+
+            <div class="form-rating">
+                <label class="flexer" for="severity">Storm Severity
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1"
+                        list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">3</span>
+                </label>
+
+
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+            </div>
+
+            <div class="form-box">
+                <label for="region">Storm Region</label>
+                <select id="region" name="region">
+                    <option selected disabled> Select Region...</option>
+                    <option value="Preston"> Preston</option>
+                    <option value="Soda Springs"> Soda Springs</option>
+                    <option value="Fish Haven"> Fish Haven</option>
+
+                </select>
+            </div>
+
+            <div class="form-box">
+                <legend>Dangerous? <em>(Choose one)</em></legend>
+                <div class="selection">
+                    <label for="time1"><input type="radio" id="time1" name="time" value="yes" checked> Yes</label>
+                </div>
+
+                <div class="selection">
+                    <label for="time2"><input type="radio" id="time2" name="time" value="no"> No</label>
+                </div>
+                <div class="selection">
+                    <label for="time3"><input type="radio" id="time3" name="time" value="unsure"> Unsure</label>
+                </div>
+
+            </div>
+
+            <div class="form-box">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" rows="4">
+
+                        Share additional information here!
+                        </textarea>
+
+            </div>
+
+
+            <div class="form-box" id="submitform" form="my-form">
+                <input type="submit" name="btnSend" id="btnSend" form="my-form" value="Submit Storm Form">
+
+            </div>
+
+            <div class="form-box" id="submitform" form="my-form">
+                <p>rental agreement info</p>
+
+            </div>
+        </form>
+        </fieldset>
+    </main>
+
+
+    <footer>
+        <p> &copy;
+            <span id="currentYr"> </span> Weather Hearties | Attributions
+            | <a href="https://ilseea.github.io/">Ilse Amezquita Talwar</a> </p>
+        <span id="dailydate"></span>
+
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+
+</html>
