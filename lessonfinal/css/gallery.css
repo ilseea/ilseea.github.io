@@ -1,7 +1,3 @@
-/* body {
-    max-width: 1200px;
-} */
-
 /* GALLERY */
 
 div.gallery {
@@ -23,7 +19,7 @@ div.gallery {
 }
 
 .norm:hover {
-    box-shadow: 0 0 50px #333;
+    width: 300px;
 }
 
 figure {

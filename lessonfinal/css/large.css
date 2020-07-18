@@ -1,8 +1,13 @@
 @media only screen and (min-width: 52.2em) {
 
-    /* .forecast {
+    .forecast {
         width: 700px;
-    } */
+    }
+
+    .prices {
+        width: 1000px;
+    }
+
 
     table {
         font-size: large;
@@ -74,47 +79,53 @@
         text-align: center;
     }
 
-    .signature {
+    /* .signature {
         top: 150px;
-        right: 105px;
+        left: 105px;
         letter-spacing: 1px;
         font-size: xx-large;
         transform: rotate(10deg);
         padding: 3rem;
         box-shadow: 10px 10px 30px rgb(255, 255, 255);
         border-radius: 80%;
-    }
+    } */
 
     .signature br {
         display: block;
     }
 
-    /* .signature em {
-    font-family: 'Roboto', sans-serif;
-    font-size: x-small;
+    .signature p {
+        /* font-family: 'Roboto', sans-serif; */
+        font-size: small;
+        font-family: 'Pacifico', cursive;
+    }
 
-} */
     .signature {
         display: block;
         position: absolute;
-        font-family: 'Pacifico', cursive;
+        font-family: 'Roboto', sans-serif;
+
         top: 30px;
-        right: 55px;
+        left: 55px;
         color: white;
         letter-spacing: 1px;
         font-size: xx-large;
         background-color: #f7B733;
-        padding: 4rem;
+        transform: rotate(-15deg);
+        padding: 3rem;
         opacity: 2;
         text-align: center;
         border-radius: 80%;
         cursor: pointer;
+        box-shadow: 10px 10px 30px rgb(255, 255, 255);
+
     }
 
     .signature1 {
         display: none;
     }
 
+    /* 
     .signature2 {
         display: block;
         position: absolute;
@@ -124,10 +135,8 @@
         color: black;
         letter-spacing: 1px;
         font-size: medium;
-        /* transform: rotate(-35deg); */
         background-color: #f7b63370;
         padding: .9rem;
-        /* box-shadow: 10px 10px 30px rgb(255, 255, 255); */
         opacity: .9;
         text-align: center;
         border-radius: 80%;
@@ -136,5 +145,5 @@
 
     .signature3 {
         display: none;
-    }
+    } */
 }

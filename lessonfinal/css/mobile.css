@@ -35,7 +35,7 @@ header {
 }
 
 header img {
-    width: 190px;
+    width: 90px;
     height: auto;
     margin: 3px 25px 0 25px;
     /* box-shadow: 30px 10px 30px 10px rgba(255, 255, 255, 0.137); */
@@ -47,6 +47,8 @@ header img {
     display: flex;
     flex-direction: column;
 }
+
+
 
 /*NAVIGATION*/
 nav {
@@ -198,6 +200,15 @@ h6 {
     text-align: right;
 }
 
+
+.page a:link {
+    text-decoration: none;
+}
+
+/* .page a:hover {
+    text-decoration: underline;
+} */
+
 /* CONTAINER= (HERO, FORECAST PAGE) */
 
 .container {
@@ -254,11 +265,11 @@ h6 {
     position: absolute;
     font-family: 'Roboto', sans-serif;
     bottom: 15px;
-    right: 5px;
+    left: 5px;
     color: black;
     letter-spacing: 1px;
     font-size: small;
-    background-color: #f7B733;
+    background-color: #f7b633ef;
     padding: 1rem;
     box-shadow: 10px 10px 30px rgb(255, 255, 255);
 }
@@ -308,12 +319,32 @@ h6 {
 
 /* FORECAST */
 
-.forecast {
-    display: block;
+.forecast,
+.prices {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     background-color: transparent;
+}
+
+.forecast {
+    display: none;
+}
+
+.prices {
+    display: block;
+}
+
+
+.prices td:first-child {
+    background-color: #00a89294;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.prices tr:nth-child(even) {
+    background-color: #00e2c848;
+
 }
 
 table {
@@ -378,7 +409,10 @@ table td:nth-child(odd) {
     box-shadow: 0 0 10px rgb(249, 255, 170);
 }
 
-
+iframe {
+    width: 100%;
+    height: 500px;
+}
 
 /* SOCIAL MEDIA ICONS */
 .social:hover {

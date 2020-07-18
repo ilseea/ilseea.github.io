@@ -1,5 +1,9 @@
 @media only screen and (min-width: 32.5em) {
 
+    header img {
+        width: 130px;
+    }
+
     .navigation {
         display: flex;
     }
@@ -28,7 +32,11 @@
 
     .forecast {
         display: block;
-        /* width: 500px; */
+        width: 500px;
+    }
+
+    .prices {
+        width: 800px;
     }
 
     table {
@@ -74,11 +82,12 @@
     .signature1 {
         font-family: 'Pacifico', cursive;
         bottom: 95px;
-        right: 50px;
+        left: 50px;
+        transform: rotate(-20deg);
         letter-spacing: 2px;
         font-size: medium;
         border-radius: 50%;
-        padding: 2rem;
+        padding: 1.4rem;
     }
 
 }
