@@ -21,10 +21,6 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="css/gallery.css">
-
-    <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -54,7 +50,7 @@
         <div class="hero">
             <figure>
 
-                <img src="/lessonfinal/images/red.jpg" alt="scooters on the beach." sizes="50vw" srcset="/lessonfinal/images/burritos.jpg 250w,
+                <img src="/lessonfinal/images/red.jpg" alt="scooters on the beach." sizes="50vw" srcset="/lessonfinal/images/red.jpg 250w,
                 /lessonfinal/images/red.jpg 400w,
                 /lessonfinal/images/red.jpg 800w" />
 
@@ -70,186 +66,189 @@
         <div class="container">
             <h3> Ready to drive through Cozumel, Mexico?</h3>
         </div>
-        <form id="my-form" action="/lesson11/thanks.html" method="get">
-            <!-- <h4>Personal Information</h4> -->
-            <!-- "date" -->
-            <div class="form-box">
-                <label for="date">Start Date</label>
-                <input type="date" id="date" name="date">
-            </div>
 
-            <div class="form-box">
-                <label for="date">End Date</label>
-                <input type="date" id="date" name="date">
-            </div>
+        <div class="reserveform">
+            <form id="my-form" action="/lessonfinal/thanks.html" method="get">
+                <!-- <h4>Personal Information</h4> -->
+                <!-- "date" -->
+                <div class="form-box">
+                    <label for="date">Start Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
 
-            <!-- "period" ?????-->
+                <div class="form-box">
+                    <label for="date">End Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
 
-
-            <!-- rental type -->
-
-            <div class="form-box">
-                <label for="domain">Rental Type</label>
-                <input list="storms" id="domain" name="domain" placeholder="Choose rental..." />
-
-                <datalist id="storms">
-                    <option value="Honda Metro Scooter"></option>
-                    <option value="Honda Dio Scooter"></option>
-                    <option value="Honda PCX150 Scooter"></option>
-                    <option value="Honda Pioneer ATV"></option>
-                    <option value="Jeep Wrangler -4 Door"></option>
-                    <option value="Jeep Wrangler -2 Door"></option>
-
-                </datalist>
-            </div>
-            <!-- rental #??? -->
-            <div class="form-rating">
-                <label class="flexer" for="severity">Number Rented
-                    &nbsp;&nbsp;&nbsp;
-                    <input type="range" id="severity" name="severity" value="5" min="1" max="3" step="1"
-                        list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">3</span>
-                </label>
+                <!-- "period" ?????-->
 
 
-                <datalist id="tickmarks">
-                    <option value="0">
-                    <option value="1">
-                    <option value="2">
-                    <option value="3">
-                </datalist>
-            </div>
+                <!-- rental type -->
 
-            <!-- phone # -->
-            <div class="form-box">
-                <label for="tel">Telephone</label>
-                <input type="tel" id="tel" name="tel" placeholder="(52)55-****-****" required>
-            </div>
-            <!-- name -->
-            <div class="form-box">
-                <label for="name">Full Name</label>
-                <input type="text" id="text" name="text" placeholder="Nombre Completo" required pattern="[A-Za-z ]+"
-                    minlength="5">
-            </div>
-            <!-- <h4>Rental Information</h4> -->
+                <div class="form-box">
+                    <label for="domain">Rental Type</label>
+                    <input list="storms" id="domain" name="domain" placeholder="Choose rental..." />
 
-            <!-- email -->
-            <div class="form-box">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Heartie@plank.com">
-            </div>
+                    <datalist id="storms">
+                        <option value="Honda Metro Scooter"></option>
+                        <option value="Honda Dio Scooter"></option>
+                        <option value="Honda PCX150 Scooter"></option>
+                        <option value="Honda Pioneer ATV"></option>
+                        <option value="Jeep Wrangler -4 Door"></option>
+                        <option value="Jeep Wrangler -2 Door"></option>
+
+                    </datalist>
+                </div>
+                <!-- rental #??? -->
+                <div class="form-rating">
+                    <label class="flexer" for="severity">Number Rented
+                        &nbsp;&nbsp;&nbsp;
+                        <input type="range" id="severity" name="severity" value="5" min="1" max="3" step="1"
+                            list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">3</span>
+                    </label>
 
 
-            <!-- 
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                    </datalist>
+                </div>
+
+                <!-- phone # -->
+                <div class="form-box">
+                    <label for="tel">Telephone</label>
+                    <input type="tel" id="tel" name="tel" placeholder="(52)55-****-****" required>
+                </div>
+                <!-- name -->
+                <div class="form-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="text" name="text" placeholder="Nombre Completo" required pattern="[A-Za-z ]+"
+                        minlength="5">
+                </div>
+                <!-- <h4>Rental Information</h4> -->
+
+                <!-- email -->
+                <div class="form-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Heartie@plank.com">
+                </div>
+
+
+                <!-- 
             <div class="form-box">
                 <label for="zipcode">Zipcode</label>
                 <input type="number" id="zipcode" name="zipcode" placeholder="83440" required>
             </div> -->
-            <!-- <h4>Storm Information</h4> -->
+                <!-- <h4>Storm Information</h4> -->
 
 
 
-            <!-- home country -->
+                <!-- home country -->
 
-            <div class="form-box">
-                <label for="region">Home Country</label>
-                <select id="region" name="region">
-                    <option selected disabled> Select Country...</option>
-                    <option value="mexico"> Mexico</option>
-                    <option value="norteAmerica"> U.S.A/Canada</option>
-                    <option value="elCaribe"> Caribbean</option>
-                    <option value="centroAmerica"> Central America
-                    </option>
-                    <option value="africa"> Africa</option>
-                    <option value="surAmerica"> South America</option>
-                    <option value="Asia"> Asia</option>
-                    <option value="Europa"> Europe</option>
-                    <option value="Isla"> Autralia/NewZealand</option>
-                </select>
-            </div>
-            <!-- home state -->
+                <div class="form-box">
+                    <label for="region">Home Country</label>
+                    <select id="region" name="region">
+                        <option selected disabled> Select Country...</option>
+                        <option value="mexico"> Mexico</option>
+                        <option value="norteAmerica"> U.S.A/Canada</option>
+                        <option value="elCaribe"> Caribbean</option>
+                        <option value="centroAmerica"> Central America
+                        </option>
+                        <option value="africa"> Africa</option>
+                        <option value="surAmerica"> South America</option>
+                        <option value="Asia"> Asia</option>
+                        <option value="Europa"> Europe</option>
+                        <option value="Isla"> Autralia/NewZealand</option>
+                    </select>
+                </div>
+                <!-- home state -->
 
-            <div class="form-box">
-                <label for="state">State(if Applicable)</label>
-                <select id="state" name="state">
-                    <option selected disabled> Select State...</option>
-                    <option value="29"> Aguascalientes</option>
-                    <option value="10"> Baja California Sur</option>
-                    <option value="12"> Baja California</option>
-                    <option value="17"> Campeche</option>
-                    <option value="2"> Chihuahua</option>
-                    <option value="4"> Coahuila de Zaragoza</option>
-                    <option value="28"> Colima</option>
-                    <option value="5"> Durango</option>
+                <div class="form-box">
+                    <label for="state">State(if Applicable)</label>
+                    <select id="state" name="state">
+                        <option selected disabled> Select State...</option>
+                        <option value="29"> Aguascalientes</option>
+                        <option value="10"> Baja California Sur</option>
+                        <option value="12"> Baja California</option>
+                        <option value="17"> Campeche</option>
+                        <option value="2"> Chihuahua</option>
+                        <option value="4"> Coahuila de Zaragoza</option>
+                        <option value="28"> Colima</option>
+                        <option value="5"> Durango</option>
 
-                    <option value="22"> Guanajuato</option>
-                    <option value="14"> Guerrero</option>
-                    <option value="26"> Hidalgo</option>
-                    <option value="8"> Jalisco</option>
-                    <option value="25"> Mexico</option>
-                    <option value="1"> Mexico City</option>
-                    <option value="16"> Michoacan</option>
-                    <option value="30"> Morelos</option>
-                    <option value="23"> Nayarit</option>
-                    <option value="13"> Nuevo Leon</option>
-                    <option value="6"> Oaxaca</option>
-                    <option value="21"> Puebla</option>
-                    <option value="27"> Queretaro</option>
-                    <option value="19"> Quintana Roo</option>
+                        <option value="22"> Guanajuato</option>
+                        <option value="14"> Guerrero</option>
+                        <option value="26"> Hidalgo</option>
+                        <option value="8"> Jalisco</option>
+                        <option value="25"> Mexico</option>
+                        <option value="1"> Mexico City</option>
+                        <option value="16"> Michoacan</option>
+                        <option value="30"> Morelos</option>
+                        <option value="23"> Nayarit</option>
+                        <option value="13"> Nuevo Leon</option>
+                        <option value="6"> Oaxaca</option>
+                        <option value="21"> Puebla</option>
+                        <option value="27"> Queretaro</option>
+                        <option value="19"> Quintana Roo</option>
 
-                    <option value="15"> San Luis Potosi</option>
-                    <option value="18"> Sinaloa</option>
-                    <option value="3"> Sonora</option>
-                    <option value="24"> Tabasco</option>
-                    <option value="7"> Tamaulipas</option>
-                    <option value="31"> Tlaxcala</option>
-                    <option value="11"> Veracruz</option>
-                    <option value="20"> Yucatan</option>
-                    <option value="9"> Zacatecas</option>
-                </select>
-            </div>
+                        <option value="15"> San Luis Potosi</option>
+                        <option value="18"> Sinaloa</option>
+                        <option value="3"> Sonora</option>
+                        <option value="24"> Tabasco</option>
+                        <option value="7"> Tamaulipas</option>
+                        <option value="31"> Tlaxcala</option>
+                        <option value="11"> Veracruz</option>
+                        <option value="20"> Yucatan</option>
+                        <option value="9"> Zacatecas</option>
+                    </select>
+                </div>
 
-            <!-- cruiseline -->
-            <div class="form-box">
-                <label for="cruise">Cruiselines</label>
-                <select id="cruise" name="cruise">
-                    <option selected disabled> Are you coming on a cruise?</option>
-                    <option value="carnival"> Carnival Cruise</option>
-                    <option value="celebrity"> Celebrity Cruises</option>
-                    <option value="norwegian"> Norwegian Cruise Line</option>
-                    <option value="oceania"> Oceania</option>
-                    <option value="royalCarib"> Royal Caribbean Int.</option>
-                </select>
-            </div>
+                <!-- cruiseline -->
+                <div class="form-box">
+                    <label for="cruise">Cruiselines</label>
+                    <select id="cruise" name="cruise">
+                        <option selected disabled> Are you coming on a cruise?</option>
+                        <option value="carnival"> Carnival Cruise</option>
+                        <option value="celebrity"> Celebrity Cruises</option>
+                        <option value="norwegian"> Norwegian Cruise Line</option>
+                        <option value="oceania"> Oceania</option>
+                        <option value="royalCarib"> Royal Caribbean Int.</option>
+                    </select>
+                </div>
 
-            <!-- special accomodations -->
-            <div class="form-box">
-                <label for="comments">accommodations ?</label>
-                <textarea id="comments" name="comments" rows="4">
+                <!-- special accomodations -->
+                <div class="form-box">
+                    <label for="comments">Accommodations ?</label>
+                    <textarea id="comments" name="comments" rows="4">
 Special accommodations  needed?
                         </textarea>
 
-            </div>
-            <!-- additional comments -->
-            <div class="form-box">
-                <label for="comments">Comments</label>
-                <textarea id="comments" name="comments" rows="4">Additional comments...
+                </div>
+                <!-- additional comments -->
+                <div class="form-box">
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" rows="4">Additional comments...
                         </textarea>
 
-            </div>
+                </div>
 
 
-            <div class="form-box" id="submitform" form="my-form">
-                <input type="submit" name="btnSend" id="btnSend" form="my-form" value="Submit Storm Form">
+                <div class="form-box" id="submitform" form="my-form">
+                    <input type="submit" name="btnSend" id="btnSend" form="my-form" value="Submit Storm Form">
 
-            </div>
+                </div>
+        </div>
 
-            <!-- <div class="form-box" id="submitform" form="my-form"> -->
+
+        <div class="container">
             <div class="page">
                 <h4>Conditions & Services.</h4>
                 <div class="news">
-                    <h5>We take care of all the hardwork, you go enjoy. <em>Scoots coming in Vay-Cay!</em>
-                    </h5>
+                    <h5>We'll take care of all the hardwork. Go, we've got your keys ready. </h5>
 
                     <ul>
                         <li>$50 security deposit is required to confirm reservations.</li>
@@ -266,11 +265,13 @@ Special accommodations  needed?
                     </ul> <br>
 
                 </div>
-                <!-- <em id=credit>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As low as $20!</em> -->
             </div>
-            <!-- </div> -->
+        </div>
         </form>
         </fieldset>
+
+
+
     </main>
 
 

@@ -4,10 +4,10 @@
     box-sizing: inherit;
 }
 
-main {
+.reserveform {
     margin: 1rem auto;
     width: 90%;
-    max-width: 900px;
+    max-width: 500px;
 }
 
 
@@ -57,10 +57,6 @@ legend {
     align-items: center;
 }
 
-em {
-    font-size: small;
-    font-weight: 500;
-}
 
 #yesbutton,
 #maybebutton,
@@ -71,7 +67,6 @@ em {
 
 #danger {
     display: block;
-    /* margin-right: 5rem; */
 }
 
 /* #btnSend {
@@ -107,7 +102,7 @@ input:invalid {
 
 #btnSend {
     background-color: #f7b633cb;
-    font-size: x-large;
+    font-size: large;
     font-family: "Libre Baskerville", serif;
     cursor: pointer;
 }
@@ -144,17 +139,17 @@ FORM
         margin-left: 1rem;
     }
 
-    .form-box button {}
+    /* .form-box button {}
 
-}
+} */
 
 
-@media only screen and (min-width: 52.2em) {
+    @media only screen and (min-width: 52.2em) {
 
-    table {
-        font-size: large;
-    }
+        table {
+            font-size: large;
+        }
 
-    table td {
-        padding: 2.1em;
-    }
+        table td {
+            padding: 2.1em;
+        }
