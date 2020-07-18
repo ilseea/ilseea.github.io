@@ -90,4 +90,11 @@
         padding: 1.4rem;
     }
 
+    .info img {
+        width: 50%;
+    }
+
+    .info p {
+        font-size: medium;
+    }
 }

@@ -381,7 +381,7 @@ table td:nth-child(odd) {
 /* CONTACT INFO) */
 
 .info img {
-    width: 30%;
+    width: 80%;
     height: auto;
     margin: 0 20px 10px 0px;
 }
@@ -392,7 +392,7 @@ table td:nth-child(odd) {
 }
 
 .info p {
-    font-size: 1rem;
+    font-size: small;
 }
 
 .contact {
@@ -421,8 +421,8 @@ iframe {
 
 .social {
     max-width: 30px;
-    margin-top: 40px;
-    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* ****FOOTER**** */
