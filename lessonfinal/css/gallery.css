@@ -1,11 +1,13 @@
-body {
+/* body {
     max-width: 1200px;
-}
+} */
 
 /* GALLERY */
 
 div.gallery {
     margin: auto;
+    max-width: 1200px;
+
 }
 
 .gallery {
