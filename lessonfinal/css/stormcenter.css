@@ -21,15 +21,17 @@ input,
 label,
 legend {
     padding: 0.2rem 1rem;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     color: inherit;
-    font-family: 'Indie Flower', cursive;
+    /* font-family: 'Indie Flower', cursive; */
 }
 
 .form-box {
     padding: 0.5rem 0;
     display: flex;
     flex-direction: column;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
 }
 
 .form-rating {
@@ -89,6 +91,25 @@ em {
     display: block;
 }
 
+/* FORM */
+
+
+input:invalid {
+    background-color: #f5d28c;
+    color: #000;
+}
+
+/* input:valid {
+    background-color: #dfd;
+    color: #000;
+} */
+
+#btnSend {
+    background-color: #f7b733;
+    font-size: x-large;
+    font-family: "Libre Baskerville", serif;
+
+}
 
 
 @media only screen and (min-width: 500px) {
