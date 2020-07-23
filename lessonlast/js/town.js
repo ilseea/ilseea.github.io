@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = '/data/rent.json';
 
 fetch(requestURL)
     .then(function (response) {
@@ -7,52 +7,52 @@ fetch(requestURL)
     })
 
     .then(function (jsonObject) {
-        const towns = jsonObject['towns'];
-        const result = towns.filter(town => (
-            town.name == 'Fish Haven' || town.name == 'Preston' || town.name == 'Soda Springs'));
+        const vehicles = jsonObject['vehicles'];
+        const result = vehicles.filter(rent => (
+            rent.rentaltype == 'Honda Metro Scooter' || rent.rentaltype == 'Honda Dio Scooter' || rent.rentaltype == 'Honda PCX150 Scooter'));
 
-        result.forEach(town => {
-            let towncard = document.createElement('article');
-            towncard.classList.add("towncard");
-
-
-            let towndetail = document.createElement('div');
-            towndetail.classList.add("towndetail")
-            let name = document.createElement('h3');
-            let slogan = document.createElement('h4');
-            let year = document.createElement('p');
-            let population = document.createElement('p');
-            let rain = document.createElement('p');
-
-            let townpicture = document.createElement('div');
-            townpicture.classList.add("townpicture")
-            let image = document.createElement('img');
-
-            name.textContent = town.name;
-            slogan.textContent = `"${town.motto}"`;
-            year.textContent = `Year Founded: ${town.yearFounded}`;
-            population.textContent = `Population: ${town.currentPopulation}`;
-            rain.textContent = `Annual Rain Fall: ${town.averageRainfall} inches`;
-
-            image.setAttribute('src', town.photo);
-            image.setAttribute('alt', town.name);
+        result.forEach(rent => {
+            let rentcard = document.createElement('article');
+            rentcard.classList.add("rentcard");
 
 
+            let rentdetail = document.createElement('div');
+            rentdetail.classList.add("rentdetail")
+            let rentaltype = document.createElement('h3');
+            let max = document.createElement('h4');
+            // let year = document.createElement('p');
+            // let population = document.createElement('p');
+            // let rain = document.createElement('p');
 
-            townpicture.appendChild(image);
-            towncard.appendChild(townpicture);
+            // let rentpicture = document.createElement('div');
+            // rentpicture.classList.add("rentpicture")
+            // let image = document.createElement('img');
 
-            towndetail.appendChild(name);
-            towndetail.appendChild(slogan);
-            towndetail.appendChild(year);
-            towndetail.appendChild(population);
-            towndetail.appendChild(rain);
-            towncard.appendChild(towndetail);
+            rentaltype.textContent = rent.rentaltype;
+            max.textContent = `"${rent.motto}"`;
+            year.textContent = `Year Founded: ${rent.yearFounded}`;
+            // population.textContent = `Population: ${rent.currentPopulation}`;
+            // rain.textContent = `Annual Rain Fall: ${rent.averageRainfall} inches`;
 
-            // townpicture.appendChild(image);
-            // towncard.appendChild(townpicture);
+            // image.setAttribute('src', rent.photo);
+            // image.setAttribute('alt', rent.rentaltype);
 
 
-            document.querySelector('div.cards').appendChild(towncard);
+
+            // rentpicture.appendChild(image);
+            // rentcard.appendChild(rentpicture);
+
+            rentdetail.appendChild(rentaltype);
+            rentdetail.appendChild(max);
+            // rentdetail.appendChild(year);
+            // rentdetail.appendChild(population);
+            // rentdetail.appendChild(rain);
+            // rentcard.appendChild(rentdetail);
+
+            // rentpicture.appendChild(image);
+            // rentcard.appendChild(rentpicture);
+
+
+            document.querySelector('div.cards').appendChild(rentcard);
         });
     });

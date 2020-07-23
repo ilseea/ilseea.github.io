@@ -188,9 +188,7 @@ h5 {
 
 h6 {
     font-family: 'Libre Baskerville', serif;
-    /* font-size: 1.2rem; */
     text-transform: uppercase;
-    /* padding-right: -10px; */
 }
 
 #credit {
@@ -204,10 +202,6 @@ h6 {
 .page a:link {
     text-decoration: none;
 }
-
-/* .page a:hover {
-    text-decoration: underline;
-} */
 
 /* CONTAINER= (HERO, FORECAST PAGE) */
 
