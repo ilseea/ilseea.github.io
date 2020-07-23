@@ -116,6 +116,15 @@ input:invalid {
 
 }
 
+.resource li {
+    font-family: 'Pacifico', cursive;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+}
+
+
 @media only screen and (min-width: 500px) {
 
     /************
@@ -152,6 +161,11 @@ FORM
 
         table td {
             padding: 2.1em;
+        }
+
+        .resource li {
+
+            font-size: large;
         }
     }
 }
