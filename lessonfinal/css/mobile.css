@@ -3,15 +3,11 @@
     padding: 0;
 }
 
-/* this ^ made my boxes skinny */
-
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
 
-/*----------- apply a natural box layout model to all elements --------------*/
 * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -25,11 +21,9 @@ body {
 }
 
 
-/* ****HEADER**** */
 header {
     background-color: #b6a999;
     display: flex;
-    /* box-shadow: 3px 6px 12px rgb(39, 26, 2); */
     letter-spacing: 0.1em;
     align-items: center;
 }
@@ -38,8 +32,6 @@ header img {
     width: 90px;
     height: auto;
     margin: 3px 25px 0 25px;
-    /* box-shadow: 30px 10px 30px 10px rgba(255, 255, 255, 0.137); */
-    /* background-color: rgba(238, 238, 238, 0.137); */
     border-radius: 50%;
 }
 
@@ -50,7 +42,6 @@ header img {
 
 
 
-/*NAVIGATION*/
 nav {
     margin: 0 auto;
     background-color: #00e2c7;
@@ -104,14 +95,9 @@ nav {
     display: block;
 }
 
-/* WEATHER HEADER */
 .clima {
-    /* position: relative; */
-    /* top: 2px; */
-    /* right: 2px; */
     background-color: #00A891;
     padding: .5rem;
-    /* box-shadow: 0 0 10px rgb(249, 255, 170); */
     opacity: .9;
     text-align: left;
 }
@@ -120,7 +106,6 @@ nav {
     font-size: small;
     text-transform: uppercase;
     text-align: center;
-    /* font-family: 'Libre Baskerville', serif; */
     font-family: 'Roboto', sans-serif;
     color: rgb(0, 0, 0);
     font-weight: 700;
@@ -137,10 +122,8 @@ nav {
     font-weight: 700;
 }
 
-/* WORDS */
 h2 {
     color: rgb(0, 0, 0);
-    /* font-size: medium; */
     margin: 10px 0px 15px 0;
     font-family: 'Pacifico', cursive;
 }
@@ -217,7 +200,9 @@ h6 {
     text-transform: lowercase;
 }
 
-/* CONTAINER= (HERO, FORECAST PAGE) */
+.contactus {
+    background-color: transparent;
+}
 
 .container {
     display: flex;
@@ -240,7 +225,6 @@ h6 {
     width: 100%;
     height: auto;
     margin: 0 20px 10px 0px;
-    /* box-shadow: 0 0 10px rgb(249, 255, 170); */
 }
 
 .news img:hover {
@@ -248,13 +232,11 @@ h6 {
     cursor: pointer;
 }
 
-/* UNSURE */
 .news p {
     font-family: 'Libre Baskerville', serif;
     font-size: 1.4rem;
 }
 
-/* HERO (subclasses/ids-STATS )*/
 .hero {
     position: relative;
 }
@@ -325,8 +307,6 @@ h6 {
 }
 
 
-/* FORECAST */
-
 .forecast,
 .prices {
     margin-left: auto;
@@ -360,7 +340,6 @@ table {
 }
 
 table th {
-    /* background-color: #00e2c7; */
     background-color: #f7b733;
     color: black;
     font-family: 'Libre Baskerville', serif;
@@ -373,12 +352,10 @@ table td {
     font-size: x-small;
     margin: 1em;
     background: #b6a99918;
-    /* padding: 2.1em; */
     width: 100%;
 }
 
 table td:first-child {
-    /* font-weight: bold; */
     font-size: x-small;
 }
 
@@ -386,7 +363,6 @@ table td:nth-child(odd) {
     background: #b6a9992d;
 }
 
-/* CONTACT INFO) */
 
 .info img {
     width: 80%;
@@ -422,7 +398,6 @@ iframe {
     height: 500px;
 }
 
-/* SOCIAL MEDIA ICONS */
 .social:hover {
     opacity: 0.3;
 }
@@ -433,7 +408,6 @@ iframe {
     margin-left: auto;
 }
 
-/* ****FOOTER**** */
 footer {
     text-align: center;
     background-color: #b6a999;
@@ -448,7 +422,6 @@ footer a {
     color: darkblue;
 }
 
-/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
     display: table;

@@ -1,5 +1,9 @@
 @media only screen and (min-width: 52.2em) {
 
+    .contactus {
+        transform: rotate(-25deg);
+    }
+
     .m {
         font-size: medium;
     }
@@ -83,23 +87,11 @@
         text-align: center;
     }
 
-    /* .signature {
-        top: 150px;
-        left: 105px;
-        letter-spacing: 1px;
-        font-size: xx-large;
-        transform: rotate(10deg);
-        padding: 3rem;
-        box-shadow: 10px 10px 30px rgb(255, 255, 255);
-        border-radius: 80%;
-    } */
-
     .signature br {
         display: block;
     }
 
     .signature em {
-        /* font-family: 'Roboto', sans-serif; */
         font-size: small;
         font-family: 'Pacifico', cursive;
     }
@@ -116,6 +108,7 @@
         font-size: xx-large;
         background-color: #f7B733;
         transform: rotate(-15deg);
+
         padding: 3rem;
         opacity: 2;
         text-align: center;
@@ -129,25 +122,5 @@
         display: none;
     }
 
-    /* 
-    .signature2 {
-        display: block;
-        position: absolute;
-        font-family: 'Pacifico', cursive;
-        bottom: 15px;
-        left: 205px;
-        color: black;
-        letter-spacing: 1px;
-        font-size: medium;
-        background-color: #f7b63370;
-        padding: .9rem;
-        opacity: .9;
-        text-align: center;
-        border-radius: 80%;
-        cursor: pointer;
-    }
 
-    .signature3 {
-        display: none;
-    } */
 }

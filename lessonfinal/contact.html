@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/form.css">
+
 
 </head>
 
@@ -70,8 +72,9 @@
 
 
         <section class="clima">
-            <h2>Did we mention how accessible Scoots is to everything?</h2>
-            <p>#lovetheocean | #goexplore | #lovetotravel | #workandtravel | #seekmoments | #beachbum </p>
+            <h2>Did we mention why Scoots loves eagles?</h2>
+            <p>the golden eagle is Mexico's national bird | the golden eagle can reach 100mi/hr! | the golden eagle is
+                on our country's flag</p>
         </section>
 
         <div class="container">
@@ -86,11 +89,47 @@
         </div>
 
         <div class="container">
+            <h4 class="contactus">Contact Us!</h4>
+            <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH -->
+            <div class="reserveform">
+                <form id="my-form" action="/lessonfinal/thanks.html" method="get">
+
+
+                    <div class="form-box">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="text" placeholder="Maria Smith" required pattern="[A-Za-z ]+"
+                            minlength="5">
+                    </div>
+
+
+                    <div class="form-box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="guest@scoots.com">
+                    </div>
+
+
+                    <div class="form-box">
+                        <label for="comments1">Comments ?</label>
+                        <textarea id="comments1" name="comments" rows="4">Additional comments...
+                </textarea>
+
+                    </div>
+
+
+                    <div class="form-box" id="submitform">
+                        <input type="submit" name="btnSend" id="btnSend" form="my-form" value="Send Some Love!">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH -->
+        <div class="container">
 
             <div class="page">
 
                 <div class="info">
-                    <img src="/lessonfinal/images/contact1.jpg" alt="Scoots del Norte" class="map">
+                    <img src="/lessonfinal/images/aguila.jpg" alt=" Scoots del Norte" class="map">
                     <h5>Scoots Del Norte.</h5>
 
                     <ul class="contact">
@@ -110,7 +149,7 @@
             <div class="page">
 
                 <div class="info">
-                    <img src="/lessonfinal/images/contact2.jpg" alt="Scoots del Centro" class="map">
+                    <img src="/lessonfinal/images/nativo.jpg" alt="Scoots del Centro" class="map">
                     <h5>Scoots Del Centro.</h5>
 
 
