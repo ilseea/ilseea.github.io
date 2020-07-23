@@ -203,6 +203,20 @@ h6 {
     text-decoration: none;
 }
 
+
+.m {
+    display: none;
+}
+
+.s {
+    display: block;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-family: 'Pacifico', cursive;
+    font-size: small;
+    text-transform: lowercase;
+}
+
 /* CONTAINER= (HERO, FORECAST PAGE) */
 
 .container {

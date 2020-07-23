@@ -4,6 +4,19 @@
         width: 130px;
     }
 
+    .m {
+        display: block;
+        font-style: italic;
+        color: black;
+        font-family: 'Pacifico', cursive;
+        font-size: small;
+        text-transform: lowercase;
+    }
+
+    .s {
+        display: none;
+    }
+
     .navigation {
         display: flex;
     }
