@@ -121,7 +121,7 @@ input:invalid {
     /************
 FORM
 *************/
-    .form-box {}
+    /* .form-box {} */
 
     .form-box label {
         display: block;
