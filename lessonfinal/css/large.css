@@ -94,7 +94,7 @@
         display: block;
     }
 
-    .signature p {
+    .signature em {
         /* font-family: 'Roboto', sans-serif; */
         font-size: small;
         font-family: 'Pacifico', cursive;
@@ -107,7 +107,7 @@
 
         top: 30px;
         left: 55px;
-        color: white;
+        color: black;
         letter-spacing: 1px;
         font-size: xx-large;
         background-color: #f7B733;

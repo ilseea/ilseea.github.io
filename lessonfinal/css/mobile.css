@@ -194,7 +194,7 @@ h6 {
 }
 
 #credit {
-    color: rgb(228, 106, 116);
+    color: rgb(255, 255, 255);
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     text-align: right;
@@ -278,7 +278,7 @@ h6 {
     display: none;
 }
 
-.signature p {
+.signature em {
     font-family: 'Roboto', sans-serif;
     font-size: small;
     color: rgb(0, 0, 0);
@@ -294,7 +294,7 @@ h6 {
     font-family: 'Roboto', sans-serif;
     bottom: 15px;
     left: 5px;
-    color: white;
+    color: black;
     letter-spacing: 1px;
     font-size: small;
     background-color: #f7b63370;
@@ -437,7 +437,7 @@ footer {
 }
 
 footer a {
-    color: yellow;
+    color: purple;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
